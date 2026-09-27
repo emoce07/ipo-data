@@ -9,10 +9,11 @@
       "allotmentDate": "2026-10-01",
       "listingDate": "2026-10-06",
       "priceBand": "₹123–₹130",
-      "lotSize": 130,
+      "maxPrice": 130,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
-      "notes": "Issue size ₹218.40 Cr"
+      "notes": "Issue size ₹218.40 Cr. Lot size not yet confirmed — check RHP before applying."
     },
     {
       "name": "Shah Investors Home IPO",
@@ -22,10 +23,11 @@
       "allotmentDate": "2026-10-01",
       "listingDate": "2026-10-06",
       "priceBand": "₹159–₹167",
-      "lotSize": 167,
+      "maxPrice": 167,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
-      "notes": "Issue size ₹90.17 Cr"
+      "notes": "Issue size ₹90.17 Cr. Lot size not yet confirmed — check RHP before applying."
     },
     {
       "name": "Orient Cables (India) IPO",
@@ -35,10 +37,11 @@
       "allotmentDate": "2026-09-30",
       "listingDate": "2026-10-05",
       "priceBand": "₹258–₹272",
-      "lotSize": 272,
+      "maxPrice": 272,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
-      "notes": "Issue size ₹552 Cr"
+      "notes": "Issue size ₹552 Cr. Lot size not yet confirmed — check RHP before applying."
     },
     {
       "name": "Runwal Enterprises IPO",
@@ -48,10 +51,11 @@
       "allotmentDate": "2026-09-30",
       "listingDate": "2026-10-05",
       "priceBand": "₹290–₹305",
-      "lotSize": 305,
+      "maxPrice": 305,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
-      "notes": "Issue size ₹500 Cr"
+      "notes": "Issue size ₹500 Cr. Lot size not yet confirmed — check RHP before applying."
     },
     {
       "name": "Acevector (Snapdeal) IPO",
@@ -61,10 +65,11 @@
       "allotmentDate": "2026-09-30",
       "listingDate": "2026-10-05",
       "priceBand": "₹30–₹32",
-      "lotSize": 32,
+      "maxPrice": 32,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
-      "notes": "Issue size ₹420 Cr"
+      "notes": "Issue size ₹420 Cr. Lot size not yet confirmed — check RHP before applying."
     },
     {
       "name": "German Green Steel and Power IPO",
@@ -74,23 +79,25 @@
       "allotmentDate": "2026-09-30",
       "listingDate": "2026-10-05",
       "priceBand": "₹132–₹139",
-      "lotSize": 139,
+      "maxPrice": 139,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
-      "notes": "Issue size ₹303.90 Cr"
+      "notes": "Issue size ₹303.90 Cr. Lot size not yet confirmed — check RHP before applying."
     },
     {
       "name": "Moneyview IPO",
-      "company": "Moneyview",
+      "company": "Moneyview Limited",
       "openDate": "2026-09-24",
       "closeDate": "2026-09-28",
       "allotmentDate": "2026-09-29",
       "listingDate": "2026-10-01",
       "priceBand": "₹32–₹34",
-      "lotSize": 34,
-      "registrar": "",
+      "maxPrice": 34,
+      "lotSize": 441,
+      "registrar": "MUFG Intime India Pvt. Ltd.",
       "registrarUrl": "",
-      "notes": "Issue size ₹1,091.68 Cr"
+      "notes": "Issue size ₹1,091.68 Cr. Min investment ₹14,994 for 1 lot at upper band."
     }
   ]
 }
