@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-30",
-  "updatedAtTime": "2026-09-30T15:25:47.651194Z",
+  "updatedAt": "2026-10-01",
+  "updatedAtTime": "2026-10-01T10:19:40.732106Z",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,22 +20,6 @@
       "notes": "Issue size ₹31.09 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Vans Electroengineerings IPO",
-      "company": "Vans Electroengineerings",
-      "openDate": "2026-09-29",
-      "closeDate": "2026-10-01",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹118",
-      "maxPrice": 118,
-      "lotSize": 1200,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 72.03,
-      "gmpPrice": "85",
-      "notes": "Issue size ₹33.98 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Roopa Screen IPO",
       "company": "Roopa Screen",
       "openDate": "2026-09-24",
@@ -52,6 +36,22 @@
       "notes": "Issue size ₹19.20 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Vans Electroengineerings IPO",
+      "company": "Vans Electroengineerings",
+      "openDate": "2026-09-29",
+      "closeDate": "2026-10-01",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹118",
+      "maxPrice": 118,
+      "lotSize": 1200,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 59.32,
+      "gmpPrice": "70",
+      "notes": "Issue size ₹33.98 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Moneyview IPO",
       "company": "Moneyview",
       "openDate": "2026-09-24",
@@ -63,8 +63,8 @@
       "lotSize": 441,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 41.91,
-      "gmpPrice": "14.25",
+      "gmpPercent": 42.65,
+      "gmpPrice": "14.5",
       "notes": "Issue size ₹1091.68 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -84,22 +84,6 @@
       "notes": "Issue size ₹150.71 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "SRIT India IPO",
-      "company": "SRIT India",
-      "openDate": "2026-09-28",
-      "closeDate": "2026-09-30",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹130",
-      "maxPrice": 130,
-      "lotSize": 115,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 35.38,
-      "gmpPrice": "46",
-      "notes": "Issue size ₹218.40 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Orient Cables IPO",
       "company": "Orient Cables",
       "openDate": "2026-09-25",
@@ -111,9 +95,25 @@
       "lotSize": 55,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 32.72,
-      "gmpPrice": "89",
+      "gmpPercent": 36.76,
+      "gmpPrice": "100",
       "notes": "Issue size ₹552.00 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "SRIT India IPO",
+      "company": "SRIT India",
+      "openDate": "2026-09-28",
+      "closeDate": "2026-09-30",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹130",
+      "maxPrice": 130,
+      "lotSize": 115,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 36.15,
+      "gmpPrice": "47",
+      "notes": "Issue size ₹218.40 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Bench Mark Infotech Services IPO",
@@ -127,8 +127,8 @@
       "lotSize": 1200,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 25.45,
-      "gmpPrice": "28",
+      "gmpPercent": 20.0,
+      "gmpPrice": "22",
       "notes": "Issue size ₹42.44 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -143,25 +143,9 @@
       "lotSize": 600,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 24.37,
-      "gmpPrice": "48",
+      "gmpPercent": 15.23,
+      "gmpPrice": "30",
       "notes": "Issue size ₹55.08 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "EverestIMS Technologies IPO",
-      "company": "EverestIMS Technologies",
-      "openDate": "2026-09-29",
-      "closeDate": "2026-10-05",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹85",
-      "maxPrice": 85,
-      "lotSize": 1600,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 23.53,
-      "gmpPrice": "20",
-      "notes": "Issue size ₹48.46 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Acme India Industries IPO",
@@ -175,25 +159,41 @@
       "lotSize": 600,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 15.31,
-      "gmpPrice": "30",
+      "gmpPercent": 12.76,
+      "gmpPrice": "25",
       "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Acme Universal Safezone 9 IPO",
-      "company": "Acme Universal Safezone 9",
-      "openDate": "2026-09-28",
-      "closeDate": "2026-09-30",
+      "name": "Vishal Nirmiti IPO",
+      "company": "Vishal Nirmiti",
+      "openDate": "2026-09-30",
+      "closeDate": "2026-10-05",
       "allotmentDate": "",
       "listingDate": "",
-      "priceBand": "₹71",
-      "maxPrice": 71,
+      "priceBand": "₹220",
+      "maxPrice": 220,
+      "lotSize": 68,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 12.27,
+      "gmpPrice": "27",
+      "notes": "Issue size ₹178.00 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "EverestIMS Technologies IPO",
+      "company": "EverestIMS Technologies",
+      "openDate": "2026-09-29",
+      "closeDate": "2026-10-05",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹85",
+      "maxPrice": 85,
       "lotSize": 1600,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 14.08,
+      "gmpPercent": 11.76,
       "gmpPrice": "10",
-      "notes": "Issue size ₹35.93 Cr. Auto-synced from InvestorGain via Parse API."
+      "notes": "Issue size ₹48.46 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "A-One Steels IPO",
@@ -207,25 +207,25 @@
       "lotSize": 37,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 13.09,
-      "gmpPrice": "53",
+      "gmpPercent": 11.36,
+      "gmpPrice": "46",
       "notes": "Issue size ₹405.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "TNA Solutions IPO",
-      "company": "TNA Solutions",
-      "openDate": "2026-09-30",
-      "closeDate": "2026-10-06",
+      "name": "Acme Universal Safezone 9 IPO",
+      "company": "Acme Universal Safezone 9",
+      "openDate": "2026-09-28",
+      "closeDate": "2026-09-30",
       "allotmentDate": "",
       "listingDate": "",
-      "priceBand": "₹70",
-      "maxPrice": 70,
-      "lotSize": 2000,
+      "priceBand": "₹71",
+      "maxPrice": 71,
+      "lotSize": 1600,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 10.0,
+      "gmpPercent": 9.86,
       "gmpPrice": "7",
-      "notes": "Issue size ₹37.86 Cr. Auto-synced from InvestorGain via Parse API."
+      "notes": "Issue size ₹35.93 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "German Green Steel IPO",
@@ -239,9 +239,25 @@
       "lotSize": 107,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 9.35,
-      "gmpPrice": "13",
+      "gmpPercent": 9.71,
+      "gmpPrice": "13.5",
       "notes": "Issue size ₹303.90 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "TNA Solutions IPO",
+      "company": "TNA Solutions",
+      "openDate": "2026-09-30",
+      "closeDate": "2026-10-06",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹70",
+      "maxPrice": 70,
+      "lotSize": 2000,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 8.57,
+      "gmpPrice": "6",
+      "notes": "Issue size ₹37.86 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Shah Investor's Home IPO",
@@ -255,25 +271,9 @@
       "lotSize": 85,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 7.49,
-      "gmpPrice": "12.5",
+      "gmpPercent": 7.19,
+      "gmpPrice": "12",
       "notes": "Issue size ₹90.17 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Nityas Gems & Jewellery IPO",
-      "company": "Nityas Gems & Jewellery",
-      "openDate": "2026-09-30",
-      "closeDate": "2026-10-05",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹75",
-      "maxPrice": 75,
-      "lotSize": 200,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 6.67,
-      "gmpPrice": "5",
-      "notes": "Issue size ₹108.35 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "FX Multitech IPO",
@@ -292,20 +292,20 @@
       "notes": "Issue size ₹45.24 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Vishal Nirmiti IPO",
-      "company": "Vishal Nirmiti",
+      "name": "Nityas Gems & Jewellery IPO",
+      "company": "Nityas Gems & Jewellery",
       "openDate": "2026-09-30",
       "closeDate": "2026-10-05",
       "allotmentDate": "",
       "listingDate": "",
-      "priceBand": "₹220",
-      "maxPrice": 220,
-      "lotSize": 68,
+      "priceBand": "₹75",
+      "maxPrice": 75,
+      "lotSize": 200,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 4.55,
-      "gmpPrice": "10",
-      "notes": "Issue size ₹178.00 Cr. Auto-synced from InvestorGain via Parse API."
+      "gmpPercent": 4.0,
+      "gmpPrice": "3",
+      "notes": "Issue size ₹108.35 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Swastika Infra IPO",
@@ -322,6 +322,22 @@
       "gmpPercent": 3.78,
       "gmpPrice": "7",
       "notes": "Issue size ₹160.88 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Acevector IPO",
+      "company": "Acevector",
+      "openDate": "2026-09-25",
+      "closeDate": "2026-09-29",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹32",
+      "maxPrice": 32,
+      "lotSize": 468,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 2.19,
+      "gmpPrice": "0.7",
+      "notes": "Issue size ₹420.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Elevate Campuses IPO",
@@ -388,22 +404,6 @@
       "notes": "Issue size ₹300.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Acevector IPO",
-      "company": "Acevector",
-      "openDate": "2026-09-25",
-      "closeDate": "2026-09-29",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹32",
-      "maxPrice": 32,
-      "lotSize": 468,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 1.56,
-      "gmpPrice": "0.5",
-      "notes": "Issue size ₹420.00 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Pind Hospitality IPO",
       "company": "Pind Hospitality",
       "openDate": "2026-09-28",
@@ -434,6 +434,22 @@
       "gmpPercent": 0.68,
       "gmpPrice": "1",
       "notes": "Issue size ₹708.02 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "R.K.Fashion Accessories IPO",
+      "company": "R.K.Fashion Accessories",
+      "openDate": "2026-10-05",
+      "closeDate": "2026-10-07",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹82",
+      "maxPrice": 82,
+      "lotSize": 1600,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "notes": "Issue size ₹34.99 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Paramount Syntex IPO",
@@ -594,22 +610,6 @@
       "gmpPercent": 0.0,
       "gmpPrice": null,
       "notes": "Issue size ₹24.95 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Runwal Enterprises IPO",
-      "company": "Runwal Enterprises",
-      "openDate": "2026-09-25",
-      "closeDate": "2026-09-29",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹305",
-      "maxPrice": 305,
-      "lotSize": 49,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "notes": "Issue size ₹500.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Himalayan Solar IPO",
@@ -788,20 +788,20 @@
       "notes": "Issue size ₹50.75 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "R.K.Fashion Accessories IPO",
-      "company": "R.K.Fashion Accessories",
-      "openDate": "2026-10-05",
-      "closeDate": "2026-10-07",
+      "name": "Runwal Enterprises IPO",
+      "company": "Runwal Enterprises",
+      "openDate": "2026-09-25",
+      "closeDate": "2026-09-29",
       "allotmentDate": "",
       "listingDate": "",
-      "priceBand": "₹82",
-      "maxPrice": 82,
-      "lotSize": 1600,
+      "priceBand": "₹305",
+      "maxPrice": 305,
+      "lotSize": 49,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "notes": "Issue size ₹34.99 Cr. Auto-synced from InvestorGain via Parse API."
+      "gmpPercent": -1.64,
+      "gmpPrice": "-5",
+      "notes": "Issue size ₹500.00 Cr. Auto-synced from InvestorGain via Parse API."
     }
   ]
 }
