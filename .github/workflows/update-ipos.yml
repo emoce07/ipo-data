@@ -21,7 +21,7 @@ jobs:
         run: |
           python3 - << 'PYEOF'
           import json, os, urllib.request, urllib.error, sys
-          from datetime import datetime, date
+          from datetime import datetime, date, timezone
 
           api_key = os.environ["PARSE_API_KEY"]
           url = "https://api.parse.bot/scraper/c1d0143b-268f-4141-8b27-85b4ca0368f8/get_live_gmp"
@@ -77,7 +77,7 @@ jobs:
 
           output = {
               "updatedAt": date.today().isoformat(),
-              "updatedAtTime": datetime.utcnow().isoformat() + "Z",
+              "updatedAtTime": datetime.now(timezone.utc).isoformat(),
               "source": "InvestorGain (via Parse.bot API) — auto-updated",
               "ipos": ipos,
           }
