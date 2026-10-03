@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02",
-  "updatedAtTime": "2026-10-02T09:56:38.136899+00:00",
+  "updatedAt": "2026-10-03",
+  "updatedAtTime": "2026-10-03T09:18:28.379318+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -17,6 +17,7 @@
       "registrarUrl": "",
       "gmpPercent": 81.13,
       "gmpPrice": "86",
+      "dataComplete": true,
       "notes": "Issue size ₹31.09 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -33,6 +34,7 @@
       "registrarUrl": "",
       "gmpPercent": 65.62,
       "gmpPrice": "42",
+      "dataComplete": true,
       "notes": "Issue size ₹19.20 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -49,7 +51,25 @@
       "registrarUrl": "",
       "gmpPercent": 59.32,
       "gmpPrice": "70",
+      "dataComplete": true,
       "notes": "Issue size ₹33.98 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "EverestIMS Technologies IPO",
+      "company": "EverestIMS Technologies",
+      "openDate": "2026-09-29",
+      "closeDate": "2026-10-05",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹85",
+      "maxPrice": 85,
+      "lotSize": 1600,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 47.06,
+      "gmpPrice": "40",
+      "dataComplete": true,
+      "notes": "Issue size ₹48.46 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Orient Cables IPO",
@@ -63,8 +83,9 @@
       "lotSize": 55,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 44.85,
-      "gmpPrice": "122",
+      "gmpPercent": 44.12,
+      "gmpPrice": "120",
+      "dataComplete": true,
       "notes": "Issue size ₹552.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -81,6 +102,7 @@
       "registrarUrl": "",
       "gmpPercent": 42.65,
       "gmpPrice": "14.5",
+      "dataComplete": true,
       "notes": "Issue size ₹1091.68 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -97,7 +119,25 @@
       "registrarUrl": "",
       "gmpPercent": 41.04,
       "gmpPrice": "55",
+      "dataComplete": true,
       "notes": "Issue size ₹150.71 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Black Opal Consultants IPO",
+      "company": "Black Opal Consultants",
+      "openDate": "2026-09-29",
+      "closeDate": "2026-10-01",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹197",
+      "maxPrice": 197,
+      "lotSize": 600,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 40.61,
+      "gmpPrice": "80",
+      "dataComplete": true,
+      "notes": "Issue size ₹55.08 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "SRIT India IPO",
@@ -113,39 +153,8 @@
       "registrarUrl": "",
       "gmpPercent": 40.0,
       "gmpPrice": "52",
+      "dataComplete": true,
       "notes": "Issue size ₹218.40 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Black Opal Consultants IPO",
-      "company": "Black Opal Consultants",
-      "openDate": "2026-09-29",
-      "closeDate": "2026-10-01",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹197",
-      "maxPrice": 197,
-      "lotSize": 600,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 38.07,
-      "gmpPrice": "75",
-      "notes": "Issue size ₹55.08 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "EverestIMS Technologies IPO",
-      "company": "EverestIMS Technologies",
-      "openDate": "2026-09-29",
-      "closeDate": "2026-10-05",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹85",
-      "maxPrice": 85,
-      "lotSize": 1600,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 32.94,
-      "gmpPrice": "28",
-      "notes": "Issue size ₹48.46 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Bench Mark Infotech Services IPO",
@@ -161,6 +170,7 @@
       "registrarUrl": "",
       "gmpPercent": 22.73,
       "gmpPrice": "25",
+      "dataComplete": true,
       "notes": "Issue size ₹42.44 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -175,8 +185,9 @@
       "lotSize": 1600,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 15.49,
-      "gmpPrice": "11",
+      "gmpPercent": 16.2,
+      "gmpPrice": "11.5",
+      "dataComplete": true,
       "notes": "Issue size ₹35.93 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -191,8 +202,9 @@
       "lotSize": 600,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 12.76,
-      "gmpPrice": "25",
+      "gmpPercent": 15.31,
+      "gmpPrice": "30",
+      "dataComplete": true,
       "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -209,23 +221,8 @@
       "registrarUrl": "",
       "gmpPercent": 11.36,
       "gmpPrice": "46",
+      "dataComplete": true,
       "notes": "Issue size ₹405.00 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "German Green Steel IPO",
-      "company": "German Green Steel",
-      "openDate": "2026-09-25",
-      "closeDate": "2026-09-29",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹139",
-      "maxPrice": 139,
-      "lotSize": 107,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 9.35,
-      "gmpPrice": "13",
-      "notes": "Issue size ₹303.90 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Vishal Nirmiti IPO",
@@ -241,7 +238,25 @@
       "registrarUrl": "",
       "gmpPercent": 9.09,
       "gmpPrice": "20",
+      "dataComplete": true,
       "notes": "Issue size ₹178.00 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Shah Investor's Home IPO",
+      "company": "Shah Investor's Home",
+      "openDate": "2026-09-28",
+      "closeDate": "2026-09-30",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹167",
+      "maxPrice": 167,
+      "lotSize": 85,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 8.98,
+      "gmpPrice": "15",
+      "dataComplete": true,
+      "notes": "Issue size ₹90.17 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Sai Urja Indo IPO",
@@ -257,23 +272,8 @@
       "registrarUrl": "",
       "gmpPercent": 8.85,
       "gmpPrice": "10",
+      "dataComplete": true,
       "notes": "Issue size ₹24.95 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Shah Investor's Home IPO",
-      "company": "Shah Investor's Home",
-      "openDate": "2026-09-28",
-      "closeDate": "2026-09-30",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹167",
-      "maxPrice": 167,
-      "lotSize": 85,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 8.68,
-      "gmpPrice": "14.5",
-      "notes": "Issue size ₹90.17 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "TNA Solutions IPO",
@@ -289,7 +289,25 @@
       "registrarUrl": "",
       "gmpPercent": 8.57,
       "gmpPrice": "6",
+      "dataComplete": true,
       "notes": "Issue size ₹37.86 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "German Green Steel IPO",
+      "company": "German Green Steel",
+      "openDate": "2026-09-25",
+      "closeDate": "2026-09-29",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹139",
+      "maxPrice": 139,
+      "lotSize": 107,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 8.27,
+      "gmpPrice": "11.5",
+      "dataComplete": true,
+      "notes": "Issue size ₹303.90 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "FX Multitech IPO",
@@ -305,6 +323,7 @@
       "registrarUrl": "",
       "gmpPercent": 5.6,
       "gmpPrice": "6.5",
+      "dataComplete": true,
       "notes": "Issue size ₹45.24 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -319,8 +338,9 @@
       "lotSize": 200,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 5.33,
-      "gmpPrice": "4",
+      "gmpPercent": 4.0,
+      "gmpPrice": "3",
+      "dataComplete": true,
       "notes": "Issue size ₹108.35 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -337,6 +357,7 @@
       "registrarUrl": "",
       "gmpPercent": 3.78,
       "gmpPrice": "7",
+      "dataComplete": true,
       "notes": "Issue size ₹160.88 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -351,8 +372,9 @@
       "lotSize": 468,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 2.19,
-      "gmpPrice": "0.7",
+      "gmpPercent": 1.88,
+      "gmpPrice": "0.6",
+      "dataComplete": true,
       "notes": "Issue size ₹420.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -369,6 +391,7 @@
       "registrarUrl": "",
       "gmpPercent": 1.8,
       "gmpPrice": "6.5",
+      "dataComplete": true,
       "notes": "Issue size ₹2100.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -385,6 +408,7 @@
       "registrarUrl": "",
       "gmpPercent": 1.72,
       "gmpPrice": "0.5",
+      "dataComplete": true,
       "notes": "Issue size ₹10.54 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -401,6 +425,7 @@
       "registrarUrl": "",
       "gmpPercent": 1.61,
       "gmpPrice": "1",
+      "dataComplete": true,
       "notes": "Issue size ₹14.01 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -417,6 +442,7 @@
       "registrarUrl": "",
       "gmpPercent": 1.6,
       "gmpPrice": "6",
+      "dataComplete": true,
       "notes": "Issue size ₹300.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -433,6 +459,7 @@
       "registrarUrl": "",
       "gmpPercent": 1.01,
       "gmpPrice": "1",
+      "dataComplete": true,
       "notes": "Issue size ₹17.82 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -449,6 +476,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.68,
       "gmpPrice": "1",
+      "dataComplete": true,
       "notes": "Issue size ₹708.02 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -465,6 +493,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹34.99 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -481,6 +510,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹81.79 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -497,6 +527,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹73.26 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -513,6 +544,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹38.12 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -529,6 +561,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹21.78 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -545,6 +578,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹31.80 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -561,6 +595,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹23.45 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -577,6 +612,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹41.99 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -593,6 +629,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹59.34 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -609,6 +646,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹20.18 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -625,6 +663,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹68.03 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -641,6 +680,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹53.52 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -657,6 +697,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹39.01 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -673,6 +714,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹29.06 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -689,6 +731,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹21.99 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -705,6 +748,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹44.23 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -721,6 +765,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹34.47 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -737,6 +782,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹26.50 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -753,6 +799,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹25.52 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -769,6 +816,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹22.20 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -785,6 +833,7 @@
       "registrarUrl": "",
       "gmpPercent": 0.0,
       "gmpPrice": null,
+      "dataComplete": true,
       "notes": "Issue size ₹50.75 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -801,6 +850,7 @@
       "registrarUrl": "",
       "gmpPercent": -1.64,
       "gmpPrice": "-5",
+      "dataComplete": true,
       "notes": "Issue size ₹500.00 Cr. Auto-synced from InvestorGain via Parse API."
     }
   ]
