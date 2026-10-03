@@ -20,7 +20,7 @@ jobs:
           PARSE_API_KEY: ${{ secrets.PARSE_API_KEY }}
         run: |
           python3 - << 'PYEOF'
-          import json, os, urllib.request, urllib.error, sys
+          import json, os, re, urllib.request, urllib.error, sys
           from datetime import datetime, date, timezone
 
           api_key = os.environ["PARSE_API_KEY"]
@@ -42,23 +42,43 @@ jobs:
               print("::warning::No items returned from Parse API — leaving ipos.json unchanged")
               sys.exit(0)
 
-          def to_int(v):
-              try:
-                  return int(float(str(v).replace(",", "").replace("₹", "").strip()))
-              except Exception:
+          def to_int(v, field_name, ipo_name):
+              """Parse a number out of whatever the API gives us. Handles plain
+              numbers, ranges like '130-137' or '₹130 to ₹137' (takes the higher
+              end, since that's what gets blocked), and logs anything it can't
+              parse at all so a future run (or a human) can see exactly which
+              IPO/field needs attention instead of silently becoming 0."""
+              if v is None or str(v).strip() in ("", "TBA", "N/A", "-", "--"):
+                  print(f"::warning::{ipo_name}: '{field_name}' is empty/placeholder ('{v}') — left as 0")
                   return 0
+              s = str(v).replace(",", "").replace("₹", "").strip()
+              try:
+                  return int(float(s))
+              except Exception:
+                  pass
+              # range like "130-137" or "130 to 137" -> take the higher number
+              nums = re.findall(r"\d+(?:\.\d+)?", s)
+              if nums:
+                  return int(float(max(nums, key=float)))
+              print(f"::warning::{ipo_name}: could not parse '{field_name}' from raw value '{v}' — left as 0")
+              return 0
 
           ipos = []
+          incomplete = []
           for it in items:
               name = (it.get("name") or "").strip()
               if not name:
                   continue
-              price = to_int(it.get("price"))
-              lot = to_int(it.get("lot_size"))
+              full_name = name if name.lower().endswith("ipo") else f"{name} IPO"
+              price = to_int(it.get("price"), "price", full_name)
+              lot = to_int(it.get("lot_size"), "lot_size", full_name)
               gmp_pct = it.get("gmp_percent")
               gmp_price = it.get("gmp_price")
+              data_complete = price > 0 and lot > 0
+              if not data_complete:
+                  incomplete.append(full_name)
               ipo_entry = {
-                  "name": name if name.lower().endswith("ipo") else f"{name} IPO",
+                  "name": full_name,
                   "company": name,
                   "openDate": it.get("open_date") or "",
                   "closeDate": it.get("close_date") or "",
@@ -71,6 +91,7 @@ jobs:
                   "registrarUrl": "",
                   "gmpPercent": gmp_pct if gmp_pct is not None else None,
                   "gmpPrice": gmp_price if gmp_price is not None else None,
+                  "dataComplete": data_complete,
                   "notes": f"Issue size {it.get('ipo_size_cr') or it.get('ipo_size') or ''}. Auto-synced from InvestorGain via Parse API.".strip(),
               }
               ipos.append(ipo_entry)
@@ -86,6 +107,8 @@ jobs:
               json.dump(output, f, indent=2, ensure_ascii=False)
 
           print(f"Wrote {len(ipos)} IPOs to ipos.json")
+          if incomplete:
+              print(f"::warning::{len(incomplete)} IPO(s) missing price/lot size from the API: {', '.join(incomplete)}")
           PYEOF
 
       - name: Commit and push if changed
