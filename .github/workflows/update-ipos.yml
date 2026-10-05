@@ -23,6 +23,16 @@ jobs:
           import json, os, re, urllib.request, urllib.error, sys
           from datetime import datetime, date, timezone
 
+          def normalize_name(name):
+              """Mirrors the app's normalizeIpoName() exactly, so a name match
+              here is guaranteed consistent with how the app itself matches
+              IPOs during sync — avoids silent drift between the two."""
+              s = (name or "").lower()
+              s = re.sub(r"\([^)]*\)", " ", s)
+              s = re.sub(r"\b(ipo|limited|ltd|pvt|private)\b", " ", s)
+              s = re.sub(r"[^a-z0-9]+", " ", s)
+              return " ".join(s.split())
+
           api_key = os.environ["PARSE_API_KEY"]
           url = "https://api.parse.bot/scraper/c1d0143b-268f-4141-8b27-85b4ca0368f8/get_live_gmp"
           req = urllib.request.Request(url, headers={"X-API-Key": api_key})
@@ -41,6 +51,18 @@ jobs:
           if not items:
               print("::warning::No items returned from Parse API — leaving ipos.json unchanged")
               sys.exit(0)
+
+          # Load yesterday's file (if any) so we can carry forward each IPO's
+          # gmpHistory instead of overwriting it — this is what lets the app
+          # show a date-wise GMP table, not just today's single number.
+          existing_by_name = {}
+          try:
+              with open("ipos.json", "r", encoding="utf-8") as f:
+                  prev = json.load(f)
+              for prev_ipo in prev.get("ipos", []):
+                  existing_by_name[normalize_name(prev_ipo.get("name", ""))] = prev_ipo
+          except Exception:
+              pass  # first run ever, or file missing/corrupt — start fresh
 
           def to_int(v, field_name, ipo_name):
               """Parse a number out of whatever the API gives us. Handles plain
@@ -77,6 +99,24 @@ jobs:
               data_complete = price > 0 and lot > 0
               if not data_complete:
                   incomplete.append(full_name)
+
+              # Carry forward this IPO's existing GMP history (matched by
+              # normalized name, same matching the app itself uses) and
+              # append today's reading — but only once per day, so re-runs
+              # on the same day (e.g. a manual trigger) don't duplicate.
+              prev_ipo = existing_by_name.get(normalize_name(full_name), {})
+              gmp_history = list(prev_ipo.get("gmpHistory") or [])
+              today_iso = date.today().isoformat()
+              already_logged_today = any(h.get("date") == today_iso for h in gmp_history)
+              if not already_logged_today and (gmp_pct is not None or gmp_price is not None):
+                  gmp_history.append({
+                      "date": today_iso,
+                      "gmpPercent": gmp_pct if gmp_pct is not None else None,
+                      "gmpPrice": gmp_price if gmp_price is not None else None,
+                  })
+              # Keep roughly the last 90 days per IPO so this never grows unbounded.
+              gmp_history = gmp_history[-90:]
+
               ipo_entry = {
                   "name": full_name,
                   "company": name,
@@ -91,6 +131,7 @@ jobs:
                   "registrarUrl": "",
                   "gmpPercent": gmp_pct if gmp_pct is not None else None,
                   "gmpPrice": gmp_price if gmp_price is not None else None,
+                  "gmpHistory": gmp_history,
                   "dataComplete": data_complete,
                   "notes": f"Issue size {it.get('ipo_size_cr') or it.get('ipo_size') or ''}. Auto-synced from InvestorGain via Parse API.".strip(),
               }
