@@ -18,6 +18,7 @@ jobs:
       - name: Fetch live IPO data from InvestorGain (via Parse API) and build ipos.json
         env:
           PARSE_API_KEY: ${{ secrets.PARSE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python3 - << 'PYEOF'
           import json, os, re, urllib.request, urllib.error, sys
@@ -63,6 +64,64 @@ jobs:
                   existing_by_name[normalize_name(prev_ipo.get("name", ""))] = prev_ipo
           except Exception:
               pass  # first run ever, or file missing/corrupt — start fresh
+
+          # Known registrars the app can actually route "Check allotment" to.
+          # Gemini's answer is only ever accepted if it matches one of these
+          # (case-insensitively, substring match) — anything else is treated
+          # as "couldn't determine" rather than saved as free text, so a
+          # vague or wrong-sounding answer can never silently become a
+          # broken registrar link in the app.
+          KNOWN_REGISTRARS = [
+              "KFin Technologies", "Link Intime", "Bigshare Services",
+              "Cameo Corporate Services", "Skyline Financial Services",
+          ]
+          GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+          _gemini_calls_made = 0
+          _GEMINI_DAILY_SAFETY_CAP = 100  # well under the 5,000/month free quota
+
+          def lookup_registrar_via_gemini(ipo_name):
+              """Asks Gemini, with Google Search grounding on, which registrar
+              handles this specific IPO. Returns a known registrar name on a
+              confident, matching answer, or None otherwise — never guesses
+              and never saves free-text. Any failure (no key, quota, network,
+              unrecognized answer) just leaves the registrar unset, same as
+              before this feature existed — the app's own picker modal
+              remains the fallback either way."""
+              global _gemini_calls_made
+              if not GEMINI_API_KEY:
+                  return None
+              if _gemini_calls_made >= _GEMINI_DAILY_SAFETY_CAP:
+                  return None
+              prompt = (
+                  f"What is the registrar company for the Indian IPO \"{ipo_name}\"? "
+                  f"Answer with ONLY the registrar's company name, nothing else — "
+                  f"no explanation, no punctuation, just the name. "
+                  f"It is almost always one of: KFin Technologies, Link Intime, "
+                  f"Bigshare Services, Cameo Corporate Services, Skyline Financial Services."
+              )
+              body = json.dumps({
+                  "contents": [{"parts": [{"text": prompt}]}],
+                  "tools": [{"google_search": {}}],
+              }).encode()
+              url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent"
+              req = urllib.request.Request(url, data=body, headers={
+                  "Content-Type": "application/json",
+                  "x-goog-api-key": GEMINI_API_KEY,
+              })
+              try:
+                  _gemini_calls_made += 1
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      result = json.loads(resp.read().decode())
+                  text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
+              except Exception as e:
+                  print(f"::warning::{ipo_name}: Gemini registrar lookup failed: {e}")
+                  return None
+              text_low = text.lower()
+              for known in KNOWN_REGISTRARS:
+                  if known.lower() in text_low:
+                      return known
+              print(f"::warning::{ipo_name}: Gemini answered '{text}' — didn't match a known registrar, leaving unset")
+              return None
 
           def to_int(v, field_name, ipo_name):
               """Parse a number out of whatever the API gives us. Handles plain
@@ -117,6 +176,20 @@ jobs:
               # Keep roughly the last 90 days per IPO so this never grows unbounded.
               gmp_history = gmp_history[-90:]
 
+              # Registrar: once known (either picked manually in the app, or
+              # found by Gemini on a previous run), it's carried forward and
+              # NEVER re-queried or overwritten — this respects a user's own
+              # manual pick in the app as final, and keeps Gemini usage down
+              # to one lookup per IPO, ever, not once per day.
+              registrar = prev_ipo.get("registrar") or ""
+              if not registrar and data_complete:
+                  # Only bother looking up IPOs whose core data is already
+                  # confirmed real (skips wasting a lookup on something that
+                  # might not even be a genuine current IPO).
+                  found = lookup_registrar_via_gemini(full_name)
+                  if found:
+                      registrar = found
+
               ipo_entry = {
                   "name": full_name,
                   "company": name,
@@ -127,7 +200,7 @@ jobs:
                   "priceBand": f"₹{price}" if price else "",
                   "maxPrice": price,
                   "lotSize": lot,
-                  "registrar": "",
+                  "registrar": registrar,
                   "registrarUrl": "",
                   "gmpPercent": gmp_pct if gmp_pct is not None else None,
                   "gmpPrice": gmp_price if gmp_price is not None else None,
