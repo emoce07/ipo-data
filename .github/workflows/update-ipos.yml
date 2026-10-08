@@ -82,7 +82,7 @@ jobs:
               print("::warning::Gemini registrar lookup: DISABLED — GEMINI_API_KEY secret was not received by this workflow run. Check the secret name exactly matches GEMINI_API_KEY in repo Settings > Secrets and variables > Actions, and that it's passed via 'env:' on this step.")
           _gemini_calls_made = 0
           _GEMINI_DAILY_SAFETY_CAP = 8  # TEMPORARY for testing — raise back to 100 once confirmed working
-          _GEMINI_PACING_SECONDS = 4.5  # stays under the free tier's per-minute request limit
+          _GEMINI_PACING_SECONDS = 7.0  # ~8 requests/min, under the free tier per-minute limit
 
           def lookup_registrar_via_gemini(ipo_name):
               """Asks Gemini, with Google Search grounding on, which registrar
