@@ -81,7 +81,7 @@ jobs:
           else:
               print("::warning::Gemini registrar lookup: DISABLED — GEMINI_API_KEY secret was not received by this workflow run. Check the secret name exactly matches GEMINI_API_KEY in repo Settings > Secrets and variables > Actions, and that it's passed via 'env:' on this step.")
           _gemini_calls_made = 0
-          _GEMINI_DAILY_SAFETY_CAP = 100  # well under the 5,000/month free quota
+          _GEMINI_DAILY_SAFETY_CAP = 8  # TEMPORARY for testing — raise back to 100 once confirmed working
           _GEMINI_PACING_SECONDS = 4.5  # stays under the free tier's per-minute request limit
 
           def lookup_registrar_via_gemini(ipo_name):
@@ -118,10 +118,11 @@ jobs:
                   "x-goog-api-key": GEMINI_API_KEY,
               })
               text = None
+              print(f"  -> looking up registrar for: {ipo_name}")
               for attempt in range(2):  # one real attempt + one retry on 429 only
                   _gemini_calls_made += 1
                   try:
-                      with urllib.request.urlopen(req, timeout=30) as resp:
+                      with urllib.request.urlopen(req, timeout=15) as resp:
                           result = json.loads(resp.read().decode())
                       text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
                       break
@@ -143,6 +144,7 @@ jobs:
               text_low = text.lower()
               for known in KNOWN_REGISTRARS:
                   if known.lower() in text_low:
+                      print(f"     found: {known}")
                       return known
               print(f"::warning::{ipo_name}: Gemini answered '{text}' — didn't match a known registrar, leaving unset")
               return None
