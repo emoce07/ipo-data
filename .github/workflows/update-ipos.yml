@@ -84,6 +84,50 @@ jobs:
           _GEMINI_DAILY_SAFETY_CAP = 8  # TEMPORARY for testing — raise back to 100 once confirmed working
           _GEMINI_PACING_SECONDS = 7.0  # ~8 requests/min, under the free tier per-minute limit
 
+          GEMINI_FALLBACK_MODEL = "gemini-3-flash-preview"  # known to exist (it answered earlier, just rate-limited)
+          _resolved_model = None
+
+          def resolve_gemini_model():
+              """Asks Google which models this API key can actually call, and
+              picks the newest stable 'flash' model that supports
+              generateContent (falling back to the newest preview one, then to
+              a known-existing model). Hardcoding a model name breaks the day
+              Google retires it (that's what caused the HTTP 404s), so this
+              looks it up fresh each run and logs every candidate it saw."""
+              global _resolved_model
+              if _resolved_model:
+                  return _resolved_model
+              chosen = GEMINI_FALLBACK_MODEL
+              try:
+                  list_url = "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200"
+                  req = urllib.request.Request(list_url, headers={"x-goog-api-key": GEMINI_API_KEY})
+                  with urllib.request.urlopen(req, timeout=20) as resp:
+                      models = json.loads(resp.read().decode()).get("models", [])
+                  stable, preview = [], []
+                  for m in models:
+                      name = m.get("name", "").replace("models/", "")
+                      if "generateContent" not in (m.get("supportedGenerationMethods") or []):
+                          continue
+                      if "flash" not in name:
+                          continue
+                      if any(bad in name for bad in ("lite", "image", "tts", "live", "audio", "embedding", "thinking", "exp", "robotics", "computer")):
+                          continue
+                      ver = re.search(r"gemini-(\d+(?:\.\d+)?)-flash", name)
+                      if not ver:
+                          continue
+                      entry = (float(ver.group(1)), name)
+                      (preview if "preview" in name else stable).append(entry)
+                  print("Available flash models for this key: " + ", ".join(sorted(n for _, n in stable + preview)))
+                  if stable:
+                      chosen = max(stable)[1]
+                  elif preview:
+                      chosen = max(preview)[1]
+              except Exception as e:
+                  print(f"::warning::Could not list Gemini models ({e}) — using fallback {GEMINI_FALLBACK_MODEL}")
+              print(f"Gemini model selected for registrar lookups: {chosen}")
+              _resolved_model = chosen
+              return chosen
+
           def lookup_registrar_via_gemini(ipo_name):
               """Asks Gemini, with Google Search grounding on, which registrar
               handles this specific IPO. Returns a known registrar name on a
@@ -112,12 +156,7 @@ jobs:
                   "contents": [{"parts": [{"text": prompt}]}],
                   "tools": [{"google_search": {}}],
               }).encode()
-              # gemini-2.5-flash (stable) rather than a 3.x preview model: the
-              # free tier for 3.x previews was measured at only ~5 requests/min
-              # and ~20 requests/DAY, which is far too tight to resolve a whole
-              # list of IPOs. 2.5 Flash has a materially higher free allowance
-              # (roughly 10 RPM / 500 RPD per recent published figures).
-              url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+              url = f"https://generativelanguage.googleapis.com/v1beta/models/{resolve_gemini_model()}:generateContent"
               req = urllib.request.Request(url, data=body, headers={
                   "Content-Type": "application/json",
                   "x-goog-api-key": GEMINI_API_KEY,
@@ -136,7 +175,11 @@ jobs:
                           print(f"::warning::{ipo_name}: rate limited, waiting 20s and retrying once")
                           time.sleep(20)
                           continue
-                      print(f"::warning::{ipo_name}: Gemini registrar lookup failed: HTTP {e.code}")
+                      try:
+                          err_body = e.read().decode("utf-8", errors="ignore")[:400].replace("\n", " ")
+                      except Exception:
+                          err_body = "(no response body)"
+                      print(f"::warning::{ipo_name}: Gemini lookup failed: HTTP {e.code} {e.reason} | {err_body}")
                       time.sleep(_GEMINI_PACING_SECONDS)
                       return None
                   except Exception as e:
