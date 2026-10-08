@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-08",
-  "updatedAtTime": "2026-10-08T07:46:05.665773+00:00",
+  "updatedAtTime": "2026-10-08T10:48:56.999143+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -277,74 +277,6 @@
       "notes": "Issue size ₹552.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "HD Fire Protect IPO",
-      "company": "HD Fire Protect",
-      "openDate": "2026-10-13",
-      "closeDate": "2026-10-15",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹271",
-      "maxPrice": 271,
-      "lotSize": 55,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 31.37,
-      "gmpPrice": "85",
-      "gmpHistory": [
-        {
-          "date": "2026-10-07",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 29.52,
-          "gmpPrice": "80"
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹712.31 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Acme India Industries IPO",
-      "company": "Acme India Industries",
-      "openDate": "2026-09-30",
-      "closeDate": "2026-10-06",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹196",
-      "maxPrice": 196,
-      "lotSize": 600,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 25.0,
-      "gmpPrice": "49",
-      "gmpHistory": [
-        {
-          "date": "2026-10-05",
-          "gmpPercent": 15.31,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-06",
-          "gmpPercent": 25.51,
-          "gmpPrice": "50"
-        },
-        {
-          "date": "2026-10-07",
-          "gmpPercent": 34.69,
-          "gmpPrice": "68"
-        },
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 30.1,
-          "gmpPrice": "59"
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Acme Universal Safezone 9 IPO",
       "company": "Acme Universal Safezone 9",
       "openDate": "2026-09-28",
@@ -382,6 +314,74 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹35.93 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Acme India Industries IPO",
+      "company": "Acme India Industries",
+      "openDate": "2026-09-30",
+      "closeDate": "2026-10-06",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹196",
+      "maxPrice": 196,
+      "lotSize": 600,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 20.41,
+      "gmpPrice": "40",
+      "gmpHistory": [
+        {
+          "date": "2026-10-05",
+          "gmpPercent": 15.31,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-06",
+          "gmpPercent": 25.51,
+          "gmpPrice": "50"
+        },
+        {
+          "date": "2026-10-07",
+          "gmpPercent": 34.69,
+          "gmpPrice": "68"
+        },
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 30.1,
+          "gmpPrice": "59"
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "HD Fire Protect IPO",
+      "company": "HD Fire Protect",
+      "openDate": "2026-10-13",
+      "closeDate": "2026-10-15",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹271",
+      "maxPrice": 271,
+      "lotSize": 55,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 18.45,
+      "gmpPrice": "50",
+      "gmpHistory": [
+        {
+          "date": "2026-10-07",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 29.52,
+          "gmpPrice": "80"
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹712.31 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Sollfege Smart Electronics IPO",
@@ -694,45 +694,6 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹160.88 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "TNA Solutions IPO",
-      "company": "TNA Solutions",
-      "openDate": "2026-09-30",
-      "closeDate": "2026-10-06",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹70",
-      "maxPrice": 70,
-      "lotSize": 2000,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 2.86,
-      "gmpPrice": "2",
-      "gmpHistory": [
-        {
-          "date": "2026-10-05",
-          "gmpPercent": 14.29,
-          "gmpPrice": "10"
-        },
-        {
-          "date": "2026-10-06",
-          "gmpPercent": 7.14,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-10-07",
-          "gmpPercent": 4.29,
-          "gmpPrice": "3"
-        },
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 2.86,
-          "gmpPrice": "2"
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹37.86 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Shivchem Agro IPO",
@@ -1098,7 +1059,7 @@
       "registrar": "",
       "registrarUrl": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "170",
+      "gmpPrice": "159",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -1186,6 +1147,45 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹81.79 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "TNA Solutions IPO",
+      "company": "TNA Solutions",
+      "openDate": "2026-09-30",
+      "closeDate": "2026-10-06",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹70",
+      "maxPrice": 70,
+      "lotSize": 2000,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-10-05",
+          "gmpPercent": 14.29,
+          "gmpPrice": "10"
+        },
+        {
+          "date": "2026-10-06",
+          "gmpPercent": 7.14,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-10-07",
+          "gmpPercent": 4.29,
+          "gmpPrice": "3"
+        },
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 2.86,
+          "gmpPrice": "2"
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹37.86 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "SJP Ultrasonic IPO",
