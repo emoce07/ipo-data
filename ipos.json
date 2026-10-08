@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-08",
-  "updatedAtTime": "2026-10-08T16:16:28.110422+00:00",
+  "updatedAtTime": "2026-10-08T22:42:20.342194+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -288,8 +288,8 @@
       "lotSize": 55,
       "registrar": "",
       "registrarUrl": "",
-      "gmpPercent": 22.88,
-      "gmpPrice": "62",
+      "gmpPercent": 23.25,
+      "gmpPrice": "63",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -345,6 +345,45 @@
       "notes": "Issue size ₹35.93 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Acme India Industries IPO",
+      "company": "Acme India Industries",
+      "openDate": "2026-09-30",
+      "closeDate": "2026-10-06",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹196",
+      "maxPrice": 196,
+      "lotSize": 600,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 21.94,
+      "gmpPrice": "43",
+      "gmpHistory": [
+        {
+          "date": "2026-10-05",
+          "gmpPercent": 15.31,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-06",
+          "gmpPercent": 25.51,
+          "gmpPrice": "50"
+        },
+        {
+          "date": "2026-10-07",
+          "gmpPercent": 34.69,
+          "gmpPrice": "68"
+        },
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 30.1,
+          "gmpPrice": "59"
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Sollfege Smart Electronics IPO",
       "company": "Sollfege Smart Electronics",
       "openDate": "2026-09-30",
@@ -382,45 +421,6 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹21.78 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Acme India Industries IPO",
-      "company": "Acme India Industries",
-      "openDate": "2026-09-30",
-      "closeDate": "2026-10-06",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹196",
-      "maxPrice": 196,
-      "lotSize": 600,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": 17.86,
-      "gmpPrice": "35",
-      "gmpHistory": [
-        {
-          "date": "2026-10-05",
-          "gmpPercent": 15.31,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-06",
-          "gmpPercent": 25.51,
-          "gmpPrice": "50"
-        },
-        {
-          "date": "2026-10-07",
-          "gmpPercent": 34.69,
-          "gmpPrice": "68"
-        },
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 30.1,
-          "gmpPrice": "59"
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Bench Mark Infotech Services IPO",
@@ -1059,7 +1059,7 @@
       "registrar": "",
       "registrarUrl": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "165",
+      "gmpPrice": "167",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -1108,6 +1108,30 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹40.54 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Ravita Engineering Services IPO",
+      "company": "Ravita Engineering Services",
+      "openDate": "2026-10-13",
+      "closeDate": "2026-10-15",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹112",
+      "maxPrice": 112,
+      "lotSize": 1200,
+      "registrar": "",
+      "registrarUrl": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹116.05 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Paramount Syntex IPO",
@@ -1888,24 +1912,6 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹26.50 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Ravita Engineering Services IPO",
-      "company": "Ravita Engineering Services",
-      "openDate": "2026-10-13",
-      "closeDate": "2026-10-15",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹112",
-      "maxPrice": 112,
-      "lotSize": 1200,
-      "registrar": "",
-      "registrarUrl": "",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": true,
-      "notes": "Issue size ₹116.05 Cr. Auto-synced from InvestorGain via Parse API."
     }
   ]
 }
