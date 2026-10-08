@@ -112,7 +112,12 @@ jobs:
                   "contents": [{"parts": [{"text": prompt}]}],
                   "tools": [{"google_search": {}}],
               }).encode()
-              url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent"
+              # gemini-2.5-flash (stable) rather than a 3.x preview model: the
+              # free tier for 3.x previews was measured at only ~5 requests/min
+              # and ~20 requests/DAY, which is far too tight to resolve a whole
+              # list of IPOs. 2.5 Flash has a materially higher free allowance
+              # (roughly 10 RPM / 500 RPD per recent published figures).
+              url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
               req = urllib.request.Request(url, data=body, headers={
                   "Content-Type": "application/json",
                   "x-goog-api-key": GEMINI_API_KEY,
