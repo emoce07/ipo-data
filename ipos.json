@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-09",
-  "updatedAtTime": "2026-10-09T09:38:44.732337+00:00",
+  "updatedAtTime": "2026-10-09T10:49:47.921137+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -339,8 +339,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 24.72,
-      "gmpPrice": "67",
+      "gmpPercent": 26.94,
+      "gmpPrice": "73",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -454,6 +454,32 @@
       "notes": "Issue size ₹121.69 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Fusion CX IPO",
+      "company": "Fusion CX",
+      "openDate": "2026-10-14",
+      "closeDate": "2026-10-16",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹289",
+      "maxPrice": 289,
+      "lotSize": 51,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 19.03,
+      "gmpPrice": "55",
+      "gmpHistory": [
+        {
+          "date": "2026-10-09",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹702.00 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Sollfege Smart Electronics IPO",
       "company": "Sollfege Smart Electronics",
       "openDate": "2026-09-30",
@@ -498,32 +524,6 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹21.78 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Fusion CX IPO",
-      "company": "Fusion CX",
-      "openDate": "2026-10-14",
-      "closeDate": "2026-10-16",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹289",
-      "maxPrice": 289,
-      "lotSize": 51,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 13.84,
-      "gmpPrice": "40",
-      "gmpHistory": [
-        {
-          "date": "2026-10-09",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹702.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Bench Mark Infotech Services IPO",
@@ -1276,7 +1276,7 @@
       "registrarTries": 0,
       "registrarLastTry": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "170",
+      "gmpPrice": "172",
       "gmpHistory": [
         {
           "date": "2026-10-05",
