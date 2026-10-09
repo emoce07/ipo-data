@@ -38,15 +38,39 @@ jobs:
           url = "https://api.parse.bot/scraper/c1d0143b-268f-4141-8b27-85b4ca0368f8/get_live_gmp"
           req = urllib.request.Request(url, headers={"X-API-Key": api_key})
 
-          try:
-              with urllib.request.urlopen(req, timeout=30) as resp:
-                  raw = json.loads(resp.read().decode())
-          except urllib.error.HTTPError as e:
-              print(f"::error::Parse API HTTP error {e.code}: {e.read().decode()}")
-              sys.exit(1)
-          except Exception as e:
-              print(f"::error::Parse API request failed: {e}")
-              sys.exit(1)
+          # The live-data call is occasionally slow (it scrapes a page behind
+          # the scenes), so allow a long read timeout and retry a couple of
+          # times on timeouts, 429s and 5xx errors. A bad key / bad request
+          # (other 4xx) fails immediately — retrying those can't help.
+          raw = None
+          PARSE_ATTEMPTS = 3
+          for attempt in range(1, PARSE_ATTEMPTS + 1):
+              try:
+                  with urllib.request.urlopen(req, timeout=90) as resp:
+                      raw = json.loads(resp.read().decode())
+                  break
+              except urllib.error.HTTPError as e:
+                  body = ""
+                  try:
+                      body = e.read().decode()[:300]
+                  except Exception:
+                      pass
+                  retryable = e.code == 429 or e.code >= 500
+                  if retryable and attempt < PARSE_ATTEMPTS:
+                      wait = 15 * attempt
+                      print(f"::warning::Parse API HTTP {e.code} (attempt {attempt}/{PARSE_ATTEMPTS}) - retrying in {wait}s")
+                      time.sleep(wait)
+                      continue
+                  print(f"::error::Parse API HTTP error {e.code}: {body}")
+                  sys.exit(1)
+              except Exception as e:
+                  if attempt < PARSE_ATTEMPTS:
+                      wait = 15 * attempt
+                      print(f"::warning::Parse API request failed: {e} (attempt {attempt}/{PARSE_ATTEMPTS}) - retrying in {wait}s")
+                      time.sleep(wait)
+                      continue
+                  print(f"::error::Parse API request failed after {PARSE_ATTEMPTS} attempts: {e}")
+                  sys.exit(1)
 
           items = (raw.get("data") or {}).get("items") or raw.get("items") or []
           if not items:
