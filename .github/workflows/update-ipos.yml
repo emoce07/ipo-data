@@ -121,6 +121,7 @@ jobs:
               "Bigshare Services": ["bigshare"],
               "Cameo Corporate Services": ["cameo corporate", "cameo"],
               "Skyline Financial Services": ["skyline financial", "skyline"],
+              "Maashitla Securities": ["maashitla securities", "maashitla"],
           }
 
           def _norm_text(t):
