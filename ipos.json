@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-09",
-  "updatedAtTime": "2026-10-09T10:49:47.921137+00:00",
+  "updatedAtTime": "2026-10-09T20:32:55.179607+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -339,8 +339,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 26.94,
-      "gmpPrice": "73",
+      "gmpPercent": 27.31,
+      "gmpPrice": "74",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -1216,52 +1216,6 @@
       "notes": "Issue size ₹178.00 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Varmora Granito IPO",
-      "company": "Varmora Granito",
-      "openDate": "2026-09-22",
-      "closeDate": "2026-09-24",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹148",
-      "maxPrice": 148,
-      "lotSize": 101,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.68,
-      "gmpPrice": "1",
-      "gmpHistory": [
-        {
-          "date": "2026-10-05",
-          "gmpPercent": 0.68,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-10-06",
-          "gmpPercent": 0.68,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-10-07",
-          "gmpPercent": 0.68,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 0.68,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-10-09",
-          "gmpPercent": 0.68,
-          "gmpPrice": "1"
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹708.02 Cr. Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Jio Platforms IPO",
       "company": "Jio Platforms",
       "openDate": "",
@@ -1276,7 +1230,7 @@
       "registrarTries": 0,
       "registrarLastTry": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "172",
+      "gmpPrice": "173",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -2222,6 +2176,26 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹26.50 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Bonfigloli Transmissions IPO",
+      "company": "Bonfigloli Transmissions",
+      "openDate": "",
+      "closeDate": "",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "",
+      "maxPrice": 0,
+      "lotSize": 0,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": null,
+      "gmpPrice": null,
+      "gmpHistory": [],
+      "dataComplete": false,
+      "notes": "Issue size -. Auto-synced from InvestorGain via Parse API."
     }
   ]
 }
