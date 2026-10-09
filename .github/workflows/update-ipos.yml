@@ -18,7 +18,7 @@ jobs:
       - name: Fetch live IPO data from InvestorGain (via Parse API) and build ipos.json
         env:
           PARSE_API_KEY: ${{ secrets.PARSE_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: |
           python3 - << 'PYEOF'
           import json, os, re, time, urllib.request, urllib.error, sys
@@ -66,7 +66,7 @@ jobs:
               pass  # first run ever, or file missing/corrupt — start fresh
 
           # Known registrars the app can actually route "Check allotment" to.
-          # Gemini's answer is only ever accepted if it matches one of these
+          # A lookup result is only ever accepted if it matches one of these
           # (case-insensitively, substring match) — anything else is treated
           # as "couldn't determine" rather than saved as free text, so a
           # vague or wrong-sounding answer can never silently become a
@@ -75,126 +75,105 @@ jobs:
               "KFin Technologies", "Link Intime", "Bigshare Services",
               "Cameo Corporate Services", "Skyline Financial Services",
           ]
-          GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-          if GEMINI_API_KEY:
-              print(f"Gemini registrar lookup: ENABLED (key received, length {len(GEMINI_API_KEY)})")
+          TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY", "")
+          if TAVILY_API_KEY:
+              print(f"Registrar lookup via Tavily web search: ENABLED (key received, length {len(TAVILY_API_KEY)})")
           else:
-              print("::warning::Gemini registrar lookup: DISABLED — GEMINI_API_KEY secret was not received by this workflow run. Check the secret name exactly matches GEMINI_API_KEY in repo Settings > Secrets and variables > Actions, and that it's passed via 'env:' on this step.")
-          _gemini_calls_made = 0
-          _GEMINI_DAILY_SAFETY_CAP = 8  # TEMPORARY for testing — raise back to 100 once confirmed working
-          _GEMINI_PACING_SECONDS = 7.0  # ~8 requests/min, under the free tier per-minute limit
+              print("::warning::Registrar lookup: DISABLED - TAVILY_API_KEY secret was not received by this workflow run. Check the secret name in repo Settings > Secrets and variables > Actions.")
+          _lookups_made = 0
+          _LOOKUP_RUN_CAP = 60       # max lookups per run (free plan is 1,000 credits/month, 1 credit per search)
+          _LOOKUP_PACING_SECONDS = 1.5
 
-          GEMINI_FALLBACK_MODEL = "gemini-3-flash-preview"  # known to exist (it answered earlier, just rate-limited)
-          _resolved_model = None
+          # Words each registrar goes by in web pages. Matching is on these
+          # aliases only, and a registrar is accepted only if exactly one of
+          # the five is clearly named near the word "registrar" on a page that
+          # is specifically about this IPO. Anything ambiguous stays unset.
+          REGISTRAR_ALIASES = {
+              "KFin Technologies": ["kfin technologies", "kfintech", "kfin tech", "kfin"],
+              "Link Intime": ["link intime", "mufg intime", "mufg"],
+              "Bigshare Services": ["bigshare"],
+              "Cameo Corporate Services": ["cameo corporate", "cameo"],
+              "Skyline Financial Services": ["skyline financial", "skyline"],
+          }
 
-          def resolve_gemini_model():
-              """Asks Google which models this API key can actually call, and
-              picks the newest stable 'flash' model that supports
-              generateContent (falling back to the newest preview one, then to
-              a known-existing model). Hardcoding a model name breaks the day
-              Google retires it (that's what caused the HTTP 404s), so this
-              looks it up fresh each run and logs every candidate it saw."""
-              global _resolved_model
-              if _resolved_model:
-                  return _resolved_model
-              chosen = GEMINI_FALLBACK_MODEL
-              try:
-                  list_url = "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200"
-                  req = urllib.request.Request(list_url, headers={"x-goog-api-key": GEMINI_API_KEY})
-                  with urllib.request.urlopen(req, timeout=20) as resp:
-                      models = json.loads(resp.read().decode()).get("models", [])
-                  stable, preview = [], []
-                  for m in models:
-                      name = m.get("name", "").replace("models/", "")
-                      if "generateContent" not in (m.get("supportedGenerationMethods") or []):
-                          continue
-                      if "flash" not in name:
-                          continue
-                      if any(bad in name for bad in ("lite", "image", "tts", "live", "audio", "embedding", "thinking", "exp", "robotics", "computer")):
-                          continue
-                      ver = re.search(r"gemini-(\d+(?:\.\d+)?)-flash", name)
-                      if not ver:
-                          continue
-                      entry = (float(ver.group(1)), name)
-                      (preview if "preview" in name else stable).append(entry)
-                  print("Available flash models for this key: " + ", ".join(sorted(n for _, n in stable + preview)))
-                  if stable:
-                      chosen = max(stable)[1]
-                  elif preview:
-                      chosen = max(preview)[1]
-              except Exception as e:
-                  print(f"::warning::Could not list Gemini models ({e}) — using fallback {GEMINI_FALLBACK_MODEL}")
-              print(f"Gemini model selected for registrar lookups: {chosen}")
-              _resolved_model = chosen
-              return chosen
+          def _norm_text(t):
+              return " ".join(re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).split())
 
-          def lookup_registrar_via_gemini(ipo_name):
-              """Asks Gemini, with Google Search grounding on, which registrar
-              handles this specific IPO. Returns a known registrar name on a
-              confident, matching answer, or None otherwise — never guesses
-              and never saves free-text. Any failure (no key, quota, network,
-              unrecognized answer) just leaves the registrar unset, same as
-              before this feature existed — the app's own picker modal
-              remains the fallback either way. Paced with a fixed delay
-              between calls, plus one retry-with-backoff specifically on a
-              429 (rate limited), since the free tier limits requests per
-              minute separately from the monthly quota."""
-              global _gemini_calls_made
-              if not GEMINI_API_KEY:
-                  print(f"::warning::{ipo_name}: GEMINI_API_KEY secret is empty or missing — skipping registrar lookup entirely")
+          def lookup_registrar_via_search(ipo_name):
+              """Finds an IPO's registrar with one web search (Tavily), then
+              reads the result snippets directly - no AI model involved, so
+              there is nothing to hallucinate and no model quota to exhaust.
+              Returns one of KNOWN_REGISTRARS or None. Never guesses."""
+              global _lookups_made
+              if not TAVILY_API_KEY or _lookups_made >= _LOOKUP_RUN_CAP:
                   return None
-              if _gemini_calls_made >= _GEMINI_DAILY_SAFETY_CAP:
+              core = normalize_name(ipo_name)           # e.g. "vans electroengineerings"
+              core_words = core.split()
+              if not core_words:
                   return None
-              prompt = (
-                  f"What is the registrar company for the Indian IPO \"{ipo_name}\"? "
-                  f"Answer with ONLY the registrar's company name, nothing else — "
-                  f"no explanation, no punctuation, just the name. "
-                  f"It is almost always one of: KFin Technologies, Link Intime, "
-                  f"Bigshare Services, Cameo Corporate Services, Skyline Financial Services."
-              )
+              # A result counts as "about this IPO" only if its title or URL
+              # contains the IPO's first two distinctive words.
+              about_key = " ".join(core_words[:2])
               body = json.dumps({
-                  "contents": [{"parts": [{"text": prompt}]}],
-                  "tools": [{"google_search": {}}],
+                  "query": f"{ipo_name} registrar to the issue",
+                  "search_depth": "basic",
+                  "chunks_per_source": 3,
+                  "max_results": 8,
               }).encode()
-              url = f"https://generativelanguage.googleapis.com/v1beta/models/{resolve_gemini_model()}:generateContent"
-              req = urllib.request.Request(url, data=body, headers={
+              req = urllib.request.Request("https://api.tavily.com/search", data=body, headers={
                   "Content-Type": "application/json",
-                  "x-goog-api-key": GEMINI_API_KEY,
+                  "Authorization": f"Bearer {TAVILY_API_KEY}",
               })
-              text = None
-              print(f"  -> looking up registrar for: {ipo_name}")
-              for attempt in range(2):  # one real attempt + one retry on 429 only
-                  _gemini_calls_made += 1
+              print(f"  -> searching registrar for: {ipo_name}")
+              data = None
+              for attempt in range(2):
+                  _lookups_made += 1
                   try:
-                      with urllib.request.urlopen(req, timeout=15) as resp:
-                          result = json.loads(resp.read().decode())
-                      text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
+                      with urllib.request.urlopen(req, timeout=20) as resp:
+                          data = json.loads(resp.read().decode())
                       break
                   except urllib.error.HTTPError as e:
-                      if e.code == 429 and attempt == 0:
-                          print(f"::warning::{ipo_name}: rate limited, waiting 20s and retrying once")
-                          time.sleep(20)
-                          continue
                       try:
-                          err_body = e.read().decode("utf-8", errors="ignore")[:400].replace("\n", " ")
+                          err_body = e.read().decode("utf-8", errors="ignore")[:300].replace("\n", " ")
                       except Exception:
                           err_body = "(no response body)"
-                      print(f"::warning::{ipo_name}: Gemini lookup failed: HTTP {e.code} {e.reason} | {err_body}")
-                      time.sleep(_GEMINI_PACING_SECONDS)
+                      if e.code == 429 and attempt == 0:
+                          print(f"::warning::{ipo_name}: search rate limited, waiting 15s and retrying once")
+                          time.sleep(15)
+                          continue
+                      print(f"::warning::{ipo_name}: registrar search failed: HTTP {e.code} {e.reason} | {err_body}")
                       return None
                   except Exception as e:
-                      print(f"::warning::{ipo_name}: Gemini registrar lookup failed: {e}")
-                      time.sleep(_GEMINI_PACING_SECONDS)
+                      print(f"::warning::{ipo_name}: registrar search failed: {e}")
                       return None
-              time.sleep(_GEMINI_PACING_SECONDS)  # pace every call, success or not
-              if text is None:
+              time.sleep(_LOOKUP_PACING_SECONDS)
+              if not data:
                   return None
-              text_low = text.lower()
-              for known in KNOWN_REGISTRARS:
-                  if known.lower() in text_low:
-                      print(f"     found: {known}")
-                      return known
-              print(f"::warning::{ipo_name}: Gemini answered '{text}' — didn't match a known registrar, leaving unset")
+
+              votes = {name: 0 for name in REGISTRAR_ALIASES}
+              pages_used = 0
+              for r in data.get("results", []):
+                  title_url = _norm_text((r.get("title") or "") + " " + (r.get("url") or ""))
+                  if about_key not in title_url:
+                      continue                      # not a page about this IPO
+                  text = _norm_text(r.get("content") or "")
+                  hit_this_page = set()
+                  for m in re.finditer(r"registrar", text):
+                      window = text[max(0, m.start() - 120): m.end() + 120]
+                      for name, aliases in REGISTRAR_ALIASES.items():
+                          if any(re.search(r"\b" + re.escape(a) + r"\b", window) for a in aliases):
+                              hit_this_page.add(name)
+                  if hit_this_page:
+                      pages_used += 1
+                      for name in hit_this_page:
+                          votes[name] += 1
+              ranked = sorted(votes.items(), key=lambda kv: kv[1], reverse=True)
+              top_name, top_votes = ranked[0]
+              runner_votes = ranked[1][1]
+              if top_votes >= 1 and top_votes > runner_votes:
+                  print(f"     found: {top_name} (supported by {top_votes} page(s))")
+                  return top_name
+              print(f"::warning::{ipo_name}: no clear registrar in search results (votes: { {k:v for k,v in votes.items() if v} or 'none' }) - left unset")
               return None
 
           def to_int(v, field_name, ipo_name):
@@ -251,16 +230,16 @@ jobs:
               gmp_history = gmp_history[-90:]
 
               # Registrar: once known (either picked manually in the app, or
-              # found by Gemini on a previous run), it's carried forward and
+              # found by web search on a previous run), it's carried forward and
               # NEVER re-queried or overwritten — this respects a user's own
-              # manual pick in the app as final, and keeps Gemini usage down
+              # manual pick in the app as final, and keeps search usage down
               # to one lookup per IPO, ever, not once per day.
               registrar = prev_ipo.get("registrar") or ""
               if not registrar and data_complete:
                   # Only bother looking up IPOs whose core data is already
                   # confirmed real (skips wasting a lookup on something that
                   # might not even be a genuine current IPO).
-                  found = lookup_registrar_via_gemini(full_name)
+                  found = lookup_registrar_via_search(full_name)
                   if found:
                       registrar = found
 
