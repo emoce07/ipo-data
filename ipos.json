@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-10",
-  "updatedAtTime": "2026-10-10T01:53:01.023330+00:00",
+  "updatedAtTime": "2026-10-10T10:01:02.166743+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -374,8 +374,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 27.31,
-      "gmpPrice": "74",
+      "gmpPercent": 26.94,
+      "gmpPrice": "73",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -686,6 +686,42 @@
       ],
       "dataComplete": true,
       "notes": "Issue size ₹405.00 Cr. Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Ravita Engineering Services IPO",
+      "company": "Ravita Engineering Services",
+      "openDate": "2026-10-13",
+      "closeDate": "2026-10-15",
+      "allotmentDate": "",
+      "listingDate": "",
+      "priceBand": "₹112",
+      "maxPrice": 112,
+      "lotSize": 1200,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 10.71,
+      "gmpPrice": "12",
+      "gmpHistory": [
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-09",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-10",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "notes": "Issue size ₹116.05 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Shah Investor's Home IPO",
@@ -1391,7 +1427,7 @@
       "registrarTries": 0,
       "registrarLastTry": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "173",
+      "gmpPrice": "168",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -1428,8 +1464,8 @@
       "notes": "Issue size -. Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Bonfigloli Transmissions IPO",
-      "company": "Bonfigloli Transmissions",
+      "name": "Bonfiglioli Transmissions IPO",
+      "company": "Bonfiglioli Transmissions",
       "openDate": "",
       "closeDate": "",
       "allotmentDate": "",
@@ -1452,42 +1488,6 @@
       ],
       "dataComplete": false,
       "notes": "Issue size -. Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Ravita Engineering Services IPO",
-      "company": "Ravita Engineering Services",
-      "openDate": "2026-10-13",
-      "closeDate": "2026-10-15",
-      "allotmentDate": "",
-      "listingDate": "",
-      "priceBand": "₹112",
-      "maxPrice": 112,
-      "lotSize": 1200,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-09",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-10",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "notes": "Issue size ₹116.05 Cr. Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Vaibhav Vyapaar IPO",
