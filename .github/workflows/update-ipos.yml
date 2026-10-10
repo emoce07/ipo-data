@@ -105,10 +105,10 @@ jobs:
           else:
               print("::warning::Registrar lookup: DISABLED - TAVILY_API_KEY secret was not received by this workflow run. Check the secret name in repo Settings > Secrets and variables > Actions.")
           _lookups_made = 0
-          _LOOKUP_RUN_CAP = 25       # max searches per run (free plan = 1,000 credits/month, 1 credit per search)
+          _LOOKUP_RUN_CAP = 40       # max searches per run (free plan = 1,000 credits/month, 1 credit per search)
           _LOOKUP_PACING_SECONDS = 1.5
           _MAX_TRIES_PER_IPO = 4     # give up on an IPO after this many unsuccessful searches...
-          _RETRY_AFTER_DAYS = 1      # ...and wait at least this long between tries (new pages get published daily)
+          _RETRY_AFTER_HOURS = 20    # ...and wait at least this long between tries (so a same-day manual run can still retry, while the daily schedule still gets roughly one try/day per IPO)
           _last_status = "skipped"   # "ok" | "error" | "skipped" - set by the lookup function
 
           # Words each registrar goes by in web pages. Matching is on these
@@ -309,11 +309,14 @@ jobs:
               # to one lookup per IPO, ever, not once per day.
               registrar = prev_ipo.get("registrar") or ""
               tries = int(prev_ipo.get("registrarTries") or 0)
-              last_try = prev_ipo.get("registrarLastTry") or ""
+              last_try = prev_ipo.get("registrarLastTry") or ""   # ISO datetime, e.g. 2026-10-10T09:05:12+00:00
               due = True
               if last_try:
                   try:
-                      due = (date.today() - date.fromisoformat(last_try)).days >= _RETRY_AFTER_DAYS
+                      last_dt = datetime.fromisoformat(last_try)
+                      if last_dt.tzinfo is None:
+                          last_dt = last_dt.replace(tzinfo=timezone.utc)
+                      due = (datetime.now(timezone.utc) - last_dt).total_seconds() >= _RETRY_AFTER_HOURS * 3600
                   except Exception:
                       due = True
               if not registrar and data_complete and tries < _MAX_TRIES_PER_IPO and due:
@@ -323,7 +326,7 @@ jobs:
                   found = lookup_registrar_via_search(full_name, tries)
                   if _last_status == "ok":          # a real search happened (API outages don't use up a try)
                       tries += 1
-                      last_try = date.today().isoformat()
+                      last_try = datetime.now(timezone.utc).isoformat()
                       if found:
                           registrar = found
                           found_list.append((full_name, found))
