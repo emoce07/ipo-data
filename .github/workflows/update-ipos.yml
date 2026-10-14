@@ -138,6 +138,63 @@ jobs:
                   f"{ipo_name} registrar",
               ]
 
+          def ipowatch_slug(ipo_name):
+              s = ipo_name.lower()
+              s = re.sub(r"\bipo\b", "", s)
+              s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+              return s + "-ipo"
+
+          def parse_month_date(text):
+              for fmt, pat in [("%B %d %Y", r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})"),
+                                ("%d %B %Y", r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})")]:
+                  m = re.search(pat, text)
+                  if m:
+                      try:
+                          return datetime.strptime(" ".join(m.groups()), fmt).strftime("%Y-%m-%d")
+                      except ValueError:
+                          continue
+              return None
+
+          def lookup_tentative_dates(ipo_name):
+              """Scrapes ipowatch.in's own per-IPO page for its published
+              (but not yet legally final) allotment and listing dates. No
+              search API involved - this is a direct page fetch, so it costs
+              no Tavily credits. ipowatch.in has no documented CAPTCHA or
+              bot-block (unlike Chittorgarh/BSE, which this project already
+              found do block plain requests) but that hasn't been confirmed
+              from this environment, so any failure here - blocked, page
+              missing, dates not published yet - is silent and non-fatal:
+              the fields are simply left blank, same as before this existed.
+              Writes only allotmentDateTentative/listingDateTentative,
+              NEVER the confirmed allotmentDate/listingDate fields - those
+              stay fully manual, entered by the user once truly final."""
+              url = f"https://ipowatch.in/{ipowatch_slug(ipo_name)}/"
+              try:
+                  req = urllib.request.Request(url, headers={
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                  })
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      html = resp.read().decode("utf-8", errors="ignore")
+              except Exception as e:
+                  print(f"  (dates: {ipo_name} - ipowatch.in unreachable or blocked: {e})")
+                  return None, None
+
+              allot = listing = None
+              m = re.search(r"Basis of Allotment:?\s*·?\s*([A-Za-z]+\s+\d{1,2},?\s+\d{4})", html)
+              if m: allot = parse_month_date(m.group(1))
+              m = re.search(r"IPO Listing Date:?\s*·?\s*([A-Za-z]+\s+\d{1,2},?\s+\d{4})", html)
+              if m: listing = parse_month_date(m.group(1))
+              if not allot:
+                  m = re.search(r"[Aa]llotment date is\s+([A-Za-z]+\s+\d{1,2},?\s+\d{4})", html)
+                  if m: allot = parse_month_date(m.group(1))
+              if not listing:
+                  m = re.search(r"[Ll]isting date is\s+([A-Za-z]+\s+\d{1,2},?\s+\d{4})", html)
+                  if m: listing = parse_month_date(m.group(1))
+              if allot or listing:
+                  print(f"  (dates: {ipo_name} -> allotment={allot}, listing={listing})")
+              time.sleep(1.0)  # light pacing - a courtesy to ipowatch.in's server, not a documented limit
+              return allot, listing
+
           def lookup_registrar_via_search(ipo_name, try_index=0):
               """Finds an IPO's registrar with one web search (Tavily), then
               reads the result snippets directly - no AI model involved, so
@@ -333,13 +390,31 @@ jobs:
                       else:
                           unresolved.append(full_name)
 
+              # Confirmed dates are 100% manual (user-entered) and are never
+              # touched here. Tentative dates are refreshed from ipowatch.in
+              # on every run as long as no confirmed date has been entered
+              # yet - once a user fills in the confirmed field, the scrape
+              # result is simply ignored for that field from then on.
+              confirmed_allot = prev_ipo.get("allotmentDate") or ""
+              confirmed_listing = prev_ipo.get("listingDate") or ""
+              tentative_allot = prev_ipo.get("allotmentDateTentative") or ""
+              tentative_listing = prev_ipo.get("listingDateTentative") or ""
+              if data_complete and (not confirmed_allot or not confirmed_listing):
+                  scraped_allot, scraped_listing = lookup_tentative_dates(full_name)
+                  if scraped_allot and not confirmed_allot:
+                      tentative_allot = scraped_allot
+                  if scraped_listing and not confirmed_listing:
+                      tentative_listing = scraped_listing
+
               ipo_entry = {
                   "name": full_name,
                   "company": name,
                   "openDate": it.get("open_date") or "",
                   "closeDate": it.get("close_date") or "",
-                  "allotmentDate": "",
-                  "listingDate": "",
+                  "allotmentDate": confirmed_allot,
+                  "allotmentDateTentative": tentative_allot,
+                  "listingDate": confirmed_listing,
+                  "listingDateTentative": tentative_listing,
                   "priceBand": f"₹{price}" if price else "",
                   "maxPrice": price,
                   "lotSize": lot,
@@ -371,6 +446,9 @@ jobs:
                 f"{have_registrar}/{len(ipos)} IPOs now have a registrar, ~{_lookups_made} search credit(s) used")
           for n, r in found_list:
               print(f"  registrar found: {n} -> {r}")
+          have_dates = sum(1 for i in ipos if i.get("allotmentDate") or i.get("allotmentDateTentative"))
+          print(f"::notice::Dates summary: {have_dates}/{len(ipos)} IPOs now have an allotment date (confirmed or tentative) - "
+                f"scraped from ipowatch.in, 0 search credits used")
           if incomplete:
               print(f"::warning::{len(incomplete)} IPO(s) missing price/lot size from the API: {', '.join(incomplete)}")
           PYEOF
