@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-17",
-  "updatedAtTime": "2026-10-17T12:44:13.093862+00:00",
+  "updatedAtTime": "2026-10-17T16:34:30.691292+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -105,8 +105,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:30.056830+00:00",
-      "gmpPercent": 70.71,
-      "gmpPrice": "495",
+      "gmpPercent": 72.14,
+      "gmpPrice": "505",
       "gmpHistory": [
         {
           "date": "2026-10-12",
@@ -130,8 +130,8 @@
         },
         {
           "date": "2026-10-17",
-          "gmpPercent": 70.71,
-          "gmpPrice": "495"
+          "gmpPercent": 72.14,
+          "gmpPrice": "505"
         }
       ],
       "dataComplete": true,
@@ -665,8 +665,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 25.83,
-      "gmpPrice": "70",
+      "gmpPercent": 25.46,
+      "gmpPrice": "69",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -715,8 +715,8 @@
         },
         {
           "date": "2026-10-17",
-          "gmpPercent": 25.83,
-          "gmpPrice": "70"
+          "gmpPercent": 25.46,
+          "gmpPrice": "69"
         }
       ],
       "dataComplete": true,
@@ -970,8 +970,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 19.75,
-      "gmpPrice": "221",
+      "gmpPercent": 20.02,
+      "gmpPrice": "224",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -1030,8 +1030,8 @@
         },
         {
           "date": "2026-10-17",
-          "gmpPercent": 19.75,
-          "gmpPrice": "221"
+          "gmpPercent": 20.02,
+          "gmpPrice": "224"
         }
       ],
       "dataComplete": true,
@@ -1744,61 +1744,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Sahajanand Medical Technologies IPO",
-      "company": "Sahajanand Medical Technologies",
-      "openDate": "2026-10-15",
-      "closeDate": "2026-10-19",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-21",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-23",
-      "datesScrapedOn": "2026-10-17",
-      "priceBand": "₹344",
-      "maxPrice": 344,
-      "lotSize": 43,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-12T11:10:38.040714+00:00",
-      "gmpPercent": 5.23,
-      "gmpPrice": "18",
-      "gmpHistory": [
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 11.63,
-          "gmpPrice": "40"
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 12.5,
-          "gmpPrice": "43"
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 13.37,
-          "gmpPrice": "46"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 10.17,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 5.23,
-          "gmpPrice": "18"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹475.48 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Fusion CX IPO",
       "company": "Fusion CX",
       "openDate": "2026-10-14",
@@ -1815,8 +1760,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 4.33,
-      "gmpPrice": "12.5",
+      "gmpPercent": 5.19,
+      "gmpPrice": "15",
       "gmpHistory": [
         {
           "date": "2026-10-09",
@@ -1855,8 +1800,8 @@
         },
         {
           "date": "2026-10-17",
-          "gmpPercent": 4.33,
-          "gmpPrice": "12.5"
+          "gmpPercent": 5.19,
+          "gmpPrice": "15"
         }
       ],
       "dataComplete": true,
@@ -1880,8 +1825,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
-      "gmpPercent": 3.81,
-      "gmpPrice": "5.75",
+      "gmpPercent": 4.77,
+      "gmpPrice": "7.2",
       "gmpHistory": [
         {
           "date": "2026-10-11",
@@ -1910,12 +1855,67 @@
         },
         {
           "date": "2026-10-17",
-          "gmpPercent": 3.81,
-          "gmpPrice": "5.75"
+          "gmpPercent": 4.77,
+          "gmpPrice": "7.2"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹5012.33 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Sahajanand Medical Technologies IPO",
+      "company": "Sahajanand Medical Technologies",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-19",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-21",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-23",
+      "datesScrapedOn": "2026-10-17",
+      "priceBand": "₹344",
+      "maxPrice": 344,
+      "lotSize": 43,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-12T11:10:38.040714+00:00",
+      "gmpPercent": 4.36,
+      "gmpPrice": "15",
+      "gmpHistory": [
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 0.0,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 11.63,
+          "gmpPrice": "40"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 12.5,
+          "gmpPrice": "43"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 13.37,
+          "gmpPrice": "46"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 10.17,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 4.36,
+          "gmpPrice": "15"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹475.48 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
