@@ -2,7 +2,9 @@ name: Update IPO Data
 
 on:
   schedule:
-    - cron: '30 3 * * *'   # 9:00 AM IST daily (3:30 UTC)
+    - cron: '30 3 * * *'    # 9:00 AM IST (3:30 UTC)
+    - cron: '30 8 * * *'    # 2:00 PM IST (8:30 UTC)
+    - cron: '30 13 * * *'   # 7:00 PM IST (13:30 UTC)
   workflow_dispatch: {}      # allows manual "Run workflow" button too
 
 permissions:
@@ -105,7 +107,7 @@ jobs:
           else:
               print("::warning::Registrar lookup: DISABLED - TAVILY_API_KEY secret was not received by this workflow run. Check the secret name in repo Settings > Secrets and variables > Actions.")
           _lookups_made = 0
-          _LOOKUP_RUN_CAP = 40       # max searches per run (free plan = 1,000 credits/month, 1 credit per search)
+          _LOOKUP_RUN_CAP = 10       # max searches per run (free plan = 1,000 credits/month; now 3 runs/day, so worst case 10*3*30=900/month, safely under budget)
           _LOOKUP_PACING_SECONDS = 1.5
           _MAX_TRIES_PER_IPO = 4     # give up on an IPO after this many unsuccessful searches...
           _RETRY_AFTER_HOURS = 20    # ...and wait at least this long between tries (so a same-day manual run can still retry, while the daily schedule still gets roughly one try/day per IPO)
@@ -343,14 +345,19 @@ jobs:
                   incomplete.append(full_name)
 
               # Carry forward this IPO's existing GMP history (matched by
-              # normalized name, same matching the app itself uses) and
-              # append today's reading — but only once per day, so re-runs
-              # on the same day (e.g. a manual trigger) don't duplicate.
+              # normalized name, same matching the app itself uses). The
+              # workflow now runs 3x/day (9am/2pm/7pm IST) since GMP moves
+              # throughout the day on InvestorGain, not just once — so
+              # rather than log only the FIRST reading of each day (which
+              # froze the morning's GMP as that whole day's "history"
+              # value), today's entry is replaced with each run's latest
+              # reading, keeping the history table showing the most
+              # recent figure for today, same as InvestorGain's own table.
               prev_ipo = existing_by_name.get(normalize_name(full_name), {})
               gmp_history = list(prev_ipo.get("gmpHistory") or [])
               today_iso = date.today().isoformat()
-              already_logged_today = any(h.get("date") == today_iso for h in gmp_history)
-              if not already_logged_today and (gmp_pct is not None or gmp_price is not None):
+              gmp_history = [h for h in gmp_history if h.get("date") != today_iso]
+              if gmp_pct is not None or gmp_price is not None:
                   gmp_history.append({
                       "date": today_iso,
                       "gmpPercent": gmp_pct if gmp_pct is not None else None,
@@ -391,20 +398,25 @@ jobs:
                           unresolved.append(full_name)
 
               # Confirmed dates are 100% manual (user-entered) and are never
-              # touched here. Tentative dates are refreshed from ipowatch.in
-              # on every run as long as no confirmed date has been entered
-              # yet - once a user fills in the confirmed field, the scrape
+              # touched here. Tentative dates are scraped from ipowatch.in —
+              # at most once per day (unlike GMP, allotment/listing dates
+              # are published once and don't move hour to hour, so with the
+              # schedule now running 3x/day there's no need to re-scrape on
+              # every run) — as long as no confirmed date has been entered
+              # yet; once a user fills in the confirmed field, the scrape
               # result is simply ignored for that field from then on.
               confirmed_allot = prev_ipo.get("allotmentDate") or ""
               confirmed_listing = prev_ipo.get("listingDate") or ""
               tentative_allot = prev_ipo.get("allotmentDateTentative") or ""
               tentative_listing = prev_ipo.get("listingDateTentative") or ""
-              if data_complete and (not confirmed_allot or not confirmed_listing):
+              dates_scraped_today = prev_ipo.get("datesScrapedOn") == today_iso
+              if data_complete and (not confirmed_allot or not confirmed_listing) and not dates_scraped_today:
                   scraped_allot, scraped_listing = lookup_tentative_dates(full_name)
                   if scraped_allot and not confirmed_allot:
                       tentative_allot = scraped_allot
                   if scraped_listing and not confirmed_listing:
                       tentative_listing = scraped_listing
+                  dates_scraped_today = True
 
               ipo_entry = {
                   "name": full_name,
@@ -415,6 +427,7 @@ jobs:
                   "allotmentDateTentative": tentative_allot,
                   "listingDate": confirmed_listing,
                   "listingDateTentative": tentative_listing,
+                  "datesScrapedOn": today_iso if dates_scraped_today else (prev_ipo.get("datesScrapedOn") or ""),
                   "priceBand": f"₹{price}" if price else "",
                   "maxPrice": price,
                   "lotSize": lot,
@@ -426,7 +439,8 @@ jobs:
                   "gmpPrice": gmp_price if gmp_price is not None else None,
                   "gmpHistory": gmp_history,
                   "dataComplete": data_complete,
-                  "notes": f"Issue size {it.get('ipo_size_cr') or it.get('ipo_size') or ''}. Auto-synced from InvestorGain via Parse API.".strip(),
+                  "ipoSize": str(it.get("ipo_size_cr") or it.get("ipo_size") or "").strip(),
+                  "notes": "Auto-synced from InvestorGain via Parse API.",
               }
               ipos.append(ipo_entry)
 
