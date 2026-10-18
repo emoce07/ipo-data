@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-18",
-  "updatedAtTime": "2026-10-18T12:42:02.963398+00:00",
+  "updatedAtTime": "2026-10-18T16:41:47.651610+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -705,8 +705,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 25.09,
-      "gmpPrice": "68",
+      "gmpPercent": 23.99,
+      "gmpPrice": "65",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -760,8 +760,8 @@
         },
         {
           "date": "2026-10-18",
-          "gmpPercent": 25.09,
-          "gmpPrice": "68"
+          "gmpPercent": 23.99,
+          "gmpPrice": "65"
         }
       ],
       "dataComplete": true,
@@ -1729,6 +1729,66 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Sahajanand Medical Technologies IPO",
+      "company": "Sahajanand Medical Technologies",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-19",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-21",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-23",
+      "datesScrapedOn": "2026-10-18",
+      "priceBand": "₹344",
+      "maxPrice": 344,
+      "lotSize": 43,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-12T11:10:38.040714+00:00",
+      "gmpPercent": 8.43,
+      "gmpPrice": "29",
+      "gmpHistory": [
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 0.0,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 11.63,
+          "gmpPrice": "40"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 12.5,
+          "gmpPrice": "43"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 13.37,
+          "gmpPrice": "46"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 10.17,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 4.36,
+          "gmpPrice": "15"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 8.43,
+          "gmpPrice": "29"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹475.48 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Shree TNB Polymers IPO",
       "company": "Shree TNB Polymers",
       "openDate": "2026-09-28",
@@ -1816,66 +1876,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹31.80 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Sahajanand Medical Technologies IPO",
-      "company": "Sahajanand Medical Technologies",
-      "openDate": "2026-10-15",
-      "closeDate": "2026-10-19",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-21",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-23",
-      "datesScrapedOn": "2026-10-18",
-      "priceBand": "₹344",
-      "maxPrice": 344,
-      "lotSize": 43,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-12T11:10:38.040714+00:00",
-      "gmpPercent": 6.98,
-      "gmpPrice": "24",
-      "gmpHistory": [
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 11.63,
-          "gmpPrice": "40"
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 12.5,
-          "gmpPrice": "43"
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 13.37,
-          "gmpPrice": "46"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 10.17,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 4.36,
-          "gmpPrice": "15"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 6.98,
-          "gmpPrice": "24"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹475.48 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1985,8 +1985,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 5.88,
-      "gmpPrice": "17",
+      "gmpPercent": 6.57,
+      "gmpPrice": "19",
       "gmpHistory": [
         {
           "date": "2026-10-09",
@@ -2030,117 +2030,12 @@
         },
         {
           "date": "2026-10-18",
-          "gmpPercent": 5.88,
-          "gmpPrice": "17"
+          "gmpPercent": 6.57,
+          "gmpPrice": "19"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹702.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Zetwerk IPO",
-      "company": "Zetwerk",
-      "openDate": "2026-10-15",
-      "closeDate": "2026-10-19",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-21",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-23",
-      "datesScrapedOn": "2026-10-18",
-      "priceBand": "₹151",
-      "maxPrice": 151,
-      "lotSize": 99,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
-      "gmpPercent": 4.64,
-      "gmpPrice": "7",
-      "gmpHistory": [
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 8.61,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 13.25,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 13.91,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 7.62,
-          "gmpPrice": "11.5"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 4.77,
-          "gmpPrice": "7.2"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 4.64,
-          "gmpPrice": "7"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹5012.33 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Swastika Infra IPO",
-      "company": "Swastika Infra",
-      "openDate": "2026-09-23",
-      "closeDate": "2026-09-25",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-09-28",
-      "listingDate": "",
-      "listingDateTentative": "2026-09-30",
-      "datesScrapedOn": "2026-10-18",
-      "priceBand": "₹185",
-      "maxPrice": 185,
-      "lotSize": 81,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-15T08:34:50.408768+00:00",
-      "gmpPercent": 3.78,
-      "gmpPrice": "7",
-      "gmpHistory": [
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 3.78,
-          "gmpPrice": "7"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 3.78,
-          "gmpPrice": "7"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 3.78,
-          "gmpPrice": "7"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 3.78,
-          "gmpPrice": "7"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹160.88 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -2160,8 +2055,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 2.68,
-      "gmpPrice": "3",
+      "gmpPercent": 4.02,
+      "gmpPrice": "4.5",
       "gmpHistory": [
         {
           "date": "2026-10-08",
@@ -2210,12 +2105,117 @@
         },
         {
           "date": "2026-10-18",
-          "gmpPercent": 2.68,
-          "gmpPrice": "3"
+          "gmpPercent": 4.02,
+          "gmpPrice": "4.5"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹116.05 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Swastika Infra IPO",
+      "company": "Swastika Infra",
+      "openDate": "2026-09-23",
+      "closeDate": "2026-09-25",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-09-28",
+      "listingDate": "",
+      "listingDateTentative": "2026-09-30",
+      "datesScrapedOn": "2026-10-18",
+      "priceBand": "₹185",
+      "maxPrice": 185,
+      "lotSize": 81,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-15T08:34:50.408768+00:00",
+      "gmpPercent": 3.78,
+      "gmpPrice": "7",
+      "gmpHistory": [
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 3.78,
+          "gmpPrice": "7"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 3.78,
+          "gmpPrice": "7"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 3.78,
+          "gmpPrice": "7"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 3.78,
+          "gmpPrice": "7"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹160.88 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Zetwerk IPO",
+      "company": "Zetwerk",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-19",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-21",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-23",
+      "datesScrapedOn": "2026-10-18",
+      "priceBand": "₹151",
+      "maxPrice": 151,
+      "lotSize": 99,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
+      "gmpPercent": 3.64,
+      "gmpPrice": "5.5",
+      "gmpHistory": [
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 0.0,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 8.61,
+          "gmpPrice": "13"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 13.25,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 13.91,
+          "gmpPrice": "21"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 7.62,
+          "gmpPrice": "11.5"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 4.77,
+          "gmpPrice": "7.2"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 3.64,
+          "gmpPrice": "5.5"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹5012.33 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
