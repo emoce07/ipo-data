@@ -24,7 +24,7 @@ jobs:
         run: |
           python3 - << 'PYEOF'
           import json, os, re, time, urllib.request, urllib.error, sys
-          from datetime import datetime, date, timezone
+          from datetime import datetime, date, timezone, timedelta
 
           def normalize_name(name):
               """Mirrors the app's normalizeIpoName() exactly, so a name match
@@ -355,9 +355,13 @@ jobs:
               # recent figure for today, same as InvestorGain's own table.
               prev_ipo = existing_by_name.get(normalize_name(full_name), {})
               gmp_history = list(prev_ipo.get("gmpHistory") or [])
-              today_iso = date.today().isoformat()
-              gmp_history = [h for h in gmp_history if h.get("date") != today_iso]
+              # Date in IST (not the runner's UTC clock) so "today" matches
+              # the calendar day InvestorGain and the user are looking at.
+              today_iso = datetime.now(timezone(timedelta(hours=5, minutes=30))).date().isoformat()
               if gmp_pct is not None or gmp_price is not None:
+                  # Only replace today's entry when this run actually has a
+                  # reading — an empty/failed fetch must never wipe a good one.
+                  gmp_history = [h for h in gmp_history if h.get("date") != today_iso]
                   gmp_history.append({
                       "date": today_iso,
                       "gmpPercent": gmp_pct if gmp_pct is not None else None,
