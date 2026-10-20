@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-20",
-  "updatedAtTime": "2026-10-20T08:45:36.192866+00:00",
+  "updatedAtTime": "2026-10-20T10:44:55.332052+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -440,8 +440,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 22.07,
-      "gmpPrice": "247",
+      "gmpPercent": 22.52,
+      "gmpPrice": "252",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -515,8 +515,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 22.07,
-          "gmpPrice": "247"
+          "gmpPercent": 22.52,
+          "gmpPrice": "252"
         }
       ],
       "dataComplete": true,
@@ -850,8 +850,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
-      "gmpPercent": 10.82,
-      "gmpPrice": "75",
+      "gmpPercent": 11.11,
+      "gmpPrice": "77",
       "gmpHistory": [
         {
           "date": "2026-10-15",
@@ -880,97 +880,12 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 10.82,
-          "gmpPrice": "75"
+          "gmpPercent": 11.11,
+          "gmpPrice": "77"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹1450.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Vaibhav Vyapaar IPO",
-      "company": "Vaibhav Vyapaar",
-      "openDate": "2026-10-13",
-      "closeDate": "2026-10-15",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-16",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-21",
-      "datesScrapedOn": "2026-10-20",
-      "priceBand": "₹54",
-      "maxPrice": 54,
-      "lotSize": 2000,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 9.26,
-      "gmpPrice": "5",
-      "gmpHistory": [
-        {
-          "date": "2026-10-08",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-09",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-10",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 3.7,
-          "gmpPrice": "2"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 9.26,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 9.26,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 9.26,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 9.26,
-          "gmpPrice": "5"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹42.10 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1160,8 +1075,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 6.75,
-      "gmpPrice": "19.5",
+      "gmpPercent": 6.92,
+      "gmpPrice": "20",
       "gmpHistory": [
         {
           "date": "2026-10-09",
@@ -1215,8 +1130,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 6.75,
-          "gmpPrice": "19.5"
+          "gmpPercent": 6.92,
+          "gmpPrice": "20"
         }
       ],
       "dataComplete": true,
@@ -1224,24 +1139,24 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Ravita Engineering Services IPO",
-      "company": "Ravita Engineering Services",
-      "openDate": "2026-10-14",
-      "closeDate": "2026-10-16",
+      "name": "Vaibhav Vyapaar IPO",
+      "company": "Vaibhav Vyapaar",
+      "openDate": "2026-10-13",
+      "closeDate": "2026-10-15",
       "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-19",
+      "allotmentDateTentative": "2026-10-16",
       "listingDate": "",
-      "listingDateTentative": "2026-10-22",
+      "listingDateTentative": "2026-10-21",
       "datesScrapedOn": "2026-10-20",
-      "priceBand": "₹112",
-      "maxPrice": 112,
-      "lotSize": 1200,
-      "registrar": "Link Intime",
+      "priceBand": "₹54",
+      "maxPrice": 54,
+      "lotSize": 2000,
+      "registrar": "KFin Technologies",
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 3.57,
-      "gmpPrice": "4",
+      "gmpPercent": 5.56,
+      "gmpPrice": "3",
       "gmpHistory": [
         {
           "date": "2026-10-08",
@@ -1260,52 +1175,52 @@
         },
         {
           "date": "2026-10-11",
-          "gmpPercent": 10.71,
-          "gmpPrice": "12"
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         },
         {
           "date": "2026-10-12",
-          "gmpPercent": 4.46,
-          "gmpPrice": "5"
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         },
         {
           "date": "2026-10-14",
-          "gmpPercent": 6.25,
-          "gmpPrice": "7"
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         },
         {
           "date": "2026-10-15",
-          "gmpPercent": 2.68,
-          "gmpPrice": "3"
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         },
         {
           "date": "2026-10-16",
-          "gmpPercent": 1.79,
+          "gmpPercent": 3.7,
           "gmpPrice": "2"
         },
         {
           "date": "2026-10-17",
-          "gmpPercent": 2.68,
-          "gmpPrice": "3"
+          "gmpPercent": 9.26,
+          "gmpPrice": "5"
         },
         {
           "date": "2026-10-18",
-          "gmpPercent": 4.02,
-          "gmpPrice": "4.5"
+          "gmpPercent": 9.26,
+          "gmpPrice": "5"
         },
         {
           "date": "2026-10-19",
-          "gmpPercent": 4.46,
+          "gmpPercent": 9.26,
           "gmpPrice": "5"
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 3.57,
-          "gmpPrice": "4"
+          "gmpPercent": 5.56,
+          "gmpPrice": "3"
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹116.05 Cr",
+      "ipoSize": "₹42.10 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1325,8 +1240,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
-      "gmpPercent": 2.32,
-      "gmpPrice": "3.5",
+      "gmpPercent": 1.99,
+      "gmpPrice": "3",
       "gmpHistory": [
         {
           "date": "2026-10-11",
@@ -1370,8 +1285,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 2.32,
-          "gmpPrice": "3.5"
+          "gmpPercent": 1.99,
+          "gmpPrice": "3"
         }
       ],
       "dataComplete": true,
@@ -1476,6 +1391,91 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹34.99 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Ravita Engineering Services IPO",
+      "company": "Ravita Engineering Services",
+      "openDate": "2026-10-14",
+      "closeDate": "2026-10-16",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-19",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-22",
+      "datesScrapedOn": "2026-10-20",
+      "priceBand": "₹112",
+      "maxPrice": 112,
+      "lotSize": 1200,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 1.79,
+      "gmpPrice": "2",
+      "gmpHistory": [
+        {
+          "date": "2026-10-08",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-09",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-10",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 10.71,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 4.46,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 6.25,
+          "gmpPrice": "7"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 2.68,
+          "gmpPrice": "3"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 1.79,
+          "gmpPrice": "2"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 2.68,
+          "gmpPrice": "3"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 4.02,
+          "gmpPrice": "4.5"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 4.46,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 1.79,
+          "gmpPrice": "2"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹116.05 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
