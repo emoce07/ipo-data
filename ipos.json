@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-20",
-  "updatedAtTime": "2026-10-20T13:44:17.795375+00:00",
+  "updatedAtTime": "2026-10-20T18:04:08.562756+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -269,41 +269,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "BLS Polymers IPO",
-      "company": "BLS Polymers",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-10-20",
-      "priceBand": "₹150",
-      "maxPrice": 150,
-      "lotSize": 100,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 24.67,
-      "gmpPrice": "37",
-      "gmpHistory": [
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 12.0,
-          "gmpPrice": "18"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 24.67,
-          "gmpPrice": "37"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹255.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "HD Fire Protect IPO",
       "company": "HD Fire Protect",
       "openDate": "2026-10-13",
@@ -320,8 +285,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 23.99,
-      "gmpPrice": "65",
+      "gmpPercent": 26.2,
+      "gmpPrice": "71",
       "gmpHistory": [
         {
           "date": "2026-10-07",
@@ -385,8 +350,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 23.99,
-          "gmpPrice": "65"
+          "gmpPercent": 26.2,
+          "gmpPrice": "71"
         }
       ],
       "dataComplete": true,
@@ -410,8 +375,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 22.97,
-      "gmpPrice": "257",
+      "gmpPercent": 24.4,
+      "gmpPrice": "273",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -485,8 +450,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 22.97,
-          "gmpPrice": "257"
+          "gmpPercent": 24.4,
+          "gmpPrice": "273"
         }
       ],
       "dataComplete": true,
@@ -510,8 +475,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:34.055029+00:00",
-      "gmpPercent": 22.18,
-      "gmpPrice": "130",
+      "gmpPercent": 23.38,
+      "gmpPrice": "137",
       "gmpHistory": [
         {
           "date": "2026-10-10",
@@ -560,8 +525,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 22.18,
-          "gmpPrice": "130"
+          "gmpPercent": 23.38,
+          "gmpPrice": "137"
         }
       ],
       "dataComplete": true,
@@ -666,6 +631,41 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹121.69 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "BLS Polymers IPO",
+      "company": "BLS Polymers",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-30",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-03",
+      "datesScrapedOn": "2026-10-20",
+      "priceBand": "₹150",
+      "maxPrice": 150,
+      "lotSize": 100,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
+      "gmpPercent": 20.0,
+      "gmpPrice": "30",
+      "gmpHistory": [
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 12.0,
+          "gmpPrice": "18"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 20.0,
+          "gmpPrice": "30"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹255.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -934,6 +934,61 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Paras Healthcare IPO",
+      "company": "Paras Healthcare",
+      "openDate": "2026-10-21",
+      "closeDate": "2026-10-23",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-26",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-28",
+      "datesScrapedOn": "2026-10-20",
+      "priceBand": "₹693",
+      "maxPrice": 693,
+      "lotSize": 21,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
+      "gmpPercent": 7.22,
+      "gmpPrice": "50",
+      "gmpHistory": [
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 16.02,
+          "gmpPrice": "111"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 13.56,
+          "gmpPrice": "94"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 13.85,
+          "gmpPrice": "96"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 13.28,
+          "gmpPrice": "92"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 11.26,
+          "gmpPrice": "78"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 7.22,
+          "gmpPrice": "50"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹1450.00 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Sahajanand Medical Technologies IPO",
       "company": "Sahajanand Medical Technologies",
       "openDate": "2026-10-15",
@@ -950,8 +1005,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:38.040714+00:00",
-      "gmpPercent": 7.27,
-      "gmpPrice": "25",
+      "gmpPercent": 6.98,
+      "gmpPrice": "24",
       "gmpHistory": [
         {
           "date": "2026-10-11",
@@ -995,8 +1050,8 @@
         },
         {
           "date": "2026-10-20",
-          "gmpPercent": 7.27,
-          "gmpPrice": "25"
+          "gmpPercent": 6.98,
+          "gmpPrice": "24"
         }
       ],
       "dataComplete": true,
@@ -1081,61 +1136,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹702.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Paras Healthcare IPO",
-      "company": "Paras Healthcare",
-      "openDate": "2026-10-21",
-      "closeDate": "2026-10-23",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-26",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-28",
-      "datesScrapedOn": "2026-10-20",
-      "priceBand": "₹693",
-      "maxPrice": 693,
-      "lotSize": 21,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
-      "gmpPercent": 6.2,
-      "gmpPrice": "43",
-      "gmpHistory": [
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 16.02,
-          "gmpPrice": "111"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 13.56,
-          "gmpPrice": "94"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 13.85,
-          "gmpPrice": "96"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 13.28,
-          "gmpPrice": "92"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 11.26,
-          "gmpPrice": "78"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 6.2,
-          "gmpPrice": "43"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹1450.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1409,76 +1409,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Zetwerk IPO",
-      "company": "Zetwerk",
-      "openDate": "2026-10-15",
-      "closeDate": "2026-10-19",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-21",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-23",
-      "datesScrapedOn": "2026-10-20",
-      "priceBand": "₹151",
-      "maxPrice": 151,
-      "lotSize": 99,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
-      "gmpPercent": 1.66,
-      "gmpPrice": "2.5",
-      "gmpHistory": [
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 8.61,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 13.25,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 13.91,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 7.62,
-          "gmpPrice": "11.5"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 4.77,
-          "gmpPrice": "7.2"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 3.64,
-          "gmpPrice": "5.5"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 2.32,
-          "gmpPrice": "3.5"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 1.66,
-          "gmpPrice": "2.5"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹5012.33 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Nityas Gems & Jewellery IPO",
       "company": "Nityas Gems & Jewellery",
       "openDate": "2026-09-30",
@@ -1576,6 +1506,76 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹108.35 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Zetwerk IPO",
+      "company": "Zetwerk",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-19",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-21",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-23",
+      "datesScrapedOn": "2026-10-20",
+      "priceBand": "₹151",
+      "maxPrice": 151,
+      "lotSize": 99,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
+      "gmpPercent": 1.32,
+      "gmpPrice": "2",
+      "gmpHistory": [
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 0.0,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 8.61,
+          "gmpPrice": "13"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 13.25,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 13.91,
+          "gmpPrice": "21"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 7.62,
+          "gmpPrice": "11.5"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 4.77,
+          "gmpPrice": "7.2"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 3.64,
+          "gmpPrice": "5.5"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 2.32,
+          "gmpPrice": "3.5"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 1.32,
+          "gmpPrice": "2"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹5012.33 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
