@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-21",
-  "updatedAtTime": "2026-10-21T08:46:29.106892+00:00",
+  "updatedAtTime": "2026-10-21T13:59:49.950265+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -125,8 +125,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:30.056830+00:00",
-      "gmpPercent": 73.29,
-      "gmpPrice": "513",
+      "gmpPercent": 73.14,
+      "gmpPrice": "512",
       "gmpHistory": [
         {
           "date": "2026-10-12",
@@ -170,8 +170,8 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 73.29,
-          "gmpPrice": "513"
+          "gmpPercent": 73.14,
+          "gmpPrice": "512"
         }
       ],
       "dataComplete": true,
@@ -395,8 +395,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:34.055029+00:00",
-      "gmpPercent": 23.04,
-      "gmpPrice": "135",
+      "gmpPercent": 22.53,
+      "gmpPrice": "132",
       "gmpHistory": [
         {
           "date": "2026-10-10",
@@ -450,8 +450,8 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 23.04,
-          "gmpPrice": "135"
+          "gmpPercent": 22.53,
+          "gmpPrice": "132"
         }
       ],
       "dataComplete": true,
@@ -475,8 +475,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 22.79,
-      "gmpPrice": "255",
+      "gmpPercent": 21.98,
+      "gmpPrice": "246",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -555,8 +555,8 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 22.79,
-          "gmpPrice": "255"
+          "gmpPercent": 21.98,
+          "gmpPrice": "246"
         }
       ],
       "dataComplete": true,
@@ -709,76 +709,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Shellz India IPO",
-      "company": "Shellz India",
-      "openDate": "2026-10-15",
-      "closeDate": "2026-10-19",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-21",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-23",
-      "datesScrapedOn": "2026-10-21",
-      "priceBand": "₹179",
-      "maxPrice": 179,
-      "lotSize": 800,
-      "registrar": "Bigshare Services",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-12T11:10:44.415686+00:00",
-      "gmpPercent": 19.55,
-      "gmpPrice": "35",
-      "gmpHistory": [
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 19.55,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 25.7,
-          "gmpPrice": "46"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 19.55,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 19.55,
-          "gmpPrice": "35"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹59.97 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Sollfege Smart Electronics IPO",
       "company": "Sollfege Smart Electronics",
       "openDate": "2026-09-30",
@@ -881,6 +811,106 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹21.78 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Shellz India IPO",
+      "company": "Shellz India",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-19",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-21",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-23",
+      "datesScrapedOn": "2026-10-21",
+      "priceBand": "₹179",
+      "maxPrice": 179,
+      "lotSize": 800,
+      "registrar": "Bigshare Services",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-12T11:10:44.415686+00:00",
+      "gmpPercent": 13.97,
+      "gmpPrice": "25",
+      "gmpHistory": [
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 19.55,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 25.7,
+          "gmpPrice": "46"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 19.55,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 13.97,
+          "gmpPrice": "25"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹59.97 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "SFC Environmental Technologies IPO",
+      "company": "SFC Environmental Technologies",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-30",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-03",
+      "datesScrapedOn": "2026-10-21",
+      "priceBand": "₹330",
+      "maxPrice": 330,
+      "lotSize": 45,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
+      "gmpPercent": 9.39,
+      "gmpPrice": "31",
+      "gmpHistory": [
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 9.39,
+          "gmpPrice": "31"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹667.53 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1064,66 +1094,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Paras Healthcare IPO",
-      "company": "Paras Healthcare",
-      "openDate": "2026-10-21",
-      "closeDate": "2026-10-23",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-26",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-28",
-      "datesScrapedOn": "2026-10-21",
-      "priceBand": "₹693",
-      "maxPrice": 693,
-      "lotSize": 21,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
-      "gmpPercent": 6.49,
-      "gmpPrice": "45",
-      "gmpHistory": [
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 16.02,
-          "gmpPrice": "111"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 13.56,
-          "gmpPrice": "94"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 13.85,
-          "gmpPrice": "96"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 13.28,
-          "gmpPrice": "92"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 11.26,
-          "gmpPrice": "78"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 7.22,
-          "gmpPrice": "50"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 6.49,
-          "gmpPrice": "45"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹1450.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Fusion CX IPO",
       "company": "Fusion CX",
       "openDate": "2026-10-14",
@@ -1140,8 +1110,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 6.23,
-      "gmpPrice": "18",
+      "gmpPercent": 5.88,
+      "gmpPrice": "17",
       "gmpHistory": [
         {
           "date": "2026-10-09",
@@ -1200,8 +1170,8 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 6.23,
-          "gmpPrice": "18"
+          "gmpPercent": 5.88,
+          "gmpPrice": "17"
         }
       ],
       "dataComplete": true,
@@ -1296,6 +1266,66 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹42.10 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Paras Healthcare IPO",
+      "company": "Paras Healthcare",
+      "openDate": "2026-10-21",
+      "closeDate": "2026-10-23",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-26",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-28",
+      "datesScrapedOn": "2026-10-21",
+      "priceBand": "₹693",
+      "maxPrice": 693,
+      "lotSize": 21,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
+      "gmpPercent": 5.05,
+      "gmpPrice": "35",
+      "gmpHistory": [
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 16.02,
+          "gmpPrice": "111"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 13.56,
+          "gmpPrice": "94"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 13.85,
+          "gmpPrice": "96"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 13.28,
+          "gmpPrice": "92"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 11.26,
+          "gmpPrice": "78"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 7.22,
+          "gmpPrice": "50"
+        },
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 5.05,
+          "gmpPrice": "35"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹1450.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1509,81 +1539,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Zetwerk IPO",
-      "company": "Zetwerk",
-      "openDate": "2026-10-15",
-      "closeDate": "2026-10-19",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-21",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-23",
-      "datesScrapedOn": "2026-10-21",
-      "priceBand": "₹151",
-      "maxPrice": 151,
-      "lotSize": 99,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
-      "gmpPercent": 0.99,
-      "gmpPrice": "1.5",
-      "gmpHistory": [
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 8.61,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 13.25,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 13.91,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 7.62,
-          "gmpPrice": "11.5"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 4.77,
-          "gmpPrice": "7.2"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 3.64,
-          "gmpPrice": "5.5"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 2.32,
-          "gmpPrice": "3.5"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 1.32,
-          "gmpPrice": "2"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 0.99,
-          "gmpPrice": "1.5"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹5012.33 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Vishal Nirmiti IPO",
       "company": "Vishal Nirmiti",
       "openDate": "2026-09-30",
@@ -1779,36 +1734,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "SFC Environmental Technologies IPO",
-      "company": "SFC Environmental Technologies",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-10-21",
-      "priceBand": "₹330",
-      "maxPrice": 330,
-      "lotSize": 45,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹667.53 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "EAAA India Alternatives IPO",
       "company": "EAAA India Alternatives",
       "openDate": "2026-10-26",
@@ -1876,6 +1801,81 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹54.82 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Zetwerk IPO",
+      "company": "Zetwerk",
+      "openDate": "2026-10-15",
+      "closeDate": "2026-10-19",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-21",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-23",
+      "datesScrapedOn": "2026-10-21",
+      "priceBand": "₹151",
+      "maxPrice": 151,
+      "lotSize": 99,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-12T11:10:41.238035+00:00",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 0.0,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 8.61,
+          "gmpPrice": "13"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 13.25,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 13.91,
+          "gmpPrice": "21"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 7.62,
+          "gmpPrice": "11.5"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 4.77,
+          "gmpPrice": "7.2"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 3.64,
+          "gmpPrice": "5.5"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 2.32,
+          "gmpPrice": "3.5"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 1.32,
+          "gmpPrice": "2"
+        },
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹5012.33 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
