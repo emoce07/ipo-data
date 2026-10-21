@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-21",
-  "updatedAtTime": "2026-10-21T13:59:49.950265+00:00",
+  "updatedAtTime": "2026-10-21T18:10:18.185267+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -475,8 +475,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 21.98,
-      "gmpPrice": "246",
+      "gmpPercent": 22.16,
+      "gmpPrice": "248",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -555,8 +555,8 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 21.98,
-          "gmpPrice": "246"
+          "gmpPercent": 22.16,
+          "gmpPrice": "248"
         }
       ],
       "dataComplete": true,
@@ -1035,8 +1035,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-12T11:10:38.040714+00:00",
-      "gmpPercent": 6.98,
-      "gmpPrice": "24",
+      "gmpPercent": 6.1,
+      "gmpPrice": "21",
       "gmpHistory": [
         {
           "date": "2026-10-11",
@@ -1085,97 +1085,12 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 6.98,
-          "gmpPrice": "24"
+          "gmpPercent": 6.1,
+          "gmpPrice": "21"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹475.48 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Fusion CX IPO",
-      "company": "Fusion CX",
-      "openDate": "2026-10-14",
-      "closeDate": "2026-10-16",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-19",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-22",
-      "datesScrapedOn": "2026-10-21",
-      "priceBand": "₹289",
-      "maxPrice": 289,
-      "lotSize": 51,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 5.88,
-      "gmpPrice": "17",
-      "gmpHistory": [
-        {
-          "date": "2026-10-09",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-10",
-          "gmpPercent": 19.03,
-          "gmpPrice": "55"
-        },
-        {
-          "date": "2026-10-11",
-          "gmpPercent": 8.65,
-          "gmpPrice": "25"
-        },
-        {
-          "date": "2026-10-12",
-          "gmpPercent": 3.46,
-          "gmpPrice": "10"
-        },
-        {
-          "date": "2026-10-14",
-          "gmpPercent": 12.63,
-          "gmpPrice": "36.5"
-        },
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 10.38,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 4.84,
-          "gmpPrice": "14"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 5.19,
-          "gmpPrice": "15"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 6.57,
-          "gmpPrice": "19"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 4.5,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 6.92,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 5.88,
-          "gmpPrice": "17"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹702.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1269,6 +1184,91 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Fusion CX IPO",
+      "company": "Fusion CX",
+      "openDate": "2026-10-14",
+      "closeDate": "2026-10-16",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-19",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-22",
+      "datesScrapedOn": "2026-10-21",
+      "priceBand": "₹289",
+      "maxPrice": 289,
+      "lotSize": 51,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 4.67,
+      "gmpPrice": "13.5",
+      "gmpHistory": [
+        {
+          "date": "2026-10-09",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-10",
+          "gmpPercent": 19.03,
+          "gmpPrice": "55"
+        },
+        {
+          "date": "2026-10-11",
+          "gmpPercent": 8.65,
+          "gmpPrice": "25"
+        },
+        {
+          "date": "2026-10-12",
+          "gmpPercent": 3.46,
+          "gmpPrice": "10"
+        },
+        {
+          "date": "2026-10-14",
+          "gmpPercent": 12.63,
+          "gmpPrice": "36.5"
+        },
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 10.38,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 4.84,
+          "gmpPrice": "14"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 5.19,
+          "gmpPrice": "15"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 6.57,
+          "gmpPrice": "19"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 4.5,
+          "gmpPrice": "13"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 6.92,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 4.67,
+          "gmpPrice": "13.5"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹702.00 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Paras Healthcare IPO",
       "company": "Paras Healthcare",
       "openDate": "2026-10-21",
@@ -1285,8 +1285,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
-      "gmpPercent": 5.05,
-      "gmpPrice": "35",
+      "gmpPercent": 3.61,
+      "gmpPrice": "25",
       "gmpHistory": [
         {
           "date": "2026-10-15",
@@ -1320,8 +1320,8 @@
         },
         {
           "date": "2026-10-21",
-          "gmpPercent": 5.05,
-          "gmpPrice": "35"
+          "gmpPercent": 3.61,
+          "gmpPrice": "25"
         }
       ],
       "dataComplete": true,
