@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-23",
-  "updatedAtTime": "2026-10-23T08:44:23.657438+00:00",
+  "updatedAtTime": "2026-10-23T13:40:42.403896+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -255,8 +255,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 22.7,
-      "gmpPrice": "254",
+      "gmpPercent": 22.97,
+      "gmpPrice": "257",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -345,8 +345,8 @@
         },
         {
           "date": "2026-10-23",
-          "gmpPercent": 22.7,
-          "gmpPrice": "254"
+          "gmpPercent": 22.97,
+          "gmpPrice": "257"
         }
       ],
       "dataComplete": true,
@@ -586,6 +586,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹2533.66 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Bombay Coated and Special Steels IPO",
+      "company": "Bombay Coated and Special Steels",
+      "openDate": "2026-10-29",
+      "closeDate": "2026-11-02",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-10-23",
+      "priceBand": "₹82",
+      "maxPrice": 82,
+      "lotSize": 182,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-23T08:43:58.227340+00:00",
+      "gmpPercent": 9.76,
+      "gmpPrice": "8",
+      "gmpHistory": [
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 9.76,
+          "gmpPrice": "8"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹183.06 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1219,6 +1249,76 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Paras Healthcare IPO",
+      "company": "Paras Healthcare",
+      "openDate": "2026-10-21",
+      "closeDate": "2026-10-23",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-26",
+      "listingDate": "",
+      "listingDateTentative": "2026-10-28",
+      "datesScrapedOn": "2026-10-23",
+      "priceBand": "₹693",
+      "maxPrice": 693,
+      "lotSize": 21,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
+      "gmpPercent": 1.59,
+      "gmpPrice": "11",
+      "gmpHistory": [
+        {
+          "date": "2026-10-15",
+          "gmpPercent": 16.02,
+          "gmpPrice": "111"
+        },
+        {
+          "date": "2026-10-16",
+          "gmpPercent": 13.56,
+          "gmpPrice": "94"
+        },
+        {
+          "date": "2026-10-17",
+          "gmpPercent": 13.85,
+          "gmpPrice": "96"
+        },
+        {
+          "date": "2026-10-18",
+          "gmpPercent": 13.28,
+          "gmpPrice": "92"
+        },
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 11.26,
+          "gmpPrice": "78"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 7.22,
+          "gmpPrice": "50"
+        },
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 3.61,
+          "gmpPrice": "25"
+        },
+        {
+          "date": "2026-10-22",
+          "gmpPercent": 1.88,
+          "gmpPrice": "13"
+        },
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 1.59,
+          "gmpPrice": "11"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹1450.00 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Nityas Gems & Jewellery IPO",
       "company": "Nityas Gems & Jewellery",
       "openDate": "2026-09-30",
@@ -1634,106 +1734,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Paras Healthcare IPO",
-      "company": "Paras Healthcare",
-      "openDate": "2026-10-21",
-      "closeDate": "2026-10-23",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-26",
-      "listingDate": "",
-      "listingDateTentative": "2026-10-28",
-      "datesScrapedOn": "2026-10-23",
-      "priceBand": "₹693",
-      "maxPrice": 693,
-      "lotSize": 21,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
-      "gmpPercent": 0.72,
-      "gmpPrice": "5",
-      "gmpHistory": [
-        {
-          "date": "2026-10-15",
-          "gmpPercent": 16.02,
-          "gmpPrice": "111"
-        },
-        {
-          "date": "2026-10-16",
-          "gmpPercent": 13.56,
-          "gmpPrice": "94"
-        },
-        {
-          "date": "2026-10-17",
-          "gmpPercent": 13.85,
-          "gmpPrice": "96"
-        },
-        {
-          "date": "2026-10-18",
-          "gmpPercent": 13.28,
-          "gmpPrice": "92"
-        },
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 11.26,
-          "gmpPrice": "78"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 7.22,
-          "gmpPrice": "50"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 3.61,
-          "gmpPrice": "25"
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 1.88,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 0.72,
-          "gmpPrice": "5"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹1450.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Bombay Coated and Special Steels IPO",
-      "company": "Bombay Coated and Special Steels",
-      "openDate": "2026-10-29",
-      "closeDate": "2026-11-02",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-10-23",
-      "priceBand": "₹82",
-      "maxPrice": 82,
-      "lotSize": 182,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-23T08:43:58.227340+00:00",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹183.06 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Carver Roboweld IPO",
       "company": "Carver Roboweld",
       "openDate": "2026-10-28",
@@ -1790,7 +1790,7 @@
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹330.48 Cr",
+      "ipoSize": "₹275.40 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
