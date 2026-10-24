@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-24",
-  "updatedAtTime": "2026-10-24T08:19:06.013111+00:00",
+  "updatedAtTime": "2026-10-24T12:50:18.020554+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -116,6 +116,61 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹48.46 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "BLS Polymers IPO",
+      "company": "BLS Polymers",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-30",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-03",
+      "datesScrapedOn": "2026-10-24",
+      "priceBand": "₹150",
+      "maxPrice": 150,
+      "lotSize": 100,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
+      "gmpPercent": 26.0,
+      "gmpPrice": "39",
+      "gmpHistory": [
+        {
+          "date": "2026-10-19",
+          "gmpPercent": 12.0,
+          "gmpPrice": "18"
+        },
+        {
+          "date": "2026-10-20",
+          "gmpPercent": 20.0,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 20.0,
+          "gmpPrice": "30"
+        },
+        {
+          "date": "2026-10-22",
+          "gmpPercent": 25.33,
+          "gmpPrice": "38"
+        },
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 25.33,
+          "gmpPrice": "38"
+        },
+        {
+          "date": "2026-10-24",
+          "gmpPercent": 26.0,
+          "gmpPrice": "39"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹255.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -245,8 +300,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 22.25,
-      "gmpPrice": "249",
+      "gmpPercent": 22.16,
+      "gmpPrice": "248",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -340,67 +395,12 @@
         },
         {
           "date": "2026-10-24",
-          "gmpPercent": 22.25,
-          "gmpPrice": "249"
+          "gmpPercent": 22.16,
+          "gmpPrice": "248"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹30213.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "BLS Polymers IPO",
-      "company": "BLS Polymers",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-10-24",
-      "priceBand": "₹150",
-      "maxPrice": 150,
-      "lotSize": 100,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 22.0,
-      "gmpPrice": "33",
-      "gmpHistory": [
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 12.0,
-          "gmpPrice": "18"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 20.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 20.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 25.33,
-          "gmpPrice": "38"
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 25.33,
-          "gmpPrice": "38"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 22.0,
-          "gmpPrice": "33"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹255.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -689,6 +689,51 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "SFC Environmental Technologies IPO",
+      "company": "SFC Environmental Technologies",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-30",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-03",
+      "datesScrapedOn": "2026-10-24",
+      "priceBand": "₹330",
+      "maxPrice": 330,
+      "lotSize": 45,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
+      "gmpPercent": 9.7,
+      "gmpPrice": "32",
+      "gmpHistory": [
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 9.39,
+          "gmpPrice": "31"
+        },
+        {
+          "date": "2026-10-22",
+          "gmpPercent": 6.36,
+          "gmpPrice": "21"
+        },
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 6.36,
+          "gmpPrice": "21"
+        },
+        {
+          "date": "2026-10-24",
+          "gmpPercent": 9.7,
+          "gmpPrice": "32"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹667.53 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Shree TNB Polymers IPO",
       "company": "Shree TNB Polymers",
       "openDate": "2026-09-28",
@@ -825,8 +870,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
-      "gmpPercent": 6.91,
-      "gmpPrice": "115",
+      "gmpPercent": 5.71,
+      "gmpPrice": "95",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -845,57 +890,12 @@
         },
         {
           "date": "2026-10-24",
-          "gmpPercent": 6.91,
-          "gmpPrice": "115"
+          "gmpPercent": 5.71,
+          "gmpPrice": "95"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹1200.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "SFC Environmental Technologies IPO",
-      "company": "SFC Environmental Technologies",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-10-24",
-      "priceBand": "₹330",
-      "maxPrice": 330,
-      "lotSize": 45,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 6.36,
-      "gmpPrice": "21",
-      "gmpHistory": [
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 9.39,
-          "gmpPrice": "31"
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹667.53 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
