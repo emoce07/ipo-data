@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-27",
-  "updatedAtTime": "2026-10-27T09:13:47.739631+00:00",
+  "updatedAtTime": "2026-10-27T14:47:33.531406+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -120,8 +120,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 27.33,
-      "gmpPrice": "41",
+      "gmpPercent": 29.33,
+      "gmpPrice": "44",
       "gmpHistory": [
         {
           "date": "2026-10-19",
@@ -165,8 +165,8 @@
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 27.33,
-          "gmpPrice": "41"
+          "gmpPercent": 29.33,
+          "gmpPrice": "44"
         }
       ],
       "dataComplete": true,
@@ -190,8 +190,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 23.59,
-      "gmpPrice": "264",
+      "gmpPercent": 21.81,
+      "gmpPrice": "244",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -300,12 +300,42 @@
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 23.59,
-          "gmpPrice": "264"
+          "gmpPercent": 21.81,
+          "gmpPrice": "244"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹30187.65 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Maxwell Engineering Solutions IPO",
+      "company": "Maxwell Engineering Solutions",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-04",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-06",
+      "datesScrapedOn": "2026-10-27",
+      "priceBand": "₹158",
+      "maxPrice": 158,
+      "lotSize": 800,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-27T07:30:41.721092+00:00",
+      "gmpPercent": 15.82,
+      "gmpPrice": "25",
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 15.82,
+          "gmpPrice": "25"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹57.64 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -399,93 +429,53 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Maxwell Engineering Solutions IPO",
-      "company": "Maxwell Engineering Solutions",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
+      "name": "M.K.Sons Fine Jewels IPO",
+      "company": "M.K.Sons Fine Jewels",
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
       "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-04",
+      "allotmentDateTentative": "",
       "listingDate": "",
-      "listingDateTentative": "2026-11-06",
+      "listingDateTentative": "",
       "datesScrapedOn": "2026-10-27",
-      "priceBand": "₹158",
-      "maxPrice": 158,
-      "lotSize": 800,
-      "registrar": "KFin Technologies",
+      "priceBand": "₹162",
+      "maxPrice": 162,
+      "lotSize": 91,
+      "registrar": "Bigshare Services",
       "registrarUrl": "",
       "registrarTries": 1,
-      "registrarLastTry": "2026-10-27T07:30:41.721092+00:00",
-      "gmpPercent": 8.86,
-      "gmpPrice": "14",
+      "registrarLastTry": "2026-10-23T08:44:07.279424+00:00",
+      "gmpPercent": 5.56,
+      "gmpPrice": "9",
       "gmpHistory": [
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 8.86,
-          "gmpPrice": "14"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹57.64 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "SFC Environmental Technologies IPO",
-      "company": "SFC Environmental Technologies",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-10-27",
-      "priceBand": "₹330",
-      "maxPrice": 330,
-      "lotSize": 45,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 5.45,
-      "gmpPrice": "18",
-      "gmpHistory": [
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 9.39,
-          "gmpPrice": "31"
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        },
         {
           "date": "2026-10-23",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         },
         {
           "date": "2026-10-24",
-          "gmpPercent": 9.7,
-          "gmpPrice": "32"
+          "gmpPercent": 4.94,
+          "gmpPrice": "8"
         },
         {
           "date": "2026-10-25",
-          "gmpPercent": 9.7,
-          "gmpPrice": "32"
+          "gmpPercent": 4.32,
+          "gmpPrice": "7"
         },
         {
           "date": "2026-10-26",
-          "gmpPercent": 6.67,
-          "gmpPrice": "22"
+          "gmpPercent": 4.94,
+          "gmpPrice": "8"
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 5.45,
-          "gmpPrice": "18"
+          "gmpPercent": 5.56,
+          "gmpPrice": "9"
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹667.53 Cr",
+      "ipoSize": "₹275.40 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -594,53 +584,63 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "M.K.Sons Fine Jewels IPO",
-      "company": "M.K.Sons Fine Jewels",
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
+      "name": "SFC Environmental Technologies IPO",
+      "company": "SFC Environmental Technologies",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
       "allotmentDate": "",
-      "allotmentDateTentative": "",
+      "allotmentDateTentative": "2026-10-30",
       "listingDate": "",
-      "listingDateTentative": "",
+      "listingDateTentative": "2026-11-03",
       "datesScrapedOn": "2026-10-27",
-      "priceBand": "₹162",
-      "maxPrice": 162,
-      "lotSize": 91,
-      "registrar": "Bigshare Services",
+      "priceBand": "₹330",
+      "maxPrice": 330,
+      "lotSize": 45,
+      "registrar": "Link Intime",
       "registrarUrl": "",
       "registrarTries": 1,
-      "registrarLastTry": "2026-10-23T08:44:07.279424+00:00",
-      "gmpPercent": 4.32,
-      "gmpPrice": "7",
+      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
+      "gmpPercent": 4.55,
+      "gmpPrice": "15",
       "gmpHistory": [
         {
+          "date": "2026-10-21",
+          "gmpPercent": 9.39,
+          "gmpPrice": "31"
+        },
+        {
+          "date": "2026-10-22",
+          "gmpPercent": 6.36,
+          "gmpPrice": "21"
+        },
+        {
           "date": "2026-10-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 6.36,
+          "gmpPrice": "21"
         },
         {
           "date": "2026-10-24",
-          "gmpPercent": 4.94,
-          "gmpPrice": "8"
+          "gmpPercent": 9.7,
+          "gmpPrice": "32"
         },
         {
           "date": "2026-10-25",
-          "gmpPercent": 4.32,
-          "gmpPrice": "7"
+          "gmpPercent": 9.7,
+          "gmpPrice": "32"
         },
         {
           "date": "2026-10-26",
-          "gmpPercent": 4.94,
-          "gmpPrice": "8"
+          "gmpPercent": 6.67,
+          "gmpPrice": "22"
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 4.32,
-          "gmpPrice": "7"
+          "gmpPercent": 4.55,
+          "gmpPrice": "15"
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹275.40 Cr",
+      "ipoSize": "₹667.53 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -760,8 +760,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:32:02.196729+00:00",
-      "gmpPercent": 1.73,
-      "gmpPrice": "12",
+      "gmpPercent": 2.31,
+      "gmpPrice": "16",
       "gmpHistory": [
         {
           "date": "2026-10-15",
@@ -825,8 +825,8 @@
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 1.73,
-          "gmpPrice": "12"
+          "gmpPercent": 2.31,
+          "gmpPrice": "16"
         }
       ],
       "dataComplete": true,
@@ -1026,6 +1026,66 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹56.02 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "HGS (India) IPO",
+      "company": "HGS (India)",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-04",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-06",
+      "datesScrapedOn": "2026-10-27",
+      "priceBand": "₹120",
+      "maxPrice": 120,
+      "lotSize": 1200,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-27T07:31:05.129629+00:00",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹34.56 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Vectras Enprocon IPO",
+      "company": "Vectras Enprocon",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-10-27",
+      "priceBand": "₹105",
+      "maxPrice": 105,
+      "lotSize": 1200,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-27T07:31:10.764453+00:00",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹53.05 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1241,54 +1301,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹54.82 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "HGS (India) IPO",
-      "company": "HGS (India)",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-04",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-10-27",
-      "priceBand": "₹120",
-      "maxPrice": 120,
-      "lotSize": 1200,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-27T07:31:05.129629+00:00",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": true,
-      "ipoSize": "₹34.56 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Vectras Enprocon IPO",
-      "company": "Vectras Enprocon",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-10-27",
-      "priceBand": "₹105",
-      "maxPrice": 105,
-      "lotSize": 1200,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-27T07:31:10.764453+00:00",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": true,
-      "ipoSize": "₹53.05 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
