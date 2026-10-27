@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-27",
-  "updatedAtTime": "2026-10-27T07:31:13.093627+00:00",
+  "updatedAtTime": "2026-10-27T09:13:47.739631+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -120,8 +120,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 26.0,
-      "gmpPrice": "39",
+      "gmpPercent": 27.33,
+      "gmpPrice": "41",
       "gmpHistory": [
         {
           "date": "2026-10-19",
@@ -165,8 +165,8 @@
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 26.0,
-          "gmpPrice": "39"
+          "gmpPercent": 27.33,
+          "gmpPrice": "41"
         }
       ],
       "dataComplete": true,
@@ -190,8 +190,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-15T08:31:33.786499+00:00",
-      "gmpPercent": 23.32,
-      "gmpPrice": "261",
+      "gmpPercent": 23.59,
+      "gmpPrice": "264",
       "gmpHistory": [
         {
           "date": "2026-10-05",
@@ -300,8 +300,8 @@
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 23.32,
-          "gmpPrice": "261"
+          "gmpPercent": 23.59,
+          "gmpPrice": "264"
         }
       ],
       "dataComplete": true,
@@ -396,6 +396,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹183.06 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Maxwell Engineering Solutions IPO",
+      "company": "Maxwell Engineering Solutions",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-04",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-06",
+      "datesScrapedOn": "2026-10-27",
+      "priceBand": "₹158",
+      "maxPrice": 158,
+      "lotSize": 800,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-27T07:30:41.721092+00:00",
+      "gmpPercent": 8.86,
+      "gmpPrice": "14",
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 8.86,
+          "gmpPrice": "14"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹57.64 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -925,8 +955,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
-      "gmpPercent": 0.72,
-      "gmpPrice": "12",
+      "gmpPercent": 0.6,
+      "gmpPrice": "10",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -960,8 +990,8 @@
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 0.72,
-          "gmpPrice": "12"
+          "gmpPercent": 0.6,
+          "gmpPrice": "10"
         }
       ],
       "dataComplete": true,
@@ -996,36 +1026,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹56.02 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Maxwell Engineering Solutions IPO",
-      "company": "Maxwell Engineering Solutions",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-04",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-10-27",
-      "priceBand": "₹158",
-      "maxPrice": 158,
-      "lotSize": 800,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-27T07:30:41.721092+00:00",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹57.64 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
