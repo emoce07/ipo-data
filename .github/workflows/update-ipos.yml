@@ -448,6 +448,34 @@ jobs:
               }
               ipos.append(ipo_entry)
 
+          # Don't publish IPOs that are already old news (the app hides them anyway, and
+          # older app versions would otherwise store every one). Same rule as the app:
+          # closed more than 12 days ago, or listed more than 4 days ago. Unparseable dates are kept.
+          def _parse_any_date(txt):
+              txt = (txt or "").strip()
+              if not txt:
+                  return None
+              for fmt in ("%Y-%m-%d", "%d-%m-%Y", "%d/%m/%Y", "%Y/%m/%d", "%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y"):
+                  try:
+                      return datetime.strptime(txt, fmt).date()
+                  except ValueError:
+                      pass
+              return None
+
+          def _is_old(entry):
+              today = date.today()
+              c = _parse_any_date(entry.get("closeDate"))
+              if c and c < today - timedelta(days=12):
+                  return True
+              l = _parse_any_date(entry.get("listingDate") or entry.get("listingDateTentative"))
+              if l and l < today - timedelta(days=4):
+                  return True
+              return False
+
+          _before = len(ipos)
+          ipos = [e for e in ipos if not _is_old(e)]
+          print(f"Dropped {_before - len(ipos)} old IPO(s); publishing {len(ipos)}")
+
           output = {
               "updatedAt": date.today().isoformat(),
               "updatedAtTime": datetime.now(timezone.utc).isoformat(),
