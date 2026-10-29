@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-29",
-  "updatedAtTime": "2026-10-29T10:16:55.817365+00:00",
+  "updatedAtTime": "2026-10-29T15:23:11.846038+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 34.0,
-      "gmpPrice": "51",
+      "gmpPercent": 46.67,
+      "gmpPrice": "70",
       "gmpHistory": [
         {
           "date": "2026-10-19",
@@ -75,8 +75,8 @@
         },
         {
           "date": "2026-10-29",
-          "gmpPercent": 34.0,
-          "gmpPrice": "51"
+          "gmpPercent": 46.67,
+          "gmpPrice": "70"
         }
       ],
       "dataComplete": true,
@@ -269,56 +269,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Ajwa Projects IPO",
-      "company": "Ajwa Projects",
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-02",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-04",
-      "datesScrapedOn": "2026-10-29",
-      "priceBand": "₹203",
-      "maxPrice": 203,
-      "lotSize": 600,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-24T08:19:03.720912+00:00",
-      "gmpPercent": 13.3,
-      "gmpPrice": "27",
-      "gmpHistory": [
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 12.32,
-          "gmpPrice": "25"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 17.24,
-          "gmpPrice": "35"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 13.3,
-          "gmpPrice": "27"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹38.05 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Bombay Coated and Special Steels IPO",
       "company": "Bombay Coated and Special Steels",
       "openDate": "2026-10-29",
@@ -379,46 +329,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Johnsoncab Electricals IPO",
-      "company": "Johnsoncab Electricals",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-04",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-10-29",
-      "priceBand": "₹200",
-      "maxPrice": 200,
-      "lotSize": 600,
-      "registrar": "Maashitla Securities",
-      "registrarUrl": "",
-      "registrarTries": 2,
-      "registrarLastTry": "2026-10-28T09:53:53.372474+00:00",
-      "gmpPercent": 10.0,
-      "gmpPrice": "20",
-      "gmpHistory": [
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 4.5,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 10.0,
-          "gmpPrice": "20"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹56.02 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "M.K.Sons Fine Jewels IPO",
       "company": "M.K.Sons Fine Jewels",
       "openDate": "2026-10-28",
@@ -435,8 +345,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-23T08:44:07.279424+00:00",
-      "gmpPercent": 8.64,
-      "gmpPrice": "14",
+      "gmpPercent": 7.1,
+      "gmpPrice": "11.5",
       "gmpHistory": [
         {
           "date": "2026-10-23",
@@ -470,12 +380,52 @@
         },
         {
           "date": "2026-10-29",
-          "gmpPercent": 8.64,
-          "gmpPrice": "14"
+          "gmpPercent": 7.1,
+          "gmpPrice": "11.5"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹275.40 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Johnsoncab Electricals IPO",
+      "company": "Johnsoncab Electricals",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-04",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-06",
+      "datesScrapedOn": "2026-10-29",
+      "priceBand": "₹200",
+      "maxPrice": 200,
+      "lotSize": 600,
+      "registrar": "Maashitla Securities",
+      "registrarUrl": "",
+      "registrarTries": 2,
+      "registrarLastTry": "2026-10-28T09:53:53.372474+00:00",
+      "gmpPercent": 6.5,
+      "gmpPrice": "13",
+      "gmpHistory": [
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-28",
+          "gmpPercent": 4.5,
+          "gmpPrice": "9"
+        },
+        {
+          "date": "2026-10-29",
+          "gmpPercent": 6.5,
+          "gmpPrice": "13"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹56.02 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -495,8 +445,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 2.88,
-      "gmpPrice": "9.5",
+      "gmpPercent": 5.76,
+      "gmpPrice": "19",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -540,12 +490,132 @@
         },
         {
           "date": "2026-10-29",
-          "gmpPercent": 2.88,
-          "gmpPrice": "9.5"
+          "gmpPercent": 5.76,
+          "gmpPrice": "19"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹667.53 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Ajwa Projects IPO",
+      "company": "Ajwa Projects",
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-02",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-04",
+      "datesScrapedOn": "2026-10-29",
+      "priceBand": "₹203",
+      "maxPrice": 203,
+      "lotSize": 600,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-24T08:19:03.720912+00:00",
+      "gmpPercent": 2.46,
+      "gmpPrice": "5",
+      "gmpHistory": [
+        {
+          "date": "2026-10-25",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-26",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 12.32,
+          "gmpPrice": "25"
+        },
+        {
+          "date": "2026-10-28",
+          "gmpPercent": 17.24,
+          "gmpPrice": "35"
+        },
+        {
+          "date": "2026-10-29",
+          "gmpPercent": 2.46,
+          "gmpPrice": "5"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹38.05 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "EAAA India Alternatives IPO",
+      "company": "EAAA India Alternatives",
+      "openDate": "2026-10-26",
+      "closeDate": "2026-10-28",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-10-29",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-02",
+      "datesScrapedOn": "2026-10-29",
+      "priceBand": "₹1665",
+      "maxPrice": 1665,
+      "lotSize": 9,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
+      "gmpPercent": 2.28,
+      "gmpPrice": "38",
+      "gmpHistory": [
+        {
+          "date": "2026-10-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-22",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 7.27,
+          "gmpPrice": "121"
+        },
+        {
+          "date": "2026-10-24",
+          "gmpPercent": 5.71,
+          "gmpPrice": "95"
+        },
+        {
+          "date": "2026-10-25",
+          "gmpPercent": 2.34,
+          "gmpPrice": "39"
+        },
+        {
+          "date": "2026-10-26",
+          "gmpPercent": 1.38,
+          "gmpPrice": "23"
+        },
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 0.6,
+          "gmpPrice": "10"
+        },
+        {
+          "date": "2026-10-28",
+          "gmpPercent": 1.5,
+          "gmpPrice": "25"
+        },
+        {
+          "date": "2026-10-29",
+          "gmpPercent": 2.28,
+          "gmpPrice": "38"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹1200.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -646,76 +716,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹1450.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "EAAA India Alternatives IPO",
-      "company": "EAAA India Alternatives",
-      "openDate": "2026-10-26",
-      "closeDate": "2026-10-28",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-29",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-02",
-      "datesScrapedOn": "2026-10-29",
-      "priceBand": "₹1665",
-      "maxPrice": 1665,
-      "lotSize": 9,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
-      "gmpPercent": 1.62,
-      "gmpPrice": "27",
-      "gmpHistory": [
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 7.27,
-          "gmpPrice": "121"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 5.71,
-          "gmpPrice": "95"
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 2.34,
-          "gmpPrice": "39"
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 1.38,
-          "gmpPrice": "23"
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.6,
-          "gmpPrice": "10"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 1.5,
-          "gmpPrice": "25"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 1.62,
-          "gmpPrice": "27"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹1200.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
