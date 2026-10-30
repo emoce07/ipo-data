@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-30",
-  "updatedAtTime": "2026-10-30T10:18:11.169293+00:00",
+  "updatedAtTime": "2026-10-30T15:11:27.863808+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 49.33,
-      "gmpPrice": "74",
+      "gmpPercent": 48.67,
+      "gmpPrice": "73",
       "gmpHistory": [
         {
           "date": "2026-10-19",
@@ -80,8 +80,8 @@
         },
         {
           "date": "2026-10-30",
-          "gmpPercent": 49.33,
-          "gmpPrice": "74"
+          "gmpPercent": 48.67,
+          "gmpPrice": "73"
         }
       ],
       "dataComplete": true,
@@ -394,6 +394,71 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Carver Roboweld IPO",
+      "company": "Carver Roboweld",
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-02",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-04",
+      "datesScrapedOn": "2026-10-30",
+      "priceBand": "₹80",
+      "maxPrice": 80,
+      "lotSize": 1600,
+      "registrar": "Bigshare Services",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-23T08:44:01.213860+00:00",
+      "gmpPercent": 6.25,
+      "gmpPrice": "5",
+      "gmpHistory": [
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-24",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-25",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-26",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-28",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-29",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-30",
+          "gmpPercent": 6.25,
+          "gmpPrice": "5"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹28.29 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "SFC Environmental Technologies IPO",
       "company": "SFC Environmental Technologies",
       "openDate": "2026-10-27",
@@ -410,8 +475,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 6.36,
-      "gmpPrice": "21",
+      "gmpPercent": 6.06,
+      "gmpPrice": "20",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -460,8 +525,8 @@
         },
         {
           "date": "2026-10-30",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
+          "gmpPercent": 6.06,
+          "gmpPrice": "20"
         }
       ],
       "dataComplete": true,
@@ -514,24 +579,24 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Carver Roboweld IPO",
-      "company": "Carver Roboweld",
+      "name": "M.K.Sons Fine Jewels IPO",
+      "company": "M.K.Sons Fine Jewels",
       "openDate": "2026-10-28",
       "closeDate": "2026-10-30",
       "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-02",
+      "allotmentDateTentative": "",
       "listingDate": "",
-      "listingDateTentative": "2026-11-04",
+      "listingDateTentative": "",
       "datesScrapedOn": "2026-10-30",
-      "priceBand": "₹80",
-      "maxPrice": 80,
-      "lotSize": 1600,
+      "priceBand": "₹162",
+      "maxPrice": 162,
+      "lotSize": 91,
       "registrar": "Bigshare Services",
       "registrarUrl": "",
       "registrarTries": 1,
-      "registrarLastTry": "2026-10-23T08:44:01.213860+00:00",
-      "gmpPercent": 3.75,
-      "gmpPrice": "3",
+      "registrarLastTry": "2026-10-23T08:44:07.279424+00:00",
+      "gmpPercent": 3.89,
+      "gmpPrice": "6.3",
       "gmpHistory": [
         {
           "date": "2026-10-23",
@@ -540,42 +605,42 @@
         },
         {
           "date": "2026-10-24",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 4.94,
+          "gmpPrice": "8"
         },
         {
           "date": "2026-10-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 4.32,
+          "gmpPrice": "7"
         },
         {
           "date": "2026-10-26",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 4.94,
+          "gmpPrice": "8"
         },
         {
           "date": "2026-10-27",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 5.56,
+          "gmpPrice": "9"
         },
         {
           "date": "2026-10-28",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 8.02,
+          "gmpPrice": "13"
         },
         {
           "date": "2026-10-29",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPercent": 7.1,
+          "gmpPrice": "11.5"
         },
         {
           "date": "2026-10-30",
-          "gmpPercent": 3.75,
-          "gmpPrice": "3"
+          "gmpPercent": 3.89,
+          "gmpPrice": "6.3"
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹28.29 Cr",
+      "ipoSize": "₹275.40 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -595,8 +660,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
-      "gmpPercent": 3.18,
-      "gmpPrice": "53",
+      "gmpPercent": 3.12,
+      "gmpPrice": "52",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -645,77 +710,12 @@
         },
         {
           "date": "2026-10-30",
-          "gmpPercent": 3.18,
-          "gmpPrice": "53"
+          "gmpPercent": 3.12,
+          "gmpPrice": "52"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹1200.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "M.K.Sons Fine Jewels IPO",
-      "company": "M.K.Sons Fine Jewels",
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-10-30",
-      "priceBand": "₹162",
-      "maxPrice": 162,
-      "lotSize": 91,
-      "registrar": "Bigshare Services",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-23T08:44:07.279424+00:00",
-      "gmpPercent": 2.47,
-      "gmpPrice": "4",
-      "gmpHistory": [
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 4.94,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 4.32,
-          "gmpPrice": "7"
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 4.94,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 5.56,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 8.02,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 7.1,
-          "gmpPrice": "11.5"
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 2.47,
-          "gmpPrice": "4"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹275.40 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
