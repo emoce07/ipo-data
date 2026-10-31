@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-31",
-  "updatedAtTime": "2026-10-31T09:51:38.695259+00:00",
+  "updatedAtTime": "2026-10-31T14:39:55.908504+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 44.67,
-      "gmpPrice": "67",
+      "gmpPercent": 45.33,
+      "gmpPrice": "68",
       "gmpHistory": [
         {
           "date": "2026-10-19",
@@ -85,8 +85,8 @@
         },
         {
           "date": "2026-10-31",
-          "gmpPercent": 44.67,
-          "gmpPrice": "67"
+          "gmpPercent": 45.33,
+          "gmpPrice": "68"
         }
       ],
       "dataComplete": true,
@@ -435,8 +435,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 7.73,
-      "gmpPrice": "25.5",
+      "gmpPercent": 6.97,
+      "gmpPrice": "23",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -490,8 +490,8 @@
         },
         {
           "date": "2026-10-31",
-          "gmpPercent": 7.73,
-          "gmpPrice": "25.5"
+          "gmpPercent": 6.97,
+          "gmpPrice": "23"
         }
       ],
       "dataComplete": true,
@@ -585,8 +585,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-31T09:51:19.085916+00:00",
-      "gmpPercent": 4.52,
-      "gmpPrice": "4.25",
+      "gmpPercent": 5.32,
+      "gmpPrice": "5",
       "gmpHistory": [
         {
           "date": "2026-10-29",
@@ -600,8 +600,8 @@
         },
         {
           "date": "2026-10-31",
-          "gmpPercent": 4.52,
-          "gmpPrice": "4.25"
+          "gmpPercent": 5.32,
+          "gmpPrice": "5"
         }
       ],
       "dataComplete": true,
@@ -695,8 +695,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
-      "gmpPercent": 3.18,
-      "gmpPrice": "53",
+      "gmpPercent": 3.24,
+      "gmpPrice": "54",
       "gmpHistory": [
         {
           "date": "2026-10-21",
@@ -750,8 +750,8 @@
         },
         {
           "date": "2026-10-31",
-          "gmpPercent": 3.18,
-          "gmpPrice": "53"
+          "gmpPercent": 3.24,
+          "gmpPrice": "54"
         }
       ],
       "dataComplete": true,
