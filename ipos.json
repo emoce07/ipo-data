@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-03",
-  "updatedAtTime": "2026-11-03T11:11:35.066607+00:00",
+  "updatedAtTime": "2026-11-03T16:30:08.897983+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -395,8 +395,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-10-23T08:44:07.279424+00:00",
-      "gmpPercent": 6.79,
-      "gmpPrice": "11",
+      "gmpPercent": 7.1,
+      "gmpPrice": "11.5",
       "gmpHistory": [
         {
           "date": "2026-10-23",
@@ -455,12 +455,97 @@
         },
         {
           "date": "2026-11-03",
-          "gmpPercent": 6.79,
-          "gmpPrice": "11"
+          "gmpPercent": 7.1,
+          "gmpPrice": "11.5"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹275.40 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Carver Roboweld IPO",
+      "company": "Carver Roboweld",
+      "openDate": "2026-10-28",
+      "closeDate": "2026-10-30",
+      "allotmentDate": "",
+      "allotmentDateTentative": "2026-11-02",
+      "listingDate": "",
+      "listingDateTentative": "2026-11-04",
+      "datesScrapedOn": "2026-11-03",
+      "priceBand": "₹80",
+      "maxPrice": 80,
+      "lotSize": 1600,
+      "registrar": "Bigshare Services",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-10-23T08:44:01.213860+00:00",
+      "gmpPercent": 5.0,
+      "gmpPrice": "4",
+      "gmpHistory": [
+        {
+          "date": "2026-10-23",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-24",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-25",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-26",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-27",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-28",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-29",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-10-30",
+          "gmpPercent": 6.25,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-10-31",
+          "gmpPercent": 6.25,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-11-01",
+          "gmpPercent": 6.25,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-11-02",
+          "gmpPercent": 6.25,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-11-03",
+          "gmpPercent": 5.0,
+          "gmpPrice": "4"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹28.29 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -621,91 +706,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹56.02 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Carver Roboweld IPO",
-      "company": "Carver Roboweld",
-      "openDate": "2026-10-28",
-      "closeDate": "2026-10-30",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-02",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-04",
-      "datesScrapedOn": "2026-11-03",
-      "priceBand": "₹80",
-      "maxPrice": 80,
-      "lotSize": 1600,
-      "registrar": "Bigshare Services",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-23T08:44:01.213860+00:00",
-      "gmpPercent": 3.75,
-      "gmpPrice": "3",
-      "gmpHistory": [
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 6.25,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 6.25,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 6.25,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 6.25,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 3.75,
-          "gmpPrice": "3"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹28.29 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
