@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-06",
-  "updatedAtTime": "2026-11-06T11:15:15.753103+00:00",
+  "updatedAtTime": "2026-11-06T16:07:16.854438+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -1316,6 +1316,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹110.00 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Core4 Engineers IPO",
+      "company": "Core4 Engineers",
+      "openDate": "2026-10-23",
+      "closeDate": "2026-10-27",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-06",
+      "priceBand": "₹93",
+      "maxPrice": 93,
+      "lotSize": 1200,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-11-06",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹54.82 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
