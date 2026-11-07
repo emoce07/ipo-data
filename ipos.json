@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06",
-  "updatedAtTime": "2026-11-06T20:03:55.682468+00:00",
+  "updatedAt": "2026-11-07",
+  "updatedAtTime": "2026-11-07T10:31:25.271770+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -811,121 +811,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹56.02 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "EAAA India Alternatives IPO",
-      "company": "EAAA India Alternatives",
-      "openDate": "2026-10-26",
-      "closeDate": "2026-10-28",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-29",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-02",
-      "datesScrapedOn": "2026-11-07",
-      "priceBand": "₹1665",
-      "maxPrice": 1665,
-      "lotSize": 9,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-21T08:46:03.512084+00:00",
-      "gmpPercent": 3.24,
-      "gmpPrice": "54",
-      "gmpHistory": [
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 7.27,
-          "gmpPrice": "121"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 5.71,
-          "gmpPrice": "95"
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 2.34,
-          "gmpPrice": "39"
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 1.38,
-          "gmpPrice": "23"
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.6,
-          "gmpPrice": "10"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 1.5,
-          "gmpPrice": "25"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 2.28,
-          "gmpPrice": "38"
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 3.12,
-          "gmpPrice": "52"
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 3.36,
-          "gmpPrice": "56"
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        },
-        {
-          "date": "2026-11-07",
-          "gmpPercent": 3.24,
-          "gmpPrice": "54"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹1200.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
