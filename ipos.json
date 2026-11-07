@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-07",
-  "updatedAtTime": "2026-11-07T10:31:25.271770+00:00",
+  "updatedAtTime": "2026-11-07T15:00:04.122773+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -811,6 +811,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹56.02 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "EAAA India Alternatives IPO",
+      "company": "EAAA India Alternatives",
+      "openDate": "2026-10-26",
+      "closeDate": "2026-10-28",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-07",
+      "priceBand": "₹1665",
+      "maxPrice": 1665,
+      "lotSize": 9,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-07T14:59:42.688105+00:00",
+      "gmpPercent": 3.24,
+      "gmpPrice": "54",
+      "gmpHistory": [
+        {
+          "date": "2026-11-07",
+          "gmpPercent": 3.24,
+          "gmpPrice": "54"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹1200.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
