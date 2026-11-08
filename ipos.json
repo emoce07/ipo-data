@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-08",
-  "updatedAtTime": "2026-11-08T10:39:39.842089+00:00",
+  "updatedAtTime": "2026-11-08T15:29:34.004423+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -91,6 +91,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹57.64 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "BLS Polymers IPO",
+      "company": "BLS Polymers",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-08",
+      "priceBand": "₹150",
+      "maxPrice": 150,
+      "lotSize": 100,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-08T15:28:17.851787+00:00",
+      "gmpPercent": 46.0,
+      "gmpPrice": "69",
+      "gmpHistory": [
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 46.0,
+          "gmpPrice": "69"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹255.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -511,6 +541,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹28.29 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "SFC Environmental Technologies IPO",
+      "company": "SFC Environmental Technologies",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-08",
+      "priceBand": "₹330",
+      "maxPrice": 330,
+      "lotSize": 45,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-08T15:28:55.641110+00:00",
+      "gmpPercent": 4.7,
+      "gmpPrice": "15.5",
+      "gmpHistory": [
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 4.7,
+          "gmpPrice": "15.5"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹667.53 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1006,6 +1066,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹53.05 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Wiscon Industries IPO",
+      "company": "Wiscon Industries",
+      "openDate": "2026-10-27",
+      "closeDate": "2026-10-29",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-08",
+      "priceBand": "₹204",
+      "maxPrice": 204,
+      "lotSize": 600,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹110.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
