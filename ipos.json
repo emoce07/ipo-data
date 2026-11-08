@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-07",
-  "updatedAtTime": "2026-11-07T18:10:52.731019+00:00",
+  "updatedAt": "2026-11-08",
+  "updatedAtTime": "2026-11-08T10:39:39.842089+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -12,7 +12,7 @@
       "allotmentDateTentative": "2026-11-04",
       "listingDate": "",
       "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹158",
       "maxPrice": 158,
       "lotSize": 800,
@@ -82,135 +82,15 @@
           "date": "2026-11-07",
           "gmpPercent": 66.46,
           "gmpPrice": "105"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 66.46,
+          "gmpPrice": "105"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹57.64 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "BLS Polymers IPO",
-      "company": "BLS Polymers",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-11-07",
-      "priceBand": "₹150",
-      "maxPrice": 150,
-      "lotSize": 100,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-19T09:08:54.515593+00:00",
-      "gmpPercent": 46.0,
-      "gmpPrice": "69",
-      "gmpHistory": [
-        {
-          "date": "2026-10-19",
-          "gmpPercent": 12.0,
-          "gmpPrice": "18"
-        },
-        {
-          "date": "2026-10-20",
-          "gmpPercent": 20.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 20.0,
-          "gmpPrice": "30"
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 25.33,
-          "gmpPrice": "38"
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 25.33,
-          "gmpPrice": "38"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 26.0,
-          "gmpPrice": "39"
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 25.33,
-          "gmpPrice": "38"
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 26.67,
-          "gmpPrice": "40"
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 29.33,
-          "gmpPrice": "44"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 33.33,
-          "gmpPrice": "50"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 46.67,
-          "gmpPrice": "70"
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 48.67,
-          "gmpPrice": "73"
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 45.33,
-          "gmpPrice": "68"
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 45.33,
-          "gmpPrice": "68"
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 44.67,
-          "gmpPrice": "67"
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 46.0,
-          "gmpPrice": "69"
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 46.0,
-          "gmpPrice": "69"
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 46.0,
-          "gmpPrice": "69"
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 46.0,
-          "gmpPrice": "69"
-        },
-        {
-          "date": "2026-11-07",
-          "gmpPercent": 46.0,
-          "gmpPrice": "69"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹255.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -222,7 +102,7 @@
       "allotmentDateTentative": "2026-11-04",
       "listingDate": "",
       "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹120",
       "maxPrice": 120,
       "lotSize": 1200,
@@ -292,6 +172,11 @@
           "date": "2026-11-07",
           "gmpPercent": 22.5,
           "gmpPrice": "27"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 22.5,
+          "gmpPrice": "27"
         }
       ],
       "dataComplete": true,
@@ -307,7 +192,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹82",
       "maxPrice": 82,
       "lotSize": 182,
@@ -397,6 +282,11 @@
           "date": "2026-11-07",
           "gmpPercent": 9.76,
           "gmpPrice": "8"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 9.76,
+          "gmpPrice": "8"
         }
       ],
       "dataComplete": true,
@@ -412,7 +302,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹162",
       "maxPrice": 162,
       "lotSize": 91,
@@ -502,6 +392,11 @@
           "date": "2026-11-07",
           "gmpPercent": 6.79,
           "gmpPrice": "11"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 6.79,
+          "gmpPrice": "11"
         }
       ],
       "dataComplete": true,
@@ -517,7 +412,7 @@
       "allotmentDateTentative": "2026-11-02",
       "listingDate": "",
       "listingDateTentative": "2026-11-04",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹80",
       "maxPrice": 80,
       "lotSize": 1600,
@@ -607,125 +502,15 @@
           "date": "2026-11-07",
           "gmpPercent": 5.0,
           "gmpPrice": "4"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 5.0,
+          "gmpPrice": "4"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹28.29 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "SFC Environmental Technologies IPO",
-      "company": "SFC Environmental Technologies",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-11-07",
-      "priceBand": "₹330",
-      "maxPrice": 330,
-      "lotSize": 45,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-21T08:45:57.664526+00:00",
-      "gmpPercent": 4.7,
-      "gmpPrice": "15.5",
-      "gmpHistory": [
-        {
-          "date": "2026-10-21",
-          "gmpPercent": 9.39,
-          "gmpPrice": "31"
-        },
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 9.7,
-          "gmpPrice": "32"
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 9.7,
-          "gmpPrice": "32"
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 6.67,
-          "gmpPrice": "22"
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 4.55,
-          "gmpPrice": "15"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 3.94,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 5.76,
-          "gmpPrice": "19"
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 6.06,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 7.12,
-          "gmpPrice": "23.5"
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 7.88,
-          "gmpPrice": "26"
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 6.36,
-          "gmpPrice": "21"
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 4.7,
-          "gmpPrice": "15.5"
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 4.7,
-          "gmpPrice": "15.5"
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 4.7,
-          "gmpPrice": "15.5"
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 4.7,
-          "gmpPrice": "15.5"
-        },
-        {
-          "date": "2026-11-07",
-          "gmpPercent": 4.7,
-          "gmpPrice": "15.5"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹667.53 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -737,7 +522,7 @@
       "allotmentDateTentative": "2026-11-04",
       "listingDate": "",
       "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹200",
       "maxPrice": 200,
       "lotSize": 600,
@@ -807,6 +592,11 @@
           "date": "2026-11-07",
           "gmpPercent": 4.0,
           "gmpPrice": "8"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 4.0,
+          "gmpPrice": "8"
         }
       ],
       "dataComplete": true,
@@ -822,7 +612,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹1665",
       "maxPrice": 1665,
       "lotSize": 9,
@@ -835,6 +625,11 @@
       "gmpHistory": [
         {
           "date": "2026-11-07",
+          "gmpPercent": 3.24,
+          "gmpPrice": "54"
+        },
+        {
+          "date": "2026-11-08",
           "gmpPercent": 3.24,
           "gmpPrice": "54"
         }
@@ -852,7 +647,7 @@
       "allotmentDateTentative": "2026-11-05",
       "listingDate": "",
       "listingDateTentative": "2026-11-09",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹94",
       "maxPrice": 94,
       "lotSize": 1200,
@@ -912,6 +707,11 @@
           "date": "2026-11-07",
           "gmpPercent": 1.06,
           "gmpPrice": "1"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 1.06,
+          "gmpPrice": "1"
         }
       ],
       "dataComplete": true,
@@ -927,7 +727,7 @@
       "allotmentDateTentative": "2026-11-02",
       "listingDate": "",
       "listingDateTentative": "2026-11-04",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹203",
       "maxPrice": 203,
       "lotSize": 600,
@@ -1007,6 +807,11 @@
           "date": "2026-11-07",
           "gmpPercent": 0.49,
           "gmpPrice": "1"
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 0.49,
+          "gmpPrice": "1"
         }
       ],
       "dataComplete": true,
@@ -1022,7 +827,7 @@
       "allotmentDateTentative": "2026-11-06",
       "listingDate": "",
       "listingDateTentative": "2026-11-11",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹66",
       "maxPrice": 66,
       "lotSize": 2000,
@@ -1102,6 +907,11 @@
           "date": "2026-11-07",
           "gmpPercent": 0.0,
           "gmpPrice": null
+        },
+        {
+          "date": "2026-11-08",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         }
       ],
       "dataComplete": true,
@@ -1117,7 +927,7 @@
       "allotmentDateTentative": "2026-11-04",
       "listingDate": "",
       "listingDateTentative": "2026-11-06",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹105",
       "maxPrice": 105,
       "lotSize": 1200,
@@ -1187,120 +997,15 @@
           "date": "2026-11-07",
           "gmpPercent": 0.0,
           "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹53.05 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Wiscon Industries IPO",
-      "company": "Wiscon Industries",
-      "openDate": "2026-10-27",
-      "closeDate": "2026-10-29",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-10-30",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-03",
-      "datesScrapedOn": "2026-11-07",
-      "priceBand": "₹204",
-      "maxPrice": 204,
-      "lotSize": 600,
-      "registrar": "Maashitla Securities",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-22T18:07:38.488347+00:00",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-10-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
         },
         {
-          "date": "2026-10-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-07",
+          "date": "2026-11-08",
           "gmpPercent": 0.0,
           "gmpPrice": null
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹110.00 Cr",
+      "ipoSize": "₹53.05 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -1312,7 +1017,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-07",
+      "datesScrapedOn": "2026-11-08",
       "priceBand": "₹93",
       "maxPrice": 93,
       "lotSize": 1200,
@@ -1330,6 +1035,11 @@
         },
         {
           "date": "2026-11-07",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-08",
           "gmpPercent": 0.0,
           "gmpPrice": null
         }
