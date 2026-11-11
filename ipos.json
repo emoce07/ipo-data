@@ -1,8 +1,68 @@
 {
   "updatedAt": "2026-11-11",
-  "updatedAtTime": "2026-11-11T11:17:49.235356+00:00",
+  "updatedAtTime": "2026-11-11T16:27:57.930765+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
+    {
+      "name": "Maxwell Engineering Solutions IPO",
+      "company": "Maxwell Engineering Solutions",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-11",
+      "priceBand": "₹158",
+      "maxPrice": 158,
+      "lotSize": 800,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-11T16:26:13.532582+00:00",
+      "gmpPercent": 66.46,
+      "gmpPrice": "105",
+      "gmpHistory": [
+        {
+          "date": "2026-11-11",
+          "gmpPercent": 66.46,
+          "gmpPrice": "105"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹57.64 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "HGS (India) IPO",
+      "company": "HGS (India)",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-11",
+      "priceBand": "₹120",
+      "maxPrice": 120,
+      "lotSize": 1200,
+      "registrar": "KFin Technologies",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-11T16:26:44.129375+00:00",
+      "gmpPercent": 22.5,
+      "gmpPrice": "27",
+      "gmpHistory": [
+        {
+          "date": "2026-11-11",
+          "gmpPercent": 22.5,
+          "gmpPrice": "27"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹34.56 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
     {
       "name": "Bombay Coated and Special Steels IPO",
       "company": "Bombay Coated and Special Steels",
@@ -289,6 +349,36 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Johnsoncab Electricals IPO",
+      "company": "Johnsoncab Electricals",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-11",
+      "priceBand": "₹200",
+      "maxPrice": 200,
+      "lotSize": 600,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 4.0,
+      "gmpPrice": "8",
+      "gmpHistory": [
+        {
+          "date": "2026-11-11",
+          "gmpPercent": 4.0,
+          "gmpPrice": "8"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹56.02 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Vedant Poly Fabs IPO",
       "company": "Vedant Poly Fabs",
       "openDate": "2026-11-02",
@@ -531,6 +621,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹22.98 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Vectras Enprocon IPO",
+      "company": "Vectras Enprocon",
+      "openDate": "2026-10-30",
+      "closeDate": "2026-11-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-11",
+      "priceBand": "₹105",
+      "maxPrice": 105,
+      "lotSize": 1200,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-11-11",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹53.05 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
