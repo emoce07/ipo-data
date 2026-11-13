@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12",
-  "updatedAtTime": "2026-11-12T21:02:00.010915+00:00",
+  "updatedAt": "2026-11-13",
+  "updatedAtTime": "2026-11-13T11:20:18.778138+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -81,6 +81,36 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹34.56 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Crystal Crop Protection IPO",
+      "company": "Crystal Crop Protection",
+      "openDate": "2026-11-18",
+      "closeDate": "2026-11-20",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-13",
+      "priceBand": "₹272",
+      "maxPrice": 272,
+      "lotSize": 55,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
+      "gmpPercent": 16.54,
+      "gmpPrice": "45",
+      "gmpHistory": [
+        {
+          "date": "2026-11-13",
+          "gmpPercent": 16.54,
+          "gmpPrice": "45"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹455.49 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -364,6 +394,36 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Watrana Rentals IPO",
+      "company": "Watrana Rentals",
+      "openDate": "2026-11-19",
+      "closeDate": "2026-11-23",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-13",
+      "priceBand": "₹245",
+      "maxPrice": 245,
+      "lotSize": 600,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-11-13",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹120.10 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Antala Industries IPO",
       "company": "Antala Industries",
       "openDate": "2026-10-29",
@@ -526,30 +586,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹53.05 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Crystal Crop Protection IPO",
-      "company": "Crystal Crop Protection",
-      "openDate": "",
-      "closeDate": "",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": false,
-      "ipoSize": "",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
