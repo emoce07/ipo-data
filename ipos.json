@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-14",
-  "updatedAtTime": "2026-11-14T10:45:23.014073+00:00",
+  "updatedAtTime": "2026-11-14T15:16:26.520414+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -285,8 +285,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 7.35,
-      "gmpPrice": "18",
+      "gmpPercent": 8.98,
+      "gmpPrice": "22",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -295,8 +295,8 @@
         },
         {
           "date": "2026-11-14",
-          "gmpPercent": 7.35,
-          "gmpPrice": "18"
+          "gmpPercent": 8.98,
+          "gmpPrice": "22"
         }
       ],
       "dataComplete": true,
@@ -349,6 +349,36 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Vedant Poly Fabs IPO",
+      "company": "Vedant Poly Fabs",
+      "openDate": "2026-11-02",
+      "closeDate": "2026-11-04",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-14",
+      "priceBand": "₹94",
+      "maxPrice": 94,
+      "lotSize": 1200,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 1.06,
+      "gmpPrice": "1",
+      "gmpHistory": [
+        {
+          "date": "2026-11-14",
+          "gmpPercent": 1.06,
+          "gmpPrice": "1"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹56.68 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Mahanadi Coalfields IPO",
       "company": "Mahanadi Coalfields",
       "openDate": "2026-11-19",
@@ -366,12 +396,12 @@
       "registrarTries": 0,
       "registrarLastTry": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "12.75",
+      "gmpPrice": "10.5",
       "gmpHistory": [
         {
           "date": "2026-11-14",
           "gmpPercent": 0.0,
-          "gmpPrice": "12.75"
+          "gmpPrice": "10.5"
         }
       ],
       "dataComplete": false,
