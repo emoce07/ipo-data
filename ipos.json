@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13",
-  "updatedAtTime": "2026-11-13T20:37:49.992469+00:00",
+  "updatedAt": "2026-11-14",
+  "updatedAtTime": "2026-11-14T10:45:23.014073+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -110,8 +110,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
-      "gmpPercent": 14.71,
-      "gmpPrice": "40",
+      "gmpPercent": 9.93,
+      "gmpPrice": "27",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -120,8 +120,8 @@
         },
         {
           "date": "2026-11-14",
-          "gmpPercent": 14.71,
-          "gmpPrice": "40"
+          "gmpPercent": 9.93,
+          "gmpPrice": "27"
         }
       ],
       "dataComplete": true,
@@ -285,8 +285,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 6.53,
-      "gmpPrice": "16",
+      "gmpPercent": 7.35,
+      "gmpPrice": "18",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -295,8 +295,8 @@
         },
         {
           "date": "2026-11-14",
-          "gmpPercent": 6.53,
-          "gmpPrice": "16"
+          "gmpPercent": 7.35,
+          "gmpPrice": "18"
         }
       ],
       "dataComplete": true,
@@ -349,113 +349,33 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Vedant Poly Fabs IPO",
-      "company": "Vedant Poly Fabs",
-      "openDate": "2026-11-02",
-      "closeDate": "2026-11-04",
+      "name": "Mahanadi Coalfields IPO",
+      "company": "Mahanadi Coalfields",
+      "openDate": "2026-11-19",
+      "closeDate": "2026-11-23",
       "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-05",
+      "allotmentDateTentative": "",
       "listingDate": "",
-      "listingDateTentative": "2026-11-09",
-      "datesScrapedOn": "2026-11-14",
-      "priceBand": "₹94",
-      "maxPrice": 94,
-      "lotSize": 1200,
-      "registrar": "Cameo Corporate Services",
+      "listingDateTentative": "",
+      "datesScrapedOn": "",
+      "priceBand": "",
+      "maxPrice": 0,
+      "lotSize": 0,
+      "registrar": "",
       "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-31T09:51:19.085916+00:00",
-      "gmpPercent": 1.06,
-      "gmpPrice": "1",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": "12.75",
       "gmpHistory": [
         {
-          "date": "2026-10-29",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 5.32,
-          "gmpPrice": "5"
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 15.96,
-          "gmpPrice": "15"
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 15.96,
-          "gmpPrice": "15"
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 13.83,
-          "gmpPrice": "13"
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-07",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-08",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-09",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-10",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-11",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
           "date": "2026-11-14",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
+          "gmpPercent": 0.0,
+          "gmpPrice": "12.75"
         }
       ],
-      "dataComplete": true,
-      "ipoSize": "₹56.68 Cr",
+      "dataComplete": false,
+      "ipoSize": "-",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
