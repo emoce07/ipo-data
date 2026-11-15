@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14",
-  "updatedAtTime": "2026-11-14T18:49:39.662059+00:00",
+  "updatedAt": "2026-11-15",
+  "updatedAtTime": "2026-11-15T11:19:08.526183+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -104,191 +104,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Crystal Crop Protection IPO",
-      "company": "Crystal Crop Protection",
-      "openDate": "2026-11-18",
-      "closeDate": "2026-11-20",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
-      "priceBand": "₹272",
-      "maxPrice": 272,
-      "lotSize": 55,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
-      "gmpPercent": 9.93,
-      "gmpPrice": "27",
-      "gmpHistory": [
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 16.54,
-          "gmpPrice": "45"
-        },
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 9.93,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 9.93,
-          "gmpPrice": "27"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹455.49 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Bombay Coated and Special Steels IPO",
-      "company": "Bombay Coated and Special Steels",
-      "openDate": "2026-10-29",
-      "closeDate": "2026-11-02",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
-      "priceBand": "₹82",
-      "maxPrice": 82,
-      "lotSize": 182,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-10-23T08:43:58.227340+00:00",
-      "gmpPercent": 9.76,
-      "gmpPrice": "8",
-      "gmpHistory": [
-        {
-          "date": "2026-10-23",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-10-24",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 10.98,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 10.98,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 10.98,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 10.98,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 8.54,
-          "gmpPrice": "7"
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 10.37,
-          "gmpPrice": "8.5"
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 10.98,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 11.28,
-          "gmpPrice": "9.25"
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 10.98,
-          "gmpPrice": "9"
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 8.84,
-          "gmpPrice": "7.25"
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-07",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-08",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-09",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-10",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-11",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 9.76,
-          "gmpPrice": "8"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹183.06 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Watrana Rentals IPO",
       "company": "Watrana Rentals",
       "openDate": "2026-11-19",
@@ -326,6 +141,46 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹120.10 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Crystal Crop Protection IPO",
+      "company": "Crystal Crop Protection",
+      "openDate": "2026-11-18",
+      "closeDate": "2026-11-20",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-15",
+      "priceBand": "₹272",
+      "maxPrice": 272,
+      "lotSize": 55,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
+      "gmpPercent": 5.51,
+      "gmpPrice": "15",
+      "gmpHistory": [
+        {
+          "date": "2026-11-13",
+          "gmpPercent": 16.54,
+          "gmpPrice": "45"
+        },
+        {
+          "date": "2026-11-14",
+          "gmpPercent": 9.93,
+          "gmpPrice": "27"
+        },
+        {
+          "date": "2026-11-15",
+          "gmpPercent": 5.51,
+          "gmpPrice": "15"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹455.49 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -431,7 +286,7 @@
       "registrarTries": 0,
       "registrarLastTry": "",
       "gmpPercent": 0.0,
-      "gmpPrice": "9.25",
+      "gmpPrice": "8",
       "gmpHistory": [
         {
           "date": "2026-11-14",
@@ -441,7 +296,7 @@
         {
           "date": "2026-11-15",
           "gmpPercent": 0.0,
-          "gmpPrice": "9.25"
+          "gmpPrice": "8"
         }
       ],
       "dataComplete": false,
