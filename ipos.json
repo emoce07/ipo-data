@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-15",
-  "updatedAtTime": "2026-11-15T15:47:02.900241+00:00",
+  "updatedAtTime": "2026-11-15T19:27:46.757452+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -12,7 +12,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹158",
       "maxPrice": 158,
       "lotSize": 800,
@@ -47,6 +47,11 @@
           "date": "2026-11-15",
           "gmpPercent": 66.46,
           "gmpPrice": "105"
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 66.46,
+          "gmpPrice": "105"
         }
       ],
       "dataComplete": true,
@@ -62,7 +67,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹120",
       "maxPrice": 120,
       "lotSize": 1200,
@@ -97,6 +102,11 @@
           "date": "2026-11-15",
           "gmpPercent": 22.5,
           "gmpPrice": "27"
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 22.5,
+          "gmpPrice": "27"
         }
       ],
       "dataComplete": true,
@@ -112,7 +122,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹245",
       "maxPrice": 245,
       "lotSize": 600,
@@ -137,6 +147,11 @@
           "date": "2026-11-15",
           "gmpPercent": 8.98,
           "gmpPrice": "22"
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 8.98,
+          "gmpPrice": "22"
         }
       ],
       "dataComplete": true,
@@ -152,7 +167,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹272",
       "maxPrice": 272,
       "lotSize": 55,
@@ -177,6 +192,11 @@
           "date": "2026-11-15",
           "gmpPercent": 5.51,
           "gmpPrice": "15"
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 5.51,
+          "gmpPrice": "15"
         }
       ],
       "dataComplete": true,
@@ -192,7 +212,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹200",
       "maxPrice": 200,
       "lotSize": 600,
@@ -227,6 +247,11 @@
           "date": "2026-11-15",
           "gmpPercent": 4.0,
           "gmpPrice": "8"
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 4.0,
+          "gmpPrice": "8"
         }
       ],
       "dataComplete": true,
@@ -242,7 +267,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹94",
       "maxPrice": 94,
       "lotSize": 1200,
@@ -260,6 +285,11 @@
         },
         {
           "date": "2026-11-15",
+          "gmpPercent": 1.06,
+          "gmpPrice": "1"
+        },
+        {
+          "date": "2026-11-16",
           "gmpPercent": 1.06,
           "gmpPrice": "1"
         }
@@ -297,6 +327,11 @@
           "date": "2026-11-15",
           "gmpPercent": 0.0,
           "gmpPrice": "7"
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 0.0,
+          "gmpPrice": "7"
         }
       ],
       "dataComplete": false,
@@ -312,7 +347,7 @@
       "allotmentDateTentative": "2026-11-06",
       "listingDate": "",
       "listingDateTentative": "2026-11-11",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹66",
       "maxPrice": 66,
       "lotSize": 2000,
@@ -432,6 +467,11 @@
           "date": "2026-11-15",
           "gmpPercent": 0.0,
           "gmpPrice": null
+        },
+        {
+          "date": "2026-11-16",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         }
       ],
       "dataComplete": true,
@@ -447,7 +487,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-15",
+      "datesScrapedOn": "2026-11-16",
       "priceBand": "₹105",
       "maxPrice": 105,
       "lotSize": 1200,
@@ -480,6 +520,11 @@
         },
         {
           "date": "2026-11-15",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-16",
           "gmpPercent": 0.0,
           "gmpPrice": null
         }
