@@ -1,118 +1,8 @@
 {
-  "updatedAt": "2026-11-15",
-  "updatedAtTime": "2026-11-15T19:27:46.757452+00:00",
+  "updatedAt": "2026-11-16",
+  "updatedAtTime": "2026-11-16T11:51:37.880172+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
-    {
-      "name": "Maxwell Engineering Solutions IPO",
-      "company": "Maxwell Engineering Solutions",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-16",
-      "priceBand": "₹158",
-      "maxPrice": 158,
-      "lotSize": 800,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-11T16:26:13.532582+00:00",
-      "gmpPercent": 66.46,
-      "gmpPrice": "105",
-      "gmpHistory": [
-        {
-          "date": "2026-11-11",
-          "gmpPercent": 66.46,
-          "gmpPrice": "105"
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 66.46,
-          "gmpPrice": "105"
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 66.46,
-          "gmpPrice": "105"
-        },
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 66.46,
-          "gmpPrice": "105"
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 66.46,
-          "gmpPrice": "105"
-        },
-        {
-          "date": "2026-11-16",
-          "gmpPercent": 66.46,
-          "gmpPrice": "105"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹57.64 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "HGS (India) IPO",
-      "company": "HGS (India)",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-16",
-      "priceBand": "₹120",
-      "maxPrice": 120,
-      "lotSize": 1200,
-      "registrar": "KFin Technologies",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-11T16:26:44.129375+00:00",
-      "gmpPercent": 22.5,
-      "gmpPrice": "27",
-      "gmpHistory": [
-        {
-          "date": "2026-11-11",
-          "gmpPercent": 22.5,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 22.5,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 22.5,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 22.5,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 22.5,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-16",
-          "gmpPercent": 22.5,
-          "gmpPrice": "27"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹34.56 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
     {
       "name": "Watrana Rentals IPO",
       "company": "Watrana Rentals",
@@ -130,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 8.98,
-      "gmpPrice": "22",
+      "gmpPercent": 10.2,
+      "gmpPrice": "25",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -150,8 +40,8 @@
         },
         {
           "date": "2026-11-16",
-          "gmpPercent": 8.98,
-          "gmpPrice": "22"
+          "gmpPercent": 10.2,
+          "gmpPrice": "25"
         }
       ],
       "dataComplete": true,
@@ -175,8 +65,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
-      "gmpPercent": 5.51,
-      "gmpPrice": "15",
+      "gmpPercent": 4.78,
+      "gmpPrice": "13",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -195,8 +85,8 @@
         },
         {
           "date": "2026-11-16",
-          "gmpPercent": 5.51,
-          "gmpPrice": "15"
+          "gmpPercent": 4.78,
+          "gmpPrice": "13"
         }
       ],
       "dataComplete": true,
@@ -204,58 +94,43 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Johnsoncab Electricals IPO",
-      "company": "Johnsoncab Electricals",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
+      "name": "Mahanadi Coalfields IPO",
+      "company": "Mahanadi Coalfields",
+      "openDate": "2026-11-19",
+      "closeDate": "2026-11-23",
       "allotmentDate": "",
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
       "datesScrapedOn": "2026-11-16",
-      "priceBand": "₹200",
-      "maxPrice": 200,
-      "lotSize": 600,
-      "registrar": "Maashitla Securities",
+      "priceBand": "₹136",
+      "maxPrice": 136,
+      "lotSize": 110,
+      "registrar": "",
       "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-11T20:18:48.356474+00:00",
-      "gmpPercent": 4.0,
-      "gmpPrice": "8",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 3.16,
+      "gmpPrice": "4.3",
       "gmpHistory": [
         {
-          "date": "2026-11-11",
-          "gmpPercent": 4.0,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 4.0,
-          "gmpPrice": "8"
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 4.0,
-          "gmpPrice": "8"
-        },
-        {
           "date": "2026-11-14",
-          "gmpPercent": 4.0,
-          "gmpPrice": "8"
+          "gmpPercent": 0.0,
+          "gmpPrice": "10.5"
         },
         {
           "date": "2026-11-15",
-          "gmpPercent": 4.0,
-          "gmpPrice": "8"
+          "gmpPercent": 0.0,
+          "gmpPrice": "7"
         },
         {
           "date": "2026-11-16",
-          "gmpPercent": 4.0,
-          "gmpPrice": "8"
+          "gmpPercent": 3.16,
+          "gmpPrice": "4.3"
         }
       ],
       "dataComplete": true,
-      "ipoSize": "₹56.02 Cr",
+      "ipoSize": "₹8981.12 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -296,241 +171,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹56.68 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Mahanadi Coalfields IPO",
-      "company": "Mahanadi Coalfields",
-      "openDate": "2026-11-19",
-      "closeDate": "2026-11-23",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": "7",
-      "gmpHistory": [
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 0.0,
-          "gmpPrice": "10.5"
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 0.0,
-          "gmpPrice": "7"
-        },
-        {
-          "date": "2026-11-16",
-          "gmpPercent": 0.0,
-          "gmpPrice": "7"
-        }
-      ],
-      "dataComplete": false,
-      "ipoSize": "-",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Antala Industries IPO",
-      "company": "Antala Industries",
-      "openDate": "2026-10-29",
-      "closeDate": "2026-11-05",
-      "allotmentDate": "",
-      "allotmentDateTentative": "2026-11-06",
-      "listingDate": "",
-      "listingDateTentative": "2026-11-11",
-      "datesScrapedOn": "2026-11-16",
-      "priceBand": "₹66",
-      "maxPrice": 66,
-      "lotSize": 2000,
-      "registrar": "Bigshare Services",
-      "registrarUrl": "",
-      "registrarTries": 2,
-      "registrarLastTry": "2026-10-25T08:36:29.037125+00:00",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-10-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-26",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-27",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-28",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-29",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-30",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-10-31",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-01",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-02",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-03",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-04",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-05",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-06",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-07",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-08",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-09",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-10",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-16",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹22.98 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Vectras Enprocon IPO",
-      "company": "Vectras Enprocon",
-      "openDate": "2026-10-30",
-      "closeDate": "2026-11-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-16",
-      "priceBand": "₹105",
-      "maxPrice": 105,
-      "lotSize": 1200,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-11-11",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-12",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-13",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-16",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹53.05 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
