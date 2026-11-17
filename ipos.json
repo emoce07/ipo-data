@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16",
-  "updatedAtTime": "2026-11-16T23:00:03.630716+00:00",
+  "updatedAt": "2026-11-17",
+  "updatedAtTime": "2026-11-17T12:12:27.773559+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -70,8 +70,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
-      "gmpPercent": 4.78,
-      "gmpPrice": "13",
+      "gmpPercent": 5.15,
+      "gmpPrice": "14",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -95,8 +95,8 @@
         },
         {
           "date": "2026-11-17",
-          "gmpPercent": 4.78,
-          "gmpPrice": "13"
+          "gmpPercent": 5.15,
+          "gmpPrice": "14"
         }
       ],
       "dataComplete": true,
@@ -120,8 +120,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 2.57,
-      "gmpPrice": "3.5",
+      "gmpPercent": 2.94,
+      "gmpPrice": "4",
       "gmpHistory": [
         {
           "date": "2026-11-14",
@@ -140,57 +140,12 @@
         },
         {
           "date": "2026-11-17",
-          "gmpPercent": 2.57,
-          "gmpPrice": "3.5"
+          "gmpPercent": 2.94,
+          "gmpPrice": "4"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹8981.12 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Vedant Poly Fabs IPO",
-      "company": "Vedant Poly Fabs",
-      "openDate": "2026-11-02",
-      "closeDate": "2026-11-04",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-17",
-      "priceBand": "₹94",
-      "maxPrice": 94,
-      "lotSize": 1200,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 1.06,
-      "gmpPrice": "1",
-      "gmpHistory": [
-        {
-          "date": "2026-11-14",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-15",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-16",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        },
-        {
-          "date": "2026-11-17",
-          "gmpPercent": 1.06,
-          "gmpPrice": "1"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹56.68 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
