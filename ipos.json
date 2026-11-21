@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20",
-  "updatedAtTime": "2026-11-20T21:27:13.804984+00:00",
+  "updatedAt": "2026-11-21",
+  "updatedAtTime": "2026-11-21T11:31:19.420085+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 27.35,
-      "gmpPrice": "67",
+      "gmpPercent": 26.53,
+      "gmpPrice": "65",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -65,8 +65,8 @@
         },
         {
           "date": "2026-11-21",
-          "gmpPercent": 27.35,
-          "gmpPrice": "67"
+          "gmpPercent": 26.53,
+          "gmpPrice": "65"
         }
       ],
       "dataComplete": true,
@@ -160,8 +160,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 0.55,
-      "gmpPrice": "0.75",
+      "gmpPercent": 0.51,
+      "gmpPrice": "0.7",
       "gmpHistory": [
         {
           "date": "2026-11-14",
@@ -200,12 +200,72 @@
         },
         {
           "date": "2026-11-21",
-          "gmpPercent": 0.55,
-          "gmpPrice": "0.75"
+          "gmpPercent": 0.51,
+          "gmpPrice": "0.7"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹8981.12 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Monomark Engineering IPO",
+      "company": "Monomark Engineering",
+      "openDate": "",
+      "closeDate": "",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "",
+      "priceBand": "",
+      "maxPrice": 0,
+      "lotSize": 0,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-11-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": false,
+      "ipoSize": "-",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Integris Medtech IPO",
+      "company": "Integris Medtech",
+      "openDate": "2026-11-27",
+      "closeDate": "2026-12-01",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "",
+      "priceBand": "",
+      "maxPrice": 0,
+      "lotSize": 0,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
+        {
+          "date": "2026-11-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": false,
+      "ipoSize": "",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -286,54 +346,6 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹93.66 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Monomark Engineering IPO",
-      "company": "Monomark Engineering",
-      "openDate": "",
-      "closeDate": "",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": false,
-      "ipoSize": "-",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Integris Medtech IPO",
-      "company": "Integris Medtech",
-      "openDate": "2026-11-27",
-      "closeDate": "2026-12-01",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": null,
-      "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": false,
-      "ipoSize": "",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
