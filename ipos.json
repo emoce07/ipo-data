@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21",
-  "updatedAtTime": "2026-11-21T20:13:46.671055+00:00",
+  "updatedAt": "2026-11-22",
+  "updatedAtTime": "2026-11-22T11:46:10.064908+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 26.53,
-      "gmpPrice": "65",
+      "gmpPercent": 24.49,
+      "gmpPrice": "60",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -70,8 +70,8 @@
         },
         {
           "date": "2026-11-22",
-          "gmpPercent": 26.53,
-          "gmpPrice": "65"
+          "gmpPercent": 24.49,
+          "gmpPrice": "60"
         }
       ],
       "dataComplete": true,
