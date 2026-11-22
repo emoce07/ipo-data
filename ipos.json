@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-22",
-  "updatedAtTime": "2026-11-22T11:46:10.064908+00:00",
+  "updatedAtTime": "2026-11-22T16:32:12.344089+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 24.49,
-      "gmpPrice": "60",
+      "gmpPercent": 22.45,
+      "gmpPrice": "55",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -70,8 +70,8 @@
         },
         {
           "date": "2026-11-22",
-          "gmpPercent": 24.49,
-          "gmpPrice": "60"
+          "gmpPercent": 22.45,
+          "gmpPrice": "55"
         }
       ],
       "dataComplete": true,
@@ -226,8 +226,8 @@
     {
       "name": "Monomark Engineering IPO",
       "company": "Monomark Engineering",
-      "openDate": "",
-      "closeDate": "",
+      "openDate": "2026-12-02",
+      "closeDate": "2026-12-04",
       "allotmentDate": "",
       "allotmentDateTentative": "",
       "listingDate": "",
@@ -241,7 +241,7 @@
       "registrarTries": 0,
       "registrarLastTry": "",
       "gmpPercent": 0.0,
-      "gmpPrice": null,
+      "gmpPrice": "23",
       "gmpHistory": [
         {
           "date": "2026-11-21",
@@ -251,7 +251,7 @@
         {
           "date": "2026-11-22",
           "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPrice": "23"
         }
       ],
       "dataComplete": false,
