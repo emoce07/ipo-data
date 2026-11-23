@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-23",
-  "updatedAtTime": "2026-11-23T13:22:37.653548+00:00",
+  "updatedAtTime": "2026-11-23T20:28:34.300686+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -12,7 +12,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
+      "datesScrapedOn": "2026-11-24",
       "priceBand": "₹245",
       "maxPrice": 245,
       "lotSize": 600,
@@ -77,6 +77,11 @@
           "date": "2026-11-23",
           "gmpPercent": 16.33,
           "gmpPrice": "40"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 16.33,
+          "gmpPrice": "40"
         }
       ],
       "dataComplete": true,
@@ -92,7 +97,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
+      "datesScrapedOn": "2026-11-24",
       "priceBand": "₹172",
       "maxPrice": 172,
       "lotSize": 87,
@@ -105,6 +110,11 @@
       "gmpHistory": [
         {
           "date": "2026-11-23",
+          "gmpPercent": 12.5,
+          "gmpPrice": "21.5"
+        },
+        {
+          "date": "2026-11-24",
           "gmpPercent": 12.5,
           "gmpPrice": "21.5"
         }
@@ -122,7 +132,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
+      "datesScrapedOn": "2026-11-24",
       "priceBand": "₹180",
       "maxPrice": 180,
       "lotSize": 800,
@@ -135,6 +145,11 @@
       "gmpHistory": [
         {
           "date": "2026-11-23",
+          "gmpPercent": 11.11,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-11-24",
           "gmpPercent": 11.11,
           "gmpPrice": "20"
         }
@@ -152,7 +167,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
+      "datesScrapedOn": "2026-11-24",
       "priceBand": "₹191",
       "maxPrice": 191,
       "lotSize": 78,
@@ -160,8 +175,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-23T13:21:56.511210+00:00",
-      "gmpPercent": 6.28,
-      "gmpPrice": "12",
+      "gmpPercent": 7.85,
+      "gmpPrice": "15",
       "gmpHistory": [
         {
           "date": "2026-11-19",
@@ -187,10 +202,70 @@
           "date": "2026-11-23",
           "gmpPercent": 6.28,
           "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 7.85,
+          "gmpPrice": "15"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹360.76 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Shree Siddhivinayak Greentech Industries IPO",
+      "company": "Shree Siddhivinayak Greentech Industries",
+      "openDate": "2026-11-25",
+      "closeDate": "2026-11-27",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-24",
+      "priceBand": "₹142",
+      "maxPrice": 142,
+      "lotSize": 1000,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-23T20:27:33.742122+00:00",
+      "gmpPercent": 7.04,
+      "gmpPrice": "10",
+      "gmpHistory": [
+        {
+          "date": "2026-11-19",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-20",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-22",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 3.52,
+          "gmpPrice": "5"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 7.04,
+          "gmpPrice": "10"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹93.66 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -202,7 +277,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
+      "datesScrapedOn": "2026-11-24",
       "priceBand": "₹272",
       "maxPrice": 272,
       "lotSize": 55,
@@ -267,6 +342,11 @@
           "date": "2026-11-23",
           "gmpPercent": 5.15,
           "gmpPrice": "14"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 5.15,
+          "gmpPrice": "14"
         }
       ],
       "dataComplete": true,
@@ -274,35 +354,70 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Shree Siddhivinayak Greentech Industries IPO",
-      "company": "Shree Siddhivinayak Greentech Industries",
-      "openDate": "2026-11-25",
-      "closeDate": "2026-11-27",
+      "name": "Monomark Engineering IPO",
+      "company": "Monomark Engineering",
+      "openDate": "2026-12-02",
+      "closeDate": "2026-12-04",
       "allotmentDate": "",
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
-      "priceBand": "₹142",
-      "maxPrice": 142,
-      "lotSize": 1000,
+      "datesScrapedOn": "",
+      "priceBand": "",
+      "maxPrice": 0,
+      "lotSize": 0,
       "registrar": "",
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 3.52,
-      "gmpPrice": "5",
+      "gmpPercent": 0.0,
+      "gmpPrice": "23",
       "gmpHistory": [
         {
-          "date": "2026-11-19",
+          "date": "2026-11-21",
           "gmpPercent": 0.0,
           "gmpPrice": null
         },
         {
-          "date": "2026-11-20",
+          "date": "2026-11-22",
           "gmpPercent": 0.0,
-          "gmpPrice": null
+          "gmpPrice": "23"
         },
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 0.0,
+          "gmpPrice": "23"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 0.0,
+          "gmpPrice": "23"
+        }
+      ],
+      "dataComplete": false,
+      "ipoSize": "-",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Integris Medtech IPO",
+      "company": "Integris Medtech",
+      "openDate": "2026-11-27",
+      "closeDate": "2026-12-01",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "",
+      "priceBand": "",
+      "maxPrice": 0,
+      "lotSize": 0,
+      "registrar": "",
+      "registrarUrl": "",
+      "registrarTries": 0,
+      "registrarLastTry": "",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
+      "gmpHistory": [
         {
           "date": "2026-11-21",
           "gmpPercent": 0.0,
@@ -315,12 +430,17 @@
         },
         {
           "date": "2026-11-23",
-          "gmpPercent": 3.52,
-          "gmpPrice": "5"
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         }
       ],
-      "dataComplete": true,
-      "ipoSize": "₹93.66 Cr",
+      "dataComplete": false,
+      "ipoSize": "",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -332,7 +452,7 @@
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-23",
+      "datesScrapedOn": "2026-11-24",
       "priceBand": "₹136",
       "maxPrice": 136,
       "lotSize": 110,
@@ -340,8 +460,8 @@
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": 0.15,
-      "gmpPrice": "0.2",
+      "gmpPercent": 0.0,
+      "gmpPrice": null,
       "gmpHistory": [
         {
           "date": "2026-11-14",
@@ -392,90 +512,15 @@
           "date": "2026-11-23",
           "gmpPercent": 0.15,
           "gmpPrice": "0.2"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹8981.12 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Monomark Engineering IPO",
-      "company": "Monomark Engineering",
-      "openDate": "2026-12-02",
-      "closeDate": "2026-12-04",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": "23",
-      "gmpHistory": [
-        {
-          "date": "2026-11-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": "23"
-        },
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": "23"
-        }
-      ],
-      "dataComplete": false,
-      "ipoSize": "-",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Integris Medtech IPO",
-      "company": "Integris Medtech",
-      "openDate": "2026-11-27",
-      "closeDate": "2026-12-01",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-11-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": false,
-      "ipoSize": "",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
