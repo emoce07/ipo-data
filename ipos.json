@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-24",
-  "updatedAtTime": "2026-11-24T19:39:21.922679+00:00",
+  "updatedAtTime": "2026-11-24T23:13:05.237720+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -194,46 +194,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "A J Packaging IPO",
-      "company": "A J Packaging",
-      "openDate": "2026-12-01",
-      "closeDate": "2026-12-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-25",
-      "priceBand": "₹180",
-      "maxPrice": 180,
-      "lotSize": 800,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-23T13:21:36.329232+00:00",
-      "gmpPercent": 11.11,
-      "gmpPrice": "20",
-      "gmpHistory": [
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 11.11,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-11-24",
-          "gmpPercent": 11.11,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-11-25",
-          "gmpPercent": 11.11,
-          "gmpPrice": "20"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹54.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Foodlink F&B Holdings IPO",
       "company": "Foodlink F&B Holdings",
       "openDate": "2026-11-26",
@@ -291,6 +251,46 @@
       ],
       "dataComplete": true,
       "ipoSize": "₹360.76 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "A J Packaging IPO",
+      "company": "A J Packaging",
+      "openDate": "2026-12-01",
+      "closeDate": "2026-12-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-25",
+      "priceBand": "₹180",
+      "maxPrice": 180,
+      "lotSize": 800,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-23T13:21:36.329232+00:00",
+      "gmpPercent": 10.0,
+      "gmpPrice": "18",
+      "gmpHistory": [
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 11.11,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 11.11,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-11-25",
+          "gmpPercent": 10.0,
+          "gmpPrice": "18"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹54.00 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
