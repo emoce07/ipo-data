@@ -1,8 +1,58 @@
 {
-  "updatedAt": "2026-11-24",
-  "updatedAtTime": "2026-11-24T23:13:05.237720+00:00",
+  "updatedAt": "2026-11-25",
+  "updatedAtTime": "2026-11-25T13:17:52.999068+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
+    {
+      "name": "Monomark Engineering IPO",
+      "company": "Monomark Engineering",
+      "openDate": "2026-12-02",
+      "closeDate": "2026-12-04",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-25",
+      "priceBand": "₹65",
+      "maxPrice": 65,
+      "lotSize": 225,
+      "registrar": "Bigshare Services",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-25T13:16:33.150059+00:00",
+      "gmpPercent": 32.31,
+      "gmpPrice": "21",
+      "gmpHistory": [
+        {
+          "date": "2026-11-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        },
+        {
+          "date": "2026-11-22",
+          "gmpPercent": 0.0,
+          "gmpPrice": "23"
+        },
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 0.0,
+          "gmpPrice": "23"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 0.0,
+          "gmpPrice": "23"
+        },
+        {
+          "date": "2026-11-25",
+          "gmpPercent": 32.31,
+          "gmpPrice": "21"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹175.50 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
     {
       "name": "Watrana Rentals IPO",
       "company": "Watrana Rentals",
@@ -20,8 +70,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T16:40:21.183595+00:00",
-      "gmpPercent": 16.33,
-      "gmpPrice": "40",
+      "gmpPercent": 16.73,
+      "gmpPrice": "41",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -85,12 +135,72 @@
         },
         {
           "date": "2026-11-25",
-          "gmpPercent": 16.33,
-          "gmpPrice": "40"
+          "gmpPercent": 16.73,
+          "gmpPrice": "41"
         }
       ],
       "dataComplete": true,
       "ipoSize": "₹120.10 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Foodlink F&B Holdings IPO",
+      "company": "Foodlink F&B Holdings",
+      "openDate": "2026-11-26",
+      "closeDate": "2026-11-30",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-25",
+      "priceBand": "₹191",
+      "maxPrice": 191,
+      "lotSize": 78,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-23T13:21:56.511210+00:00",
+      "gmpPercent": 14.14,
+      "gmpPrice": "27",
+      "gmpHistory": [
+        {
+          "date": "2026-11-19",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-20",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-22",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 6.28,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 8.9,
+          "gmpPrice": "17"
+        },
+        {
+          "date": "2026-11-25",
+          "gmpPercent": 14.14,
+          "gmpPrice": "27"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹360.76 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
@@ -154,6 +264,46 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "A J Packaging IPO",
+      "company": "A J Packaging",
+      "openDate": "2026-12-01",
+      "closeDate": "2026-12-03",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-25",
+      "priceBand": "₹180",
+      "maxPrice": 180,
+      "lotSize": 800,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-23T13:21:36.329232+00:00",
+      "gmpPercent": 13.33,
+      "gmpPrice": "24",
+      "gmpHistory": [
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 11.11,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 11.11,
+          "gmpPrice": "20"
+        },
+        {
+          "date": "2026-11-25",
+          "gmpPercent": 13.33,
+          "gmpPrice": "24"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹54.00 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Matangi Rubber IPO",
       "company": "Matangi Rubber",
       "openDate": "2026-12-01",
@@ -194,106 +344,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Foodlink F&B Holdings IPO",
-      "company": "Foodlink F&B Holdings",
-      "openDate": "2026-11-26",
-      "closeDate": "2026-11-30",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-25",
-      "priceBand": "₹191",
-      "maxPrice": 191,
-      "lotSize": 78,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-23T13:21:56.511210+00:00",
-      "gmpPercent": 10.99,
-      "gmpPrice": "21",
-      "gmpHistory": [
-        {
-          "date": "2026-11-19",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-20",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 6.28,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-24",
-          "gmpPercent": 8.9,
-          "gmpPrice": "17"
-        },
-        {
-          "date": "2026-11-25",
-          "gmpPercent": 10.99,
-          "gmpPrice": "21"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹360.76 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "A J Packaging IPO",
-      "company": "A J Packaging",
-      "openDate": "2026-12-01",
-      "closeDate": "2026-12-03",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-25",
-      "priceBand": "₹180",
-      "maxPrice": 180,
-      "lotSize": 800,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-23T13:21:36.329232+00:00",
-      "gmpPercent": 10.0,
-      "gmpPrice": "18",
-      "gmpHistory": [
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 11.11,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-11-24",
-          "gmpPercent": 11.11,
-          "gmpPrice": "20"
-        },
-        {
-          "date": "2026-11-25",
-          "gmpPercent": 10.0,
-          "gmpPrice": "18"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹54.00 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Crystal Crop Protection IPO",
       "company": "Crystal Crop Protection",
       "openDate": "2026-11-18",
@@ -310,8 +360,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-13T11:18:58.322589+00:00",
-      "gmpPercent": 6.99,
-      "gmpPrice": "19",
+      "gmpPercent": 6.62,
+      "gmpPrice": "18",
       "gmpHistory": [
         {
           "date": "2026-11-13",
@@ -375,8 +425,8 @@
         },
         {
           "date": "2026-11-25",
-          "gmpPercent": 6.99,
-          "gmpPrice": "19"
+          "gmpPercent": 6.62,
+          "gmpPrice": "18"
         }
       ],
       "dataComplete": true,
@@ -384,60 +434,45 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Monomark Engineering IPO",
-      "company": "Monomark Engineering",
-      "openDate": "2026-12-02",
-      "closeDate": "2026-12-04",
+      "name": "Airpro Technology IPO",
+      "company": "Airpro Technology",
+      "openDate": "2026-11-27",
+      "closeDate": "2026-12-01",
       "allotmentDate": "",
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
-      "registrar": "",
+      "datesScrapedOn": "2026-11-25",
+      "priceBand": "₹99",
+      "maxPrice": 99,
+      "lotSize": 1200,
+      "registrar": "Link Intime",
       "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": "23",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-25T13:17:17.072809+00:00",
+      "gmpPercent": 4.04,
+      "gmpPrice": "4",
       "gmpHistory": [
         {
-          "date": "2026-11-21",
+          "date": "2026-11-24",
           "gmpPercent": 0.0,
           "gmpPrice": null
         },
         {
-          "date": "2026-11-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": "23"
-        },
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 0.0,
-          "gmpPrice": "23"
-        },
-        {
-          "date": "2026-11-24",
-          "gmpPercent": 0.0,
-          "gmpPrice": "23"
-        },
-        {
           "date": "2026-11-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": "23"
+          "gmpPercent": 4.04,
+          "gmpPrice": "4"
         }
       ],
-      "dataComplete": false,
-      "ipoSize": "-",
+      "dataComplete": true,
+      "ipoSize": "₹35.64 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
       "name": "Integris Medtech IPO",
       "company": "Integris Medtech",
-      "openDate": "2026-11-27",
-      "closeDate": "2026-12-01",
+      "openDate": "",
+      "closeDate": "",
       "allotmentDate": "",
       "allotmentDateTentative": "",
       "listingDate": "",
@@ -481,41 +516,6 @@
       ],
       "dataComplete": false,
       "ipoSize": "",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
-      "name": "Airpro Technology IPO",
-      "company": "Airpro Technology",
-      "openDate": "2026-11-27",
-      "closeDate": "2026-12-01",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-25",
-      "priceBand": "₹99",
-      "maxPrice": 99,
-      "lotSize": 1200,
-      "registrar": "",
-      "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
-      "gmpPercent": 0.0,
-      "gmpPrice": null,
-      "gmpHistory": [
-        {
-          "date": "2026-11-24",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        },
-        {
-          "date": "2026-11-25",
-          "gmpPercent": 0.0,
-          "gmpPrice": null
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹35.64 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
