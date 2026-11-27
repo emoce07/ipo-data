@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26",
-  "updatedAtTime": "2026-11-26T22:30:50.805002+00:00",
+  "updatedAt": "2026-11-27",
+  "updatedAtTime": "2026-11-27T12:53:32.813273+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -20,8 +20,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-25T13:16:33.150059+00:00",
-      "gmpPercent": 36.92,
-      "gmpPrice": "24",
+      "gmpPercent": 30.77,
+      "gmpPrice": "20",
       "gmpHistory": [
         {
           "date": "2026-11-21",
@@ -55,8 +55,8 @@
         },
         {
           "date": "2026-11-27",
-          "gmpPercent": 36.92,
-          "gmpPrice": "24"
+          "gmpPercent": 30.77,
+          "gmpPrice": "20"
         }
       ],
       "dataComplete": true,
@@ -80,8 +80,8 @@
       "registrarUrl": "",
       "registrarTries": 1,
       "registrarLastTry": "2026-11-23T13:21:29.321355+00:00",
-      "gmpPercent": 15.7,
-      "gmpPrice": "27",
+      "gmpPercent": 18.02,
+      "gmpPrice": "31",
       "gmpHistory": [
         {
           "date": "2026-11-23",
@@ -105,8 +105,8 @@
         },
         {
           "date": "2026-11-27",
-          "gmpPercent": 15.7,
-          "gmpPrice": "27"
+          "gmpPercent": 18.02,
+          "gmpPrice": "31"
         }
       ],
       "dataComplete": true,
@@ -364,76 +364,6 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Foodlink F&B Holdings IPO",
-      "company": "Foodlink F&B Holdings",
-      "openDate": "2026-11-26",
-      "closeDate": "2026-11-30",
-      "allotmentDate": "",
-      "allotmentDateTentative": "",
-      "listingDate": "",
-      "listingDateTentative": "",
-      "datesScrapedOn": "2026-11-27",
-      "priceBand": "₹191",
-      "maxPrice": 191,
-      "lotSize": 78,
-      "registrar": "Link Intime",
-      "registrarUrl": "",
-      "registrarTries": 1,
-      "registrarLastTry": "2026-11-23T13:21:56.511210+00:00",
-      "gmpPercent": 3.66,
-      "gmpPrice": "7",
-      "gmpHistory": [
-        {
-          "date": "2026-11-19",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-20",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-21",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-22",
-          "gmpPercent": 0.0,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-23",
-          "gmpPercent": 6.28,
-          "gmpPrice": "12"
-        },
-        {
-          "date": "2026-11-24",
-          "gmpPercent": 8.9,
-          "gmpPrice": "17"
-        },
-        {
-          "date": "2026-11-25",
-          "gmpPercent": 14.14,
-          "gmpPrice": "27"
-        },
-        {
-          "date": "2026-11-26",
-          "gmpPercent": 5.24,
-          "gmpPrice": "10"
-        },
-        {
-          "date": "2026-11-27",
-          "gmpPercent": 3.66,
-          "gmpPrice": "7"
-        }
-      ],
-      "dataComplete": true,
-      "ipoSize": "₹360.76 Cr",
-      "notes": "Auto-synced from InvestorGain via Parse API."
-    },
-    {
       "name": "Airpro Technology IPO",
       "company": "Airpro Technology",
       "openDate": "2026-11-27",
@@ -479,6 +409,106 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
+      "name": "Swara Baby Products IPO",
+      "company": "Swara Baby Products",
+      "openDate": "2026-12-02",
+      "closeDate": "2026-12-04",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-27",
+      "priceBand": "₹111",
+      "maxPrice": 111,
+      "lotSize": 135,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-27T12:53:00.611145+00:00",
+      "gmpPercent": 2.7,
+      "gmpPrice": "3",
+      "gmpHistory": [
+        {
+          "date": "2026-11-27",
+          "gmpPercent": 2.7,
+          "gmpPrice": "3"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹799.88 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
+      "name": "Foodlink F&B Holdings IPO",
+      "company": "Foodlink F&B Holdings",
+      "openDate": "2026-11-26",
+      "closeDate": "2026-11-30",
+      "allotmentDate": "",
+      "allotmentDateTentative": "",
+      "listingDate": "",
+      "listingDateTentative": "",
+      "datesScrapedOn": "2026-11-27",
+      "priceBand": "₹191",
+      "maxPrice": 191,
+      "lotSize": 78,
+      "registrar": "Link Intime",
+      "registrarUrl": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-23T13:21:56.511210+00:00",
+      "gmpPercent": 2.09,
+      "gmpPrice": "4",
+      "gmpHistory": [
+        {
+          "date": "2026-11-19",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-20",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-21",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-22",
+          "gmpPercent": 0.0,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-23",
+          "gmpPercent": 6.28,
+          "gmpPrice": "12"
+        },
+        {
+          "date": "2026-11-24",
+          "gmpPercent": 8.9,
+          "gmpPrice": "17"
+        },
+        {
+          "date": "2026-11-25",
+          "gmpPercent": 14.14,
+          "gmpPrice": "27"
+        },
+        {
+          "date": "2026-11-26",
+          "gmpPercent": 5.24,
+          "gmpPrice": "10"
+        },
+        {
+          "date": "2026-11-27",
+          "gmpPercent": 2.09,
+          "gmpPrice": "4"
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹360.76 Cr",
+      "notes": "Auto-synced from InvestorGain via Parse API."
+    },
+    {
       "name": "Shree Siddhivinayak Greentech Industries IPO",
       "company": "Shree Siddhivinayak Greentech Industries",
       "openDate": "2026-11-25",
@@ -495,8 +525,8 @@
       "registrarUrl": "",
       "registrarTries": 2,
       "registrarLastTry": "2026-11-24T19:37:54.031426+00:00",
-      "gmpPercent": 1.41,
-      "gmpPrice": "2",
+      "gmpPercent": 0.7,
+      "gmpPrice": "1",
       "gmpHistory": [
         {
           "date": "2026-11-19",
@@ -540,8 +570,8 @@
         },
         {
           "date": "2026-11-27",
-          "gmpPercent": 1.41,
-          "gmpPrice": "2"
+          "gmpPercent": 0.7,
+          "gmpPrice": "1"
         }
       ],
       "dataComplete": true,
@@ -704,27 +734,33 @@
       "notes": "Auto-synced from InvestorGain via Parse API."
     },
     {
-      "name": "Swara Baby Products IPO",
-      "company": "Swara Baby Products",
-      "openDate": "",
-      "closeDate": "",
+      "name": "Vishwas Refoils & Consumer IPO",
+      "company": "Vishwas Refoils & Consumer",
+      "openDate": "2026-12-03",
+      "closeDate": "2026-12-07",
       "allotmentDate": "",
       "allotmentDateTentative": "",
       "listingDate": "",
       "listingDateTentative": "",
-      "datesScrapedOn": "",
-      "priceBand": "",
-      "maxPrice": 0,
-      "lotSize": 0,
+      "datesScrapedOn": "2026-11-27",
+      "priceBand": "₹90",
+      "maxPrice": 90,
+      "lotSize": 1600,
       "registrar": "",
       "registrarUrl": "",
       "registrarTries": 0,
       "registrarLastTry": "",
-      "gmpPercent": null,
+      "gmpPercent": 0.0,
       "gmpPrice": null,
-      "gmpHistory": [],
-      "dataComplete": false,
-      "ipoSize": "₹1000.00 Cr",
+      "gmpHistory": [
+        {
+          "date": "2026-11-27",
+          "gmpPercent": 0.0,
+          "gmpPrice": null
+        }
+      ],
+      "dataComplete": true,
+      "ipoSize": "₹25.78 Cr",
       "notes": "Auto-synced from InvestorGain via Parse API."
     }
   ]
