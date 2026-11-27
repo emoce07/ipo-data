@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-27",
-  "updatedAtTime": "2026-11-27T12:53:32.813273+00:00",
+  "updatedAtTime": "2026-11-27T18:21:57.625556+00:00",
   "source": "InvestorGain (via Parse.bot API) — auto-updated",
   "ipos": [
     {
@@ -591,10 +591,10 @@
       "priceBand": "₹136",
       "maxPrice": 136,
       "lotSize": 110,
-      "registrar": "",
+      "registrar": "KFin Technologies",
       "registrarUrl": "",
-      "registrarTries": 0,
-      "registrarLastTry": "",
+      "registrarTries": 1,
+      "registrarLastTry": "2026-11-27T18:21:42.336858+00:00",
       "gmpPercent": 0.51,
       "gmpPrice": "0.7",
       "gmpHistory": [
